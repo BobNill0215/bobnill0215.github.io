@@ -4,7 +4,6 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: '/camera-review-site',
 };
 
 export default nextConfig;
