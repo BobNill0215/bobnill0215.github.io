@@ -10,6 +10,8 @@ const navItems = [
   { name: '运动相机', href: '/action-cameras' },
   { name: '监控相机', href: '/security-cameras' },
   { name: '配件推荐', href: '/accessories' },
+  { name: '相机对比', href: '/camera-compare' },
+  { name: '数据库', href: '/phone-database' },
 ];
 
 export default function Navbar() {
