@@ -1,11 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import Link from 'next/link';
-import Navbar from '@/components/Navbar';
-import Footer from '@/components/Footer';
-import AdPlaceholder from '@/components/AdPlaceholder';
-import { phonesData, brands, type PhoneCamera } from '@/data/phones';
+import { type PhoneCamera } from '@/data/phones';
 
 interface CameraSpec {
   megapixels: string;
@@ -14,34 +10,6 @@ interface CameraSpec {
   sensorSize: string;
   stabilization: string;
   features: string[];
-}
-
-function CameraSpecRow({ cameras, field, label }: { cameras: PhoneCamera[]; field: 'mainCamera' | 'ultrawide' | 'telephoto1' | 'telephoto2' | 'frontCamera'; label: string }) {
-  return (
-    <tr className="border-b bg-gray-50/50">
-      <td className="p-3 font-medium text-gray-600">{label}</td>
-      {cameras.map((phone) => {
-        const cam = phone[field];
-        if (!cam) return <td key={phone.id} className="p-3 text-center">-</td>;
-        const value = field === 'mainCamera' || field === 'ultrawide' || field === 'telephoto1' || field === 'telephoto2' || field === 'frontCamera'
-          ? (cam as CameraSpec)[field.replace('Camera', '') === 'main' ? 'megapixels' : field === 'telephoto1' || field === 'telephoto2' ? 'megapixels' : 'megapixels']
-          : '';
-        return <td key={phone.id} className="p-3 text-center">-</td>;
-      })}
-    </tr>
-  );
-}
-
-function getSpecValue(cam: CameraSpec | undefined, field: keyof CameraSpec): string {
-  if (!cam) return '-';
-  const value = cam[field];
-  if (Array.isArray(value)) return '';
-  return String(value);
-}
-
-function getSpecFeatures(cam: CameraSpec | undefined): string[] {
-  if (!cam) return [];
-  return cam.features || [];
 }
 
 export default function PhoneCameraComparison({ phones }: { phones: PhoneCamera[] }) {
@@ -95,33 +63,33 @@ export default function PhoneCameraComparison({ phones }: { phones: PhoneCamera[
               <div className="space-y-4">
                 <div className="bg-gray-50 rounded-lg p-3">
                   <div className="text-xs text-gray-500 mb-1">主摄</div>
-                  <div className="font-semibold">{phone.mainCamera.mp}</div>
+                  <div className="font-semibold">{phone.mainCamera.megapixels}</div>
                   <div className="text-sm text-gray-600">{phone.mainCamera.aperture} · {phone.mainCamera.focalLength}</div>
                 </div>
 
                 <div className="bg-gray-50 rounded-lg p-3">
                   <div className="text-xs text-gray-500 mb-1">超广角</div>
-                  <div className="font-semibold">{phone.ultrawide.mp}</div>
+                  <div className="font-semibold">{phone.ultrawide.megapixels}</div>
                   <div className="text-sm text-gray-600">{phone.ultrawide.aperture} · {phone.ultrawide.focalLength}</div>
                 </div>
 
                 <div className="bg-gray-50 rounded-lg p-3">
                   <div className="text-xs text-gray-500 mb-1">长焦</div>
-                  <div className="font-semibold">{phone.telephoto1.mp}</div>
+                  <div className="font-semibold">{phone.telephoto1.megapixels}</div>
                   <div className="text-sm text-gray-600">{phone.telephoto1.aperture} · {phone.telephoto1.focalLength}</div>
                 </div>
 
                 {phone.telephoto2 && (
                   <div className="bg-gray-50 rounded-lg p-3">
                     <div className="text-xs text-gray-500 mb-1">超长焦</div>
-                    <div className="font-semibold">{phone.telephoto2.mp}</div>
+                    <div className="font-semibold">{phone.telephoto2.megapixels}</div>
                     <div className="text-sm text-gray-600">{phone.telephoto2.aperture} · {phone.telephoto2.focalLength}</div>
                   </div>
                 )}
 
                 <div className="bg-gray-50 rounded-lg p-3">
                   <div className="text-xs text-gray-500 mb-1">前置</div>
-                  <div className="font-semibold">{phone.frontCamera.mp}</div>
+                  <div className="font-semibold">{phone.frontCamera.megapixels}</div>
                   <div className="text-sm text-gray-600">{phone.frontCamera.aperture}</div>
                 </div>
 

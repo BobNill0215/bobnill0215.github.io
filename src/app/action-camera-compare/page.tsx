@@ -68,7 +68,7 @@ function ActionCameraComparison({ cameras }: ActionCameraComparisonProps) {
 
                 <div className="bg-gray-50 rounded-lg p-3">
                   <div className="text-xs text-gray-500 mb-1">主摄像素</div>
-                  <div className="font-semibold">{camera.mainCamera.mp}</div>
+                  <div className="font-semibold">{camera.mainCamera.megapixels}</div>
                 </div>
 
                 <div className="bg-gray-50 rounded-lg p-3">
@@ -127,7 +127,7 @@ function ActionCameraComparison({ cameras }: ActionCameraComparisonProps) {
               <tr className="border-b bg-gray-50/50">
                 <td className="p-3 font-medium text-gray-600">主摄像素</td>
                 {cameras.map(c => (
-                  <td key={c.id} className="p-3 text-center">{c.mainCamera.mp}</td>
+                  <td key={c.id} className="p-3 text-center">{c.mainCamera.megapixels}</td>
                 ))}
               </tr>
               <tr className="border-b">

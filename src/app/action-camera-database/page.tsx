@@ -31,7 +31,7 @@ function ActionCameraCard({ camera }: { camera: ActionCamera }) {
         </div>
         <div className="bg-gray-50 rounded-lg p-3">
           <div className="text-xs text-gray-500 mb-1">主摄像素</div>
-          <div className="font-semibold">{camera.mainCamera.mp}</div>
+          <div className="font-semibold">{camera.mainCamera.megapixels}</div>
         </div>
         <div className="bg-gray-50 rounded-lg p-3">
           <div className="text-xs text-gray-500 mb-1">防抖</div>
@@ -90,7 +90,7 @@ function ActionCameraDetailModal({ camera, onClose }: { camera: ActionCamera; on
             <div className="grid grid-cols-2 gap-4">
               <div>
                 <div className="text-sm text-gray-500">像素</div>
-                <div className="font-bold text-xl">{camera.mainCamera.mp}</div>
+                <div className="font-bold text-xl">{camera.mainCamera.megapixels}</div>
               </div>
               <div>
                 <div className="text-sm text-gray-500">光圈</div>

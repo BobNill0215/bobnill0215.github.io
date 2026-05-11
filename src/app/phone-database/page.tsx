@@ -17,29 +17,29 @@ function PhoneCard({ phone }: { phone: PhoneCamera }) {
             <span className="text-sm text-gray-500">{phone.brand} · {phone.releaseDate}</span>
           </div>
           <span className="bg-blue-100 text-blue-700 text-xs px-2 py-1 rounded-full">
-            主摄 {phone.mainCamera.mp}
+            主摄 {phone.mainCamera.megapixels}
           </span>
         </div>
 
         <div className="grid grid-cols-2 gap-3 mb-4">
           <div className="bg-gray-50 rounded-lg p-3">
             <div className="text-xs text-gray-500 mb-1">主摄</div>
-            <div className="font-semibold text-sm">{phone.mainCamera.mp}</div>
+            <div className="font-semibold text-sm">{phone.mainCamera.megapixels}</div>
             <div className="text-xs text-gray-600">{phone.mainCamera.aperture} · {phone.mainCamera.focalLength}</div>
           </div>
           <div className="bg-gray-50 rounded-lg p-3">
             <div className="text-xs text-gray-500 mb-1">超广角</div>
-            <div className="font-semibold text-sm">{phone.ultrawide.mp}</div>
+            <div className="font-semibold text-sm">{phone.ultrawide.megapixels}</div>
             <div className="text-xs text-gray-600">{phone.ultrawide.aperture}</div>
           </div>
           <div className="bg-gray-50 rounded-lg p-3">
             <div className="text-xs text-gray-500 mb-1">长焦</div>
-            <div className="font-semibold text-sm">{phone.telephoto1.mp}</div>
+            <div className="font-semibold text-sm">{phone.telephoto1.megapixels}</div>
             <div className="text-xs text-gray-600">{phone.telephoto1.aperture} · {phone.telephoto1.focalLength}</div>
           </div>
           <div className="bg-gray-50 rounded-lg p-3">
             <div className="text-xs text-gray-500 mb-1">前置</div>
-            <div className="font-semibold text-sm">{phone.frontCamera.mp}</div>
+            <div className="font-semibold text-sm">{phone.frontCamera.megapixels}</div>
             <div className="text-xs text-gray-600">{phone.frontCamera.aperture}</div>
           </div>
         </div>
@@ -90,7 +90,7 @@ function PhoneDetailModal({ phone, onClose }: { phone: PhoneCamera; onClose: () 
             <div className="grid grid-cols-2 gap-4">
               <div>
                 <div className="text-sm text-gray-500">像素</div>
-                <div className="font-bold text-xl">{phone.mainCamera.mp}</div>
+                <div className="font-bold text-xl">{phone.mainCamera.megapixels}</div>
               </div>
               <div>
                 <div className="text-sm text-gray-500">光圈</div>
@@ -128,7 +128,7 @@ function PhoneDetailModal({ phone, onClose }: { phone: PhoneCamera; onClose: () 
             <div className="grid grid-cols-2 gap-4">
               <div>
                 <div className="text-sm text-gray-500">像素</div>
-                <div className="font-bold text-xl">{phone.ultrawide.mp}</div>
+                <div className="font-bold text-xl">{phone.ultrawide.megapixels}</div>
               </div>
               <div>
                 <div className="text-sm text-gray-500">光圈</div>
@@ -162,7 +162,7 @@ function PhoneDetailModal({ phone, onClose }: { phone: PhoneCamera; onClose: () 
             <div className="grid grid-cols-2 gap-4">
               <div>
                 <div className="text-sm text-gray-500">像素</div>
-                <div className="font-bold text-xl">{phone.telephoto1.mp}</div>
+                <div className="font-bold text-xl">{phone.telephoto1.megapixels}</div>
               </div>
               <div>
                 <div className="text-sm text-gray-500">光圈</div>
@@ -197,7 +197,7 @@ function PhoneDetailModal({ phone, onClose }: { phone: PhoneCamera; onClose: () 
               <div className="grid grid-cols-2 gap-4">
                 <div>
                   <div className="text-sm text-gray-500">像素</div>
-                  <div className="font-bold text-xl">{phone.telephoto2.mp}</div>
+                  <div className="font-bold text-xl">{phone.telephoto2.megapixels}</div>
                 </div>
                 <div>
                   <div className="text-sm text-gray-500">光圈</div>
@@ -232,7 +232,7 @@ function PhoneDetailModal({ phone, onClose }: { phone: PhoneCamera; onClose: () 
             <div className="grid grid-cols-2 gap-4">
               <div>
                 <div className="text-sm text-gray-500">像素</div>
-                <div className="font-bold text-xl">{phone.frontCamera.mp}</div>
+                <div className="font-bold text-xl">{phone.frontCamera.megapixels}</div>
               </div>
               <div>
                 <div className="text-sm text-gray-500">光圈</div>

@@ -133,7 +133,7 @@ export default function CameraComparePage() {
                           </div>
                         </div>
                         <div className="text-xs text-gray-400">
-                          {phone.mainCamera.mp}
+                          {phone.mainCamera.megapixels}
                         </div>
                       </div>
                     </div>

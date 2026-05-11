@@ -4,7 +4,7 @@ import Footer from '@/components/Footer';
 import AdPlaceholder from '@/components/AdPlaceholder';
 import ProductRating from '@/components/ProductRating';
 import ComparisonTable from '@/components/ComparisonTable';
-import { Star, Camera, Battery, Wifi, Waterproof } from 'lucide-react';
+import { Star, Camera, Battery, Wifi, Shield } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'GoPro Hero 12 vs 大疆 Action 4 对比评测 | 相机评测网',

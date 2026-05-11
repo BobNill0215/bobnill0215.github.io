@@ -4,7 +4,7 @@ interface Product {
   name: string;
   image: string;
   price?: string;
-  specs: Record<string, string>;
+  specs: Record<string, string | undefined>;
 }
 
 interface ProductComparisonProps {
