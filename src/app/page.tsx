@@ -12,92 +12,99 @@ export const metadata: Metadata = {
 };
 
 const featuredReview = {
-  title: '2024年最佳数码相机推荐排行榜',
-  excerpt: '从入门级到专业级，全面对比索尼、佳能、尼康、富士等品牌热门机型，帮您找到最适合的相机。',
+  title: '2026年最佳数码相机推荐排行榜',
+  excerpt: 'Canon EOS R6 V、索尼 A7V V、尼康 Z6 III 等最新机型全面对比，帮您找到最适合的相机。',
   category: '数码相机',
-  date: '2024年1月15日',
+  date: '2026年1月5日',
   image: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=1200',
   href: '/cameras/best-cameras-2024',
 };
 
 const latestReviews = [
   {
-    title: 'GoPro Hero 12 vs 大疆 Action 4',
-    excerpt: '运动相机旗舰对决，防抖测试，画质对比',
-    category: '运动相机',
-    date: '2024年1月14日',
-    image: 'https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=600',
-    href: '/action-cameras/gopro-vs-dji',
-    rating: 4.5,
+    title: 'Canon EOS R6 V 评测',
+    excerpt: '2420万像素全画幅，支持8K录制，五轴防抖',
+    category: '数码相机',
+    date: '2026年1月10日',
+    image: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=600',
+    href: '/cameras/canon-r50-review',
+    rating: 4.9,
   },
   {
-    title: 'iPhone 15 Pro Max vs 三星 S24 Ultra',
-    excerpt: '苹果vs三星，拍照哪个好，旗舰手机相机对比',
-    category: '手机相机',
-    date: '2024年1月13日',
-    image: 'https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=600',
-    href: '/smartphone-cameras/iphone-vs-samsung',
+    title: 'DJI Avata 360 评测',
+    excerpt: '360度全景运动相机，4K 60fps，超级防抖',
+    category: '运动相机',
+    date: '2026年1月8日',
+    image: 'https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=600',
+    href: '/action-cameras/best-action-cameras-2024',
     rating: 4.8,
   },
   {
-    title: '2024年最佳家用监控摄像头推荐',
-    excerpt: '室内户外国产精选，智能安防产品对比',
-    category: '监控相机',
-    date: '2024年1月12日',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600',
-    href: '/security-cameras/best-home-cameras',
-    rating: 4.2,
+    title: 'Samsung S26 Ultra 相机评测',
+    excerpt: '2亿像素主摄，1英寸传感器，AI计算摄影',
+    category: '手机相机',
+    date: '2026年1月6日',
+    image: 'https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=600',
+    href: '/smartphone-cameras/best-camera-phones-2024',
+    rating: 4.9,
   },
 ];
 
 const buyerGuides = [
   { 
-    title: '最佳微单相机', 
+    title: '2026最佳微单', 
     count: 25, 
     href: '/cameras/best-cameras-2024', 
     image: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=400',
+    badge: 'Canon R6 V / Sony A7V V',
   },
   { 
-    title: '最佳运动相机', 
+    title: '2026最佳运动相机', 
     count: 15, 
     href: '/action-cameras/best-action-cameras-2024', 
     image: 'https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=400',
+    badge: 'DJI Avata 360 / GoPro Fluid',
   },
   { 
-    title: '最佳拍照手机', 
+    title: '2026最佳拍照手机', 
     count: 18, 
     href: '/smartphone-cameras/best-camera-phones-2024', 
     image: 'https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=400',
+    badge: 'iPhone 17 Pro / S26 Ultra',
   },
   { 
-    title: '最佳监控摄像头', 
+    title: '2026监控摄像头', 
     count: 12, 
     href: '/security-cameras/best-home-cameras', 
     image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400',
+    badge: '海康/萤石/小米',
   },
 ];
 
 const categories = [
   {
     name: '数码相机评测',
-    description: '微单、单反、全画幅相机专业评测',
+    description: 'Canon/索尼/尼康旗舰全画幅微单',
     image: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=600',
     href: '/cameras',
-    count: 25,
+    count: 20,
+    badge: '2026新品',
   },
   {
     name: '手机相机对比',
-    description: '旗舰手机拍照能力全面对比',
+    description: 'iPhone 17/S26 Ultra/Xiaomi 17 Ultra',
     image: 'https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=600',
     href: '/smartphone-cameras',
-    count: 18,
+    count: 12,
+    badge: '2026新品',
   },
   {
     name: '运动相机',
-    description: 'Vlog、极限运动拍摄利器评测',
+    description: 'DJI/GoPro/Insta360最新旗舰',
     image: 'https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=600',
     href: '/action-cameras',
-    count: 15,
+    count: 13,
+    badge: '2026新品',
   },
   {
     name: '监控相机',
@@ -105,13 +112,15 @@ const categories = [
     image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600',
     href: '/security-cameras',
     count: 12,
+    badge: null,
   },
   {
     name: '配件推荐',
-    description: '存储卡、镜头、相机包等配件',
+    description: '存储卡/镜头/相机包等配件',
     image: 'https://images.unsplash.com/photo-1617005082133-548c4dd27f35?w=600',
     href: '/accessories',
     count: 20,
+    badge: null,
   },
 ];
 
@@ -207,6 +216,7 @@ export default function Home() {
                     <h3 className="absolute bottom-3 left-4 font-semibold text-white text-lg">{guide.title}</h3>
                   </div>
                   <div className="p-3">
+                    <p className="text-xs bg-blue-100 text-blue-700 font-medium px-2 py-0.5 rounded mb-1">{guide.badge}</p>
                     <p className="text-xs text-gray-500">{guide.count} 篇指南</p>
                   </div>
                 </article>
@@ -230,6 +240,11 @@ export default function Home() {
                 <div className="relative h-32 overflow-hidden">
                   <img src={cat.image} alt={cat.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+                  {cat.badge && (
+                    <span className="absolute top-2 right-2 bg-red-500 text-white text-xs font-medium px-2 py-0.5 rounded-full">
+                      {cat.badge}
+                    </span>
+                  )}
                   <h3 className="absolute bottom-3 left-4 font-semibold text-white text-sm">{cat.name}</h3>
                 </div>
                 <div className="p-4">
@@ -258,15 +273,23 @@ export default function Home() {
       </section>
 
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <div className="bg-gradient-to-r from-blue-500 to-indigo-600 rounded-xl p-6 text-white">
-          <div className="flex items-center justify-between">
-            <div>
-              <h3 className="font-bold text-xl mb-1">📊 相机数据库上线</h3>
-              <p className="text-blue-100 text-sm">收录18款2025-2026热门数码相机参数，支持对比分析</p>
+        <div className="bg-gradient-to-r from-red-500 via-orange-500 to-yellow-500 rounded-xl p-6 text-white shadow-lg">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-4">
+            <div className="text-center md:text-left">
+              <div className="flex items-center gap-2 mb-2">
+                <span className="bg-white text-red-500 text-xs font-bold px-2 py-1 rounded-full animate-pulse">🔥 2026年新品</span>
+              </div>
+              <h3 className="font-bold text-xl mb-1">最新相机数据库上线</h3>
+              <p className="text-white/90 text-sm">收录20款2025-2026热门数码相机参数，Canon R6 V / Sony A7V V / Nikon Z6 III 支持对比分析</p>
             </div>
-            <Link href="/camera-database" className="bg-white text-blue-600 px-4 py-2 rounded-lg font-medium hover:bg-blue-50">
-              立即查看 →
-            </Link>
+            <div className="flex gap-3">
+              <Link href="/camera-database" className="bg-white text-red-600 px-4 py-2 rounded-lg font-semibold hover:bg-red-50 flex items-center gap-1">
+                相机数据库
+              </Link>
+              <Link href="/phone-database" className="bg-white/20 text-white px-4 py-2 rounded-lg font-medium hover:bg-white/30 flex items-center gap-1">
+                手机数据库
+              </Link>
+            </div>
           </div>
         </div>
       </section>
