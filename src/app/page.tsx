@@ -53,25 +53,25 @@ const buyerGuides = [
   { 
     title: '最佳微单相机', 
     count: 25, 
-    href: '/guides?type=mirrorless', 
+    href: '/cameras/best-cameras-2024', 
     image: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=400',
   },
   { 
     title: '最佳运动相机', 
     count: 15, 
-    href: '/guides?type=action', 
+    href: '/action-cameras/best-action-cameras-2024', 
     image: 'https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=400',
   },
   { 
     title: '最佳拍照手机', 
     count: 18, 
-    href: '/guides?type=phone', 
+    href: '/smartphone-cameras/best-camera-phones-2024', 
     image: 'https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=400',
   },
   { 
     title: '最佳监控摄像头', 
     count: 12, 
-    href: '/guides?type=security', 
+    href: '/security-cameras/best-home-cameras', 
     image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400',
   },
 ];
