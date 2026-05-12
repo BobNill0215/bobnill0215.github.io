@@ -10,8 +10,6 @@ const footerLinks = {
   ],
   resources: [
     { name: '相机选购指南', href: '/guides' },
-    { name: '镜头知识', href: '/lens-guide' },
-    { name: '摄影技巧', href: '/tips' },
   ],
 };
 
