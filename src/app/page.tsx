@@ -50,12 +50,30 @@ const latestReviews = [
 ];
 
 const buyerGuides = [
-  { title: '最佳微单相机推荐', count: 25, href: '/guides?type=mirrorless', icon: Camera },
-  { title: '最佳运动相机推荐', count: 15, href: '/guides?type=action', icon: Zap },
-  { title: '最佳拍照手机推荐', count: 18, href: '/guides?type=phone', icon: Smartphone },
-  { title: '最佳监控摄像头', count: 12, href: '/guides?type=security', icon: Shield },
-  { title: '相机配件推荐', count: 20, href: '/guides?type=accessories', icon: Package },
-  { title: '预算选购指南', count: 10, href: '/guides?type=budget', icon: BookOpen },
+  { 
+    title: '最佳微单相机', 
+    count: 25, 
+    href: '/guides?type=mirrorless', 
+    image: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=400',
+  },
+  { 
+    title: '最佳运动相机', 
+    count: 15, 
+    href: '/guides?type=action', 
+    image: 'https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=400',
+  },
+  { 
+    title: '最佳拍照手机', 
+    count: 18, 
+    href: '/guides?type=phone', 
+    image: 'https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=400',
+  },
+  { 
+    title: '最佳监控摄像头', 
+    count: 12, 
+    href: '/guides?type=security', 
+    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400',
+  },
 ];
 
 const categories = [
@@ -105,7 +123,7 @@ export default function Home() {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           <div className="lg:col-span-2">
             <Link href={featuredReview.href} className="group block relative overflow-hidden rounded-xl">
-              <div className="relative h-96 md:h-128">
+              <div className="relative h-96 md:h-[500px]">
                 <img 
                   src={featuredReview.image} 
                   alt={featuredReview.title} 
@@ -157,7 +175,7 @@ export default function Home() {
 
       <AdPlaceholder slot="homepage-banner" className="my-8 mx-4 max-w-7xl mx-auto" />
 
-      <section className="bg-gray-50 py-12">
+      <section className="bg-gray-100 py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between mb-8">
             <h2 className="text-2xl font-bold text-gray-900">选购指南</h2>
@@ -165,14 +183,23 @@ export default function Home() {
               查看全部 →
             </Link>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {buyerGuides.map((guide, index) => (
-              <Link key={index} href={guide.href} className="group bg-white rounded-xl p-4 text-center hover:shadow-lg transition-shadow">
-                <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-3 group-hover:bg-blue-600 transition-colors">
-                  <guide.icon className="w-6 h-6 text-blue-600 group-hover:text-white transition-colors" />
-                </div>
-                <h3 className="font-semibold text-gray-900 text-sm mb-1 group-hover:text-blue-600">{guide.title}</h3>
-                <p className="text-xs text-gray-500">{guide.count} 篇指南</p>
+              <Link key={index} href={guide.href} className="group">
+                <article className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
+                  <div className="relative h-40 overflow-hidden">
+                    <img 
+                      src={guide.image} 
+                      alt={guide.title} 
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" 
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
+                    <h3 className="absolute bottom-3 left-4 font-semibold text-white text-lg">{guide.title}</h3>
+                  </div>
+                  <div className="p-3">
+                    <p className="text-xs text-gray-500">{guide.count} 篇指南</p>
+                  </div>
+                </article>
               </Link>
             ))}
           </div>
@@ -186,7 +213,7 @@ export default function Home() {
             查看全部 →
           </Link>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-5 gap-6">
           {categories.map((cat, index) => (
             <Link key={index} href={cat.href} className="group">
               <article className="bg-white rounded-xl shadow-sm overflow-hidden hover:shadow-lg transition-shadow">
