@@ -3,13 +3,26 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import AdPlaceholder from '@/components/AdPlaceholder';
 import Link from 'next/link';
+import { securityCamerasData } from '@/data/security-cameras';
 
 export const metadata: Metadata = {
-  title: '2024年最佳家用监控摄像头推荐 - 相机评测网',
-  description: '室内户外国产精选，智能安防产品对比，帮您选择最适合的家用监控摄像头。',
+  title: '2026年最佳家用监控摄像头推荐 - 相机评测网',
+  description: '2020-2026年家用监控摄像头对比，萤石、小米、360、TP-Link等品牌室内室外监控推荐。',
 };
 
 export default function BestHomeCamerasPage() {
+  const sortedCameras = [...securityCamerasData].sort((a, b) => {
+    const yearA = parseInt(a.releaseDate.split('-')[0]);
+    const yearB = parseInt(b.releaseDate.split('-')[0]);
+    if (yearB !== yearA) return yearB - yearA;
+    return b.releaseDate.localeCompare(a.releaseDate);
+  });
+
+  const indoorCameras = sortedCameras.filter(c => c.type === 'indoor');
+  const outdoorCameras = sortedCameras.filter(c => c.type === 'outdoor');
+  const doorbellCameras = sortedCameras.filter(c => c.type === 'doorbell');
+  const solarCameras = sortedCameras.filter(c => c.type === 'solar');
+
   return (
     <div className="min-h-screen bg-gray-50">
       <Navbar />
@@ -22,66 +35,153 @@ export default function BestHomeCamerasPage() {
         />
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="text-center text-white px-4">
-            <span className="bg-white/20 backdrop-blur px-3 py-1 rounded-full text-sm mb-4 inline-block">监控相机</span>
-            <h1 className="text-3xl md:text-4xl font-bold mb-2">2024年最佳家用监控摄像头推荐</h1>
-            <p className="text-lg text-purple-100">室内户外国产精选，智能安防产品对比</p>
+            <div className="flex items-center gap-2 mb-2">
+              <span className="bg-white/20 backdrop-blur px-3 py-1 rounded-full text-sm">监控相机</span>
+            </div>
+            <h1 className="text-3xl md:text-4xl font-bold mb-2">2026年最佳家用监控摄像头推荐</h1>
+            <p className="text-lg text-purple-100">收录{securityCamerasData.length}款室内室外监控摄像头详细参数</p>
           </div>
         </div>
       </div>
 
-      <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+        <div className="bg-gradient-to-r from-purple-500 to-indigo-500 rounded-xl p-4 text-white mb-6 shadow-lg">
+          <div className="flex items-center justify-between">
+            <div>
+              <h3 className="font-bold text-lg">🔒 监控摄像头数据库已更新</h3>
+              <p className="text-white/90 text-sm">收录{securityCamerasData.length}款2020-2026年监控摄像头</p>
+            </div>
+            <Link href="/security-cameras" className="bg-white text-purple-600 px-4 py-2 rounded-lg font-semibold hover:bg-purple-50">
+              查看全部 →
+            </Link>
+          </div>
+        </div>
+      </div>
+
+      <article className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <header className="mb-8">
           <Link href="/security-cameras" className="text-blue-600 hover:text-blue-700 text-sm mb-4 inline-block">← 返回监控相机</Link>
-          <div className="text-sm text-gray-500 mt-2">发布于 2024年1月12日</div>
+          <div className="text-sm text-gray-500 mt-2">最后更新：2026年5月</div>
         </header>
 
         <AdPlaceholder slot="article-top" className="mb-8" />
 
-        <div className="prose max-w-none">
-          <h2>前言</h2>
-          <p>家用监控摄像头已经成为很多家庭的必备安防设备。本文将为您推荐2024年最值得购买的家用监控摄像头，涵盖不同预算和使用场景。</p>
+        <div className="space-y-8">
+          <section>
+            <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
+              🏠 室内监控摄像头
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              {indoorCameras.map(camera => (
+                <div key={camera.id} className="bg-white rounded-xl p-4 shadow-sm hover:shadow-md transition-shadow border-l-4 border-purple-500">
+                  <h3 className="font-bold text-lg mb-2">{camera.name}</h3>
+                  <p className="text-sm text-gray-500 mb-3">{camera.brand} · {camera.releaseDate}</p>
+                  <div className="space-y-1 text-sm">
+                    <div><span className="text-gray-500">分辨率:</span> {camera.specs.resolution}</div>
+                    <div><span className="text-gray-500">夜视:</span> {camera.specs.nightVision}</div>
+                    <div><span className="text-gray-500">存储:</span> {camera.specs.storage}</div>
+                  </div>
+                  <div className="mt-3 flex flex-wrap gap-1">
+                    {camera.specs.features.slice(0, 2).map((f, i) => (
+                      <span key={i} className="text-xs bg-purple-100 text-purple-700 px-2 py-0.5 rounded">{f}</span>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </section>
 
-          <h2>室内监控推荐</h2>
-          
-          <h3>1. 萤石 C6CN</h3>
-          <p>性价比极高的室内云台摄像机：</p>
-          <ul>
-            <li>1080P 高清画质</li>
-            <li>360度云台旋转</li>
-            <li>AI 人形检测</li>
-            <li>双向语音通话</li>
-          </ul>
+          <section>
+            <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
+              🌤️ 室外监控摄像头
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              {outdoorCameras.map(camera => (
+                <div key={camera.id} className="bg-white rounded-xl p-4 shadow-sm hover:shadow-md transition-shadow border-l-4 border-green-500">
+                  <h3 className="font-bold text-lg mb-2">{camera.name}</h3>
+                  <p className="text-sm text-gray-500 mb-3">{camera.brand} · {camera.releaseDate}</p>
+                  <div className="space-y-1 text-sm">
+                    <div><span className="text-gray-500">分辨率:</span> {camera.specs.resolution}</div>
+                    <div><span className="text-gray-500">夜视:</span> {camera.specs.nightVision}</div>
+                    <div><span className="text-gray-500">防水:</span> {camera.waterproof}</div>
+                  </div>
+                  <div className="mt-3 flex flex-wrap gap-1">
+                    {camera.specs.features.slice(0, 2).map((f, i) => (
+                      <span key={i} className="text-xs bg-green-100 text-green-700 px-2 py-0.5 rounded">{f}</span>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </section>
 
-          <h3>2. 小米 智能摄像机云台版</h3>
-          <p>小米生态链产品，智能联动方便：</p>
-          <ul>
-            <li>2K 超清画质</li>
-            <li>红外夜视</li>
-            <li>AI 人脸识别</li>
-            <li>支持米家APP</li>
-          </ul>
+          <section>
+            <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
+              🚪 智能门铃摄像头
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              {doorbellCameras.map(camera => (
+                <div key={camera.id} className="bg-white rounded-xl p-4 shadow-sm hover:shadow-md transition-shadow border-l-4 border-orange-500">
+                  <h3 className="font-bold text-lg mb-2">{camera.name}</h3>
+                  <p className="text-sm text-gray-500 mb-3">{camera.brand} · {camera.releaseDate}</p>
+                  <div className="space-y-1 text-sm">
+                    <div><span className="text-gray-500">分辨率:</span> {camera.specs.resolution}</div>
+                    <div><span className="text-gray-500">夜视:</span> {camera.specs.nightVision}</div>
+                    <div><span className="text-gray-500">防水:</span> {camera.waterproof}</div>
+                  </div>
+                  <div className="mt-3 flex flex-wrap gap-1">
+                    {camera.specs.features.slice(0, 2).map((f, i) => (
+                      <span key={i} className="text-xs bg-orange-100 text-orange-700 px-2 py-0.5 rounded">{f}</span>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </section>
 
-          <h2>室外监控推荐</h2>
-
-          <h3>1. 萤石 C3W</h3>
-          <p>室外防水摄像头，适合门口和庭院：</p>
-          <ul>
-            <li>IP67 防水等级</li>
-            <li>全彩夜视</li>
-            <li>声光报警</li>
-            <li>双向对讲</li>
-          </ul>
-
-          <h3>2. 360 户外版</h3>
-          <p>功能全面的室外监控选择：</p>
-          <ul>
-            <li>2K 超清画质</li>
-            <li>PIR 人体感应</li>
-            <li>云存储支持</li>
-            <li>IP66 防水</li>
-          </ul>
+          <section>
+            <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
+              ☀️ 太阳能监控摄像头
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              {solarCameras.map(camera => (
+                <div key={camera.id} className="bg-white rounded-xl p-4 shadow-sm hover:shadow-md transition-shadow border-l-4 border-yellow-500">
+                  <h3 className="font-bold text-lg mb-2">{camera.name}</h3>
+                  <p className="text-sm text-gray-500 mb-3">{camera.brand} · {camera.releaseDate}</p>
+                  <div className="space-y-1 text-sm">
+                    <div><span className="text-gray-500">分辨率:</span> {camera.specs.resolution}</div>
+                    <div><span className="text-gray-500">夜视:</span> {camera.specs.nightVision}</div>
+                    <div><span className="text-gray-500">防水:</span> {camera.waterproof}</div>
+                  </div>
+                  <div className="mt-3 flex flex-wrap gap-1">
+                    {camera.specs.features.slice(0, 2).map((f, i) => (
+                      <span key={i} className="text-xs bg-yellow-100 text-yellow-700 px-2 py-0.5 rounded">{f}</span>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </section>
 
           <AdPlaceholder slot="article-middle" className="my-8" />
+
+          <div className="mt-8 bg-purple-50 rounded-xl p-6">
+            <h3 className="font-bold text-lg mb-4">📊 2026年监控摄像头趋势</h3>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div>
+                <h4 className="font-medium text-purple-900 mb-2">AI智能检测</h4>
+                <p className="text-sm text-gray-600">AI人形检测、人脸识别、宠物检测成为标配</p>
+              </div>
+              <div>
+                <h4 className="font-medium text-purple-900 mb-2">4K分辨率普及</h4>
+                <p className="text-sm text-gray-600">2K/4K超清画质成为主流，全彩夜视升级</p>
+              </div>
+              <div>
+                <h4 className="font-medium text-purple-900 mb-2">4G+太阳能</h4>
+                <p className="text-sm text-gray-600">无网线环境下4G和太阳能供电方案兴起</p>
+              </div>
+            </div>
+          </div>
 
           <h2>选购要点</h2>
           <ol>
