@@ -1,14 +1,34 @@
 'use client';
 
+import { useEffect } from 'react';
+
+declare global {
+  interface Window {
+    adsbygoogle: unknown[];
+  }
+}
+
 interface AdPlaceholderProps {
   slot?: string;
   className?: string;
 }
 
 export default function AdPlaceholder({
-  slot = 'default',
+  slot = 'article',
   className = '',
 }: AdPlaceholderProps) {
+  useEffect(() => {
+    try {
+      if (typeof window !== 'undefined') {
+        (window as Window & { adsbygoogle?: unknown[] }).adsbygoogle = 
+          (window as Window & { adsbygoogle?: unknown[] }).adsbygoogle || [];
+        ((window as Window & { adsbygoogle?: unknown[] }).adsbygoogle as unknown[]).push({});
+      }
+    } catch (e) {
+      console.log('AdSense load error:', e);
+    }
+  }, []);
+
   return (
     <div className={`my-6 ${className}`}>
       <ins
@@ -25,12 +45,13 @@ export default function AdPlaceholder({
 
 function getAdSlot(slot: string): string {
   const slots: Record<string, string> = {
-    'homepage-banner': '1234567890',
-    'article-top': '2345678901',
-    'article-middle': '3456789012',
-    'article-bottom': '4567890123',
-    'sidebar': '5678901234',
-    'default': '6789012345',
+    'homepage-banner': '4952204698',
+    'article-top': '4952204698',
+    'article-middle': '4952204698',
+    'article-bottom': '4952204698',
+    'sidebar': '4952204698',
+    'article': '4952204698',
+    'default': '4952204698',
   };
   return slots[slot] || slots['default'];
 }
