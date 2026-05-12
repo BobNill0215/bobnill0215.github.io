@@ -7,8 +7,14 @@ import SearchModal from '@/components/SearchModal';
 import { Camera, Smartphone, Zap, Shield, Package, BookOpen } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'CamReview - 专业相机产品评测平台',
-  description: '专业相机产品评测网站，提供数码相机、运动相机、手机相机和监控相机的详细评测报告和选购指南。',
+  title: 'CamReview - 专业相机产品评测平台 | 2026年最新相机评测',
+  description: '专业相机评测网站，提供2026年最新数码相机、运动相机、手机相机的详细评测报告、参数对比及选购指南，涵盖Canon R6 V、索尼 A7V、DJI Avata 360等热门机型。',
+  keywords: '相机评测, 数码相机, 微单相机, 运动相机, Canon R6 V, 索尼 A7V, DJI Avata 360, 2026年相机推荐',
+  openGraph: {
+    title: 'CamReview - 专业相机产品评测平台',
+    description: '2026年最新数码相机、运动相机、手机相机详细评测报告及选购指南',
+    type: 'website',
+  },
 };
 
 const featuredReview = {
