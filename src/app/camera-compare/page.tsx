@@ -5,99 +5,256 @@ import Link from 'next/link';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import AdPlaceholder from '@/components/AdPlaceholder';
-import PhoneCameraComparison from '@/components/PhoneCameraComparison';
-import { phonesData, brands, type PhoneCamera } from '@/data/phones';
+import { camerasData, cameraBrands, type Camera } from '@/data/cameras';
+
+interface CameraComparisonProps {
+  cameras: Camera[];
+}
+
+function CameraComparison({ cameras }: CameraComparisonProps) {
+  const [compareMode, setCompareMode] = useState<'side-by-side' | 'specs'>('side-by-side');
+
+  if (cameras.length === 0) {
+    return (
+      <div className="text-center py-12 text-gray-500">
+        <p>请从左侧选择要对比的数码相机（最多4部）</p>
+      </div>
+    );
+  }
+
+  return (
+    <div className="space-y-6">
+      <div className="flex items-center justify-between mb-6">
+        <h2 className="text-xl font-bold">对比结果 ({cameras.length}部数码相机)</h2>
+        <div className="flex gap-2">
+          <button
+            onClick={() => setCompareMode('side-by-side')}
+            className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
+              compareMode === 'side-by-side'
+                ? 'bg-blue-600 text-white'
+                : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+            }`}
+          >
+            并排对比
+          </button>
+          <button
+            onClick={() => setCompareMode('specs')}
+            className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
+              compareMode === 'specs'
+                ? 'bg-blue-600 text-white'
+                : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+            }`}
+          >
+            规格表对比
+          </button>
+        </div>
+      </div>
+
+      {compareMode === 'side-by-side' ? (
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+          {cameras.map((camera) => (
+            <div key={camera.id} className="bg-white rounded-xl shadow-sm border p-4">
+              <div className="text-center mb-4">
+                <h3 className="font-bold text-lg">{camera.name}</h3>
+                <span className="text-sm text-gray-500">{camera.brand}</span>
+                <span className="block text-blue-600 font-semibold mt-1">{camera.price}</span>
+              </div>
+
+              <div className="space-y-3">
+                <div className="bg-blue-50 rounded-lg p-3">
+                  <div className="text-xs text-blue-600 mb-1">传感器</div>
+                  <div className="font-bold text-blue-600">{camera.sensor.megapixels}</div>
+                </div>
+
+                <div className="bg-gray-50 rounded-lg p-3">
+                  <div className="text-xs text-gray-500 mb-1">视频</div>
+                  <div className="font-semibold">{camera.video.maxResolution}</div>
+                </div>
+
+                <div className="bg-gray-50 rounded-lg p-3">
+                  <div className="text-xs text-gray-500 mb-1">防抖</div>
+                  <div className="text-sm font-medium">{camera.sensor.stabilization}</div>
+                </div>
+
+                <div className="bg-gray-50 rounded-lg p-3">
+                  <div className="text-xs text-gray-500 mb-1">连拍</div>
+                  <div className="text-sm font-medium">{camera.burst.split('/')[0].trim()}</div>
+                </div>
+
+                <div className="bg-gray-50 rounded-lg p-3">
+                  <div className="text-xs text-gray-500 mb-1">重量</div>
+                  <div className="font-semibold">{camera.weight}</div>
+                </div>
+
+                <div className="border-t pt-3">
+                  <div className="text-xs text-gray-500 mb-1">续航</div>
+                  <div className="text-sm font-medium">{camera.battery}</div>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      ) : (
+        <div className="bg-white rounded-xl shadow-sm p-6 overflow-x-auto">
+          <table className="w-full text-sm">
+            <thead>
+              <tr className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white">
+                <th className="p-3 text-left font-semibold w-32">参数</th>
+                {cameras.map(c => (
+                  <th key={c.id} className="p-3 text-center font-semibold min-w-44">{c.name}</th>
+                ))}
+              </tr>
+            </thead>
+            <tbody>
+              <tr className="border-b">
+                <td className="p-3 font-medium text-gray-600">品牌</td>
+                {cameras.map(c => (
+                  <td key={c.id} className="p-3 text-center">{c.brand}</td>
+                ))}
+              </tr>
+              <tr className="border-b bg-gray-50/50">
+                <td className="p-3 font-medium text-gray-600">价格</td>
+                {cameras.map(c => (
+                  <td key={c.id} className="p-3 text-center font-semibold text-blue-600">{c.price}</td>
+                ))}
+              </tr>
+              <tr className="border-b">
+                <td className="p-3 font-medium text-gray-600">传感器像素</td>
+                {cameras.map(c => (
+                  <td key={c.id} className="p-3 text-center font-semibold text-blue-600">{c.sensor.megapixels}</td>
+                ))}
+              </tr>
+              <tr className="border-b bg-gray-50/50">
+                <td className="p-3 font-medium text-gray-600">传感器类型</td>
+                {cameras.map(c => (
+                  <td key={c.id} className="p-3 text-center text-sm">{c.sensor.sensorType}</td>
+                ))}
+              </tr>
+              <tr className="border-b">
+                <td className="p-3 font-medium text-gray-600">最大视频</td>
+                {cameras.map(c => (
+                  <td key={c.id} className="p-3 text-center font-semibold text-green-600">{c.video.maxResolution}</td>
+                ))}
+              </tr>
+              <tr className="border-b bg-gray-50/50">
+                <td className="p-3 font-medium text-gray-600">防抖</td>
+                {cameras.map(c => (
+                  <td key={c.id} className="p-3 text-center">{c.sensor.stabilization}</td>
+                ))}
+              </tr>
+              <tr className="border-b">
+                <td className="p-3 font-medium text-gray-600">对焦系统</td>
+                {cameras.map(c => (
+                  <td key={c.id} className="p-3 text-center text-sm">{c.sensor.autofocus}</td>
+                ))}
+              </tr>
+              <tr className="border-b bg-gray-50/50">
+                <td className="p-3 font-medium text-gray-600">连拍速度</td>
+                {cameras.map(c => (
+                  <td key={c.id} className="p-3 text-center">{c.burst.split('/')[0].trim()}</td>
+                ))}
+              </tr>
+              <tr className="border-b">
+                <td className="p-3 font-medium text-gray-600">重量</td>
+                {cameras.map(c => (
+                  <td key={c.id} className="p-3 text-center">{c.weight}</td>
+                ))}
+              </tr>
+              <tr className="border-b bg-gray-50/50">
+                <td className="p-3 font-medium text-gray-600">电池续航</td>
+                {cameras.map(c => (
+                  <td key={c.id} className="p-3 text-center">{c.battery}</td>
+                ))}
+              </tr>
+              <tr className="border-b">
+                <td className="p-3 font-medium text-gray-600">屏幕</td>
+                {cameras.map(c => (
+                  <td key={c.id} className="p-3 text-center text-sm">{c.screen}</td>
+                ))}
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      )}
+    </div>
+  );
+}
 
 export default function CameraComparePage() {
-  const [selectedPhones, setSelectedPhones] = useState<PhoneCamera[]>([]);
+  const [selectedCameras, setSelectedCameras] = useState<Camera[]>([]);
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedBrand, setSelectedBrand] = useState<string>('all');
 
-  const filteredPhones = phonesData.filter(phone => {
-    const matchesSearch = phone.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      phone.brand.toLowerCase().includes(searchTerm.toLowerCase());
-    const matchesBrand = selectedBrand === 'all' || phone.brand === selectedBrand;
+  const filteredCameras = camerasData.filter(camera => {
+    const matchesSearch = camera.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      camera.brand.toLowerCase().includes(searchTerm.toLowerCase());
+    const matchesBrand = selectedBrand === 'all' || camera.brand === selectedBrand;
     return matchesSearch && matchesBrand;
   });
 
-  const togglePhone = (phone: PhoneCamera) => {
-    const isSelected = selectedPhones.some(p => p.id === phone.id);
+  const toggleCamera = (camera: Camera) => {
+    const isSelected = selectedCameras.some(c => c.id === camera.id);
     if (isSelected) {
-      setSelectedPhones(selectedPhones.filter(p => p.id !== phone.id));
-    } else if (selectedPhones.length < 4) {
-      setSelectedPhones([...selectedPhones, phone]);
+      setSelectedCameras(selectedCameras.filter(c => c.id !== camera.id));
+    } else if (selectedCameras.length < 4) {
+      setSelectedCameras([...selectedCameras, camera]);
     }
   };
 
-  const removePhone = (id: string) => {
-    setSelectedPhones(selectedPhones.filter(p => p.id !== id));
+  const removeCamera = (id: string) => {
+    setSelectedCameras(selectedCameras.filter(c => c.id !== id));
   };
 
-  const clearAll = () => setSelectedPhones([]);
+  const clearAll = () => setSelectedCameras([]);
 
   return (
     <div className="min-h-screen bg-gray-50">
       <Navbar />
 
-      <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-8">
+      <div className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-3xl font-bold mb-2">手机相机参数对比</h1>
-          <p className="text-blue-100">选择最多4部手机进行详细对比</p>
+          <h1 className="text-3xl font-bold mb-2">数码相机参数对比</h1>
+          <p className="text-blue-100">选择最多4部数码相机进行详细对比</p>
         </div>
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-          {/* 左侧：手机选择列表 */}
           <div className="lg:col-span-1">
             <div className="bg-white rounded-xl shadow-sm p-4 sticky top-20">
-              <h2 className="font-bold text-lg mb-4">选择手机</h2>
+              <h2 className="font-bold text-lg mb-4">选择数码相机</h2>
 
-              {/* 已选择的手机 */}
-              {selectedPhones.length > 0 && (
+              {selectedCameras.length > 0 && (
                 <div className="mb-4 p-3 bg-blue-50 rounded-lg">
                   <div className="flex items-center justify-between mb-2">
                     <span className="text-sm font-medium text-blue-700">
-                      已选择 {selectedPhones.length}/4 部
+                      已选择 {selectedCameras.length}/4 部
                     </span>
-                    <button
-                      onClick={clearAll}
-                      className="text-xs text-blue-600 hover:text-blue-800"
-                    >
+                    <button onClick={clearAll} className="text-xs text-blue-600 hover:text-blue-800">
                       清除全部
                     </button>
                   </div>
                   <div className="flex flex-wrap gap-2">
-                    {selectedPhones.map(phone => (
-                      <div
-                        key={phone.id}
-                        className="flex items-center gap-2 bg-white px-2 py-1 rounded-full text-sm"
-                      >
-                        <span>{phone.name}</span>
-                        <button
-                          onClick={() => removePhone(phone.id)}
-                          className="text-gray-400 hover:text-red-500"
-                        >
-                          ×
-                        </button>
+                    {selectedCameras.map(camera => (
+                      <div key={camera.id} className="flex items-center gap-2 bg-white px-2 py-1 rounded-full text-sm">
+                        <span>{camera.name}</span>
+                        <button onClick={() => removeCamera(camera.id)} className="text-gray-400 hover:text-red-500">×</button>
                       </div>
                     ))}
                   </div>
                 </div>
               )}
 
-              {/* 搜索框 */}
               <div className="mb-4">
                 <input
                   type="text"
-                  placeholder="搜索手机..."
+                  placeholder="搜索相机..."
                   value={searchTerm}
                   onChange={(e) => setSearchTerm(e.target.value)}
                   className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
                 />
               </div>
 
-              {/* 品牌筛选 */}
               <div className="mb-4">
                 <select
                   value={selectedBrand}
@@ -105,20 +262,19 @@ export default function CameraComparePage() {
                   className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
                 >
                   <option value="all">所有品牌</option>
-                  {brands.map(brand => (
+                  {cameraBrands.map(brand => (
                     <option key={brand} value={brand}>{brand}</option>
                   ))}
                 </select>
               </div>
 
-              {/* 手机列表 */}
               <div className="space-y-2 max-h-[500px] overflow-y-auto">
-                {filteredPhones.map(phone => {
-                  const isSelected = selectedPhones.some(p => p.id === phone.id);
+                {filteredCameras.map(camera => {
+                  const isSelected = selectedCameras.some(c => c.id === camera.id);
                   return (
                     <div
-                      key={phone.id}
-                      onClick={() => togglePhone(phone)}
+                      key={camera.id}
+                      onClick={() => toggleCamera(camera)}
                       className={`p-3 rounded-lg cursor-pointer transition-all ${
                         isSelected
                           ? 'bg-blue-600 text-white'
@@ -127,14 +283,12 @@ export default function CameraComparePage() {
                     >
                       <div className="flex items-center justify-between">
                         <div>
-                          <div className="font-medium">{phone.name}</div>
+                          <div className="font-medium">{camera.name}</div>
                           <div className={`text-sm ${isSelected ? 'text-blue-200' : 'text-gray-500'}`}>
-                            {phone.brand} · {phone.releaseDate}
+                            {camera.brand} · {camera.sensor.megapixels}
                           </div>
                         </div>
-                        <div className="text-xs text-gray-400">
-                          {phone.mainCamera.megapixels}
-                        </div>
+                        <span className="text-xs text-gray-400">{camera.price}</span>
                       </div>
                     </div>
                   );
@@ -143,32 +297,31 @@ export default function CameraComparePage() {
             </div>
           </div>
 
-          {/* 右侧：对比结果 */}
           <div className="lg:col-span-2">
-            {selectedPhones.length === 0 ? (
+            {selectedCameras.length === 0 ? (
               <div className="bg-white rounded-xl shadow-sm p-12 text-center">
-                <div className="text-6xl mb-4">📱</div>
-                <h3 className="text-xl font-bold mb-2">请选择手机进行对比</h3>
-                <p className="text-gray-500">从左侧列表选择至少1部手机，最多4部</p>
+                <div className="text-6xl mb-4">📷</div>
+                <h3 className="text-xl font-bold mb-2">请选择数码相机进行对比</h3>
+                <p className="text-gray-500">从左侧列表选择至少1部数码相机，最多4部</p>
               </div>
             ) : (
               <div className="bg-white rounded-xl shadow-sm p-6">
-                <PhoneCameraComparison phones={selectedPhones} />
+                <CameraComparison cameras={selectedCameras} />
 
                 <div className="mt-8 pt-6 border-t">
                   <h3 className="font-bold mb-4">推荐阅读</h3>
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                    <Link href="/smartphone-cameras/iphone-vs-samsung" className="p-4 bg-gray-50 rounded-lg hover:bg-gray-100">
+                    <Link href="/cameras/sony-vs-canon-vs-nikon" className="p-4 bg-gray-50 rounded-lg hover:bg-gray-100">
                       <div className="text-sm text-gray-500">对比评测</div>
-                      <div className="font-medium">iPhone vs 三星 拍照对比</div>
+                      <div className="font-medium">索尼 vs 佳能 vs 尼康</div>
                     </Link>
-                    <Link href="/smartphone-cameras/best-camera-phones-2024" className="p-4 bg-gray-50 rounded-lg hover:bg-gray-100">
+                    <Link href="/cameras/best-cameras-2024" className="p-4 bg-gray-50 rounded-lg hover:bg-gray-100">
                       <div className="text-sm text-gray-500">选购指南</div>
-                      <div className="font-medium">2024最佳拍照手机</div>
+                      <div className="font-medium">2024最佳相机推荐</div>
                     </Link>
-                    <Link href="/smartphone-cameras/xiaomi-14-ultra" className="p-4 bg-gray-50 rounded-lg hover:bg-gray-100">
-                      <div className="text-sm text-gray-500">深度评测</div>
-                      <div className="font-medium">小米14 Ultra 评测</div>
+                    <Link href="/camera-database" className="p-4 bg-gray-50 rounded-lg hover:bg-gray-100">
+                      <div className="text-sm text-gray-500">数据库</div>
+                      <div className="font-medium">数码相机数据库</div>
                     </Link>
                   </div>
                 </div>
@@ -178,7 +331,7 @@ export default function CameraComparePage() {
         </div>
       </div>
 
-      <AdPlaceholder slot="compare-page" className="my-8 mx-4" />
+      <AdPlaceholder slot="camera-compare-page" className="my-8 mx-4" />
 
       <Footer />
     </div>

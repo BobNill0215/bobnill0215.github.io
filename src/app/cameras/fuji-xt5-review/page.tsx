@@ -14,12 +14,24 @@ export default function FujiXT5Page() {
     <div className="min-h-screen bg-gray-50">
       <Navbar />
 
+      <div className="relative h-64 md:h-80 bg-gradient-to-r from-blue-600 to-indigo-500">
+        <img 
+          src="https://images.unsplash.com/photo-1581591524425-c7e0978865fc?w=1600" 
+          alt="富士 X-T5" 
+          className="w-full h-full object-cover opacity-30"
+        />
+        <div className="absolute inset-0 flex items-center justify-center">
+          <div className="text-center text-white px-4">
+            <span className="bg-white/20 backdrop-blur px-3 py-1 rounded-full text-sm mb-4 inline-block">深度评测</span>
+            <h1 className="text-3xl md:text-4xl font-bold mb-2">富士 X-T5 复古旗舰APS-C相机评测</h1>
+            <p className="text-lg text-blue-100">4020万像素，40种胶片模拟，经典复古设计</p>
+          </div>
+        </div>
+      </div>
+
       <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <header className="mb-8">
           <Link href="/cameras" className="text-blue-600 hover:text-blue-700 text-sm mb-4 inline-block">← 返回数码相机</Link>
-          <span className="bg-blue-600 text-white text-xs px-2 py-1 rounded">深度评测</span>
-          <h1 className="text-3xl font-bold mt-4 mb-2">富士 X-T5 复古旗舰APS-C相机评测</h1>
-          <p className="text-gray-600">4020万像素，40种胶片模拟，经典复古设计</p>
           <div className="text-sm text-gray-500 mt-2">发布于 2024年1月8日</div>
         </header>
 

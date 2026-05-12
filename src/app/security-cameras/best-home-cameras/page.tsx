@@ -14,12 +14,24 @@ export default function BestHomeCamerasPage() {
     <div className="min-h-screen bg-gray-50">
       <Navbar />
 
+      <div className="relative h-64 md:h-80 bg-gradient-to-r from-purple-600 to-indigo-500">
+        <img 
+          src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1600" 
+          alt="监控摄像头" 
+          className="w-full h-full object-cover opacity-30"
+        />
+        <div className="absolute inset-0 flex items-center justify-center">
+          <div className="text-center text-white px-4">
+            <span className="bg-white/20 backdrop-blur px-3 py-1 rounded-full text-sm mb-4 inline-block">监控相机</span>
+            <h1 className="text-3xl md:text-4xl font-bold mb-2">2024年最佳家用监控摄像头推荐</h1>
+            <p className="text-lg text-purple-100">室内户外国产精选，智能安防产品对比</p>
+          </div>
+        </div>
+      </div>
+
       <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <header className="mb-8">
           <Link href="/security-cameras" className="text-blue-600 hover:text-blue-700 text-sm mb-4 inline-block">← 返回监控相机</Link>
-          <span className="bg-purple-600 text-white text-xs px-2 py-1 rounded">选购指南</span>
-          <h1 className="text-3xl font-bold mt-4 mb-2">2024年最佳家用监控摄像头推荐</h1>
-          <p className="text-gray-600">室内户外国产精选，智能安防产品对比</p>
           <div className="text-sm text-gray-500 mt-2">发布于 2024年1月12日</div>
         </header>
 

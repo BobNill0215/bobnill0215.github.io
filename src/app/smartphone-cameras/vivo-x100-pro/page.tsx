@@ -14,12 +14,24 @@ export default function VivoX100ProPage() {
     <div className="min-h-screen bg-gray-50">
       <Navbar />
 
+      <div className="relative h-64 md:h-80 bg-gradient-to-r from-green-600 to-emerald-500">
+        <img 
+          src="https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?w=1600" 
+          alt="vivo X100 Pro" 
+          className="w-full h-full object-cover opacity-30"
+        />
+        <div className="absolute inset-0 flex items-center justify-center">
+          <div className="text-center text-white px-4">
+            <span className="bg-white/20 backdrop-blur px-3 py-1 rounded-full text-sm mb-4 inline-block">深度评测</span>
+            <h1 className="text-3xl md:text-4xl font-bold mb-2">vivo X100 Pro 蔡司光学评测</h1>
+            <p className="text-lg text-green-100">蔡司T*镀膜，一英寸传感器，人像模式出色</p>
+          </div>
+        </div>
+      </div>
+
       <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <header className="mb-8">
           <Link href="/smartphone-cameras" className="text-blue-600 hover:text-blue-700 text-sm mb-4 inline-block">← 返回手机相机</Link>
-          <span className="bg-green-600 text-white text-xs px-2 py-1 rounded">深度评测</span>
-          <h1 className="text-3xl font-bold mt-4 mb-2">vivo X100 Pro 蔡司光学评测</h1>
-          <p className="text-gray-600">蔡司T*镀膜，一英寸传感器，人像模式出色</p>
           <div className="text-sm text-gray-500 mt-2">发布于 2024年1月3日</div>
         </header>
 

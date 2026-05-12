@@ -3,6 +3,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import AdPlaceholder from '@/components/AdPlaceholder';
 import ProductComparison from '@/components/ProductComparison';
+import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: '2024年最佳数码相机推荐排行榜 - 相机评测网',
@@ -58,53 +59,101 @@ export default function BestCameras2024Page() {
     <div className="min-h-screen bg-gray-50">
       <Navbar />
 
-      <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <header className="mb-8">
-          <span className="bg-blue-600 text-white text-xs px-2 py-1 rounded">数码相机</span>
-          <h1 className="text-3xl font-bold mt-4 mb-2">2024年最佳数码相机推荐排行榜</h1>
-          <p className="text-gray-600">入门级到专业级相机推荐，热门品牌对比，Amazon精选</p>
-          <div className="text-sm text-gray-500 mt-2">发布于 2024年1月15日 | 阅读时间 8 分钟</div>
-        </header>
+      <div className="relative h-64 md:h-80 bg-gradient-to-r from-blue-600 to-blue-800">
+        <img 
+          src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=1600" 
+          alt="数码相机" 
+          className="w-full h-full object-cover opacity-30"
+        />
+        <div className="absolute inset-0 flex items-center justify-center">
+          <div className="text-center text-white px-4">
+            <span className="bg-white/20 backdrop-blur px-3 py-1 rounded-full text-sm mb-4 inline-block">数码相机</span>
+            <h1 className="text-3xl md:text-4xl font-bold mb-2">2024年最佳数码相机推荐排行榜</h1>
+            <p className="text-lg text-blue-100">入门级到专业级相机推荐，热门品牌对比</p>
+          </div>
+        </div>
+      </div>
 
-        <AdPlaceholder slot="article-top" className="mb-8" />
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-6 mb-8">
+          <div className="flex items-center justify-between">
+            <div>
+              <h3 className="font-bold text-lg">数码相机数据库</h3>
+              <p className="text-gray-600 text-sm">收录18款热门相机详细参数</p>
+            </div>
+            <Link href="/camera-database" className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
+              查看全部 →
+            </Link>
+          </div>
+        </div>
+        
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+          <Link href="/camera-database" className="bg-white rounded-xl shadow-sm p-4 hover:shadow-lg transition">
+            <div className="flex items-center gap-4">
+              <div className="bg-orange-100 text-orange-600 p-3 rounded-lg">📷</div>
+              <div>
+                <h4 className="font-semibold">运动相机数据库</h4>
+                <p className="text-sm text-gray-500">9款运动相机对比</p>
+              </div>
+            </div>
+          </Link>
+          <Link href="/action-camera-compare" className="bg-white rounded-xl shadow-sm p-4 hover:shadow-lg transition">
+            <div className="flex items-center gap-4">
+              <div className="bg-blue-100 text-blue-600 p-3 rounded-lg">📱</div>
+              <div>
+                <h4 className="font-semibold">手机相机对比</h4>
+                <p className="text-sm text-gray-500">10款旗舰手机拍照对比</p>
+              </div>
+            </div>
+          </Link>
+        </div>
+
+        <article className="bg-white rounded-xl shadow-sm p-8">
+          <header className="mb-8">
+            <Link href="/cameras" className="text-blue-600 hover:text-blue-700 text-sm mb-4 inline-block">← 返回数码相机</Link>
+            <div className="text-sm text-gray-500 mt-2">发布于 2026年1月15日 | 阅读时间 10 分钟</div>
+          </header>
+
+          <AdPlaceholder slot="article-top" className="mb-8" />
 
         <div className="prose max-w-none">
           <h2>前言</h2>
           <p>数码相机市场在2024年继续保持激烈竞争，无论是入门级用户还是专业摄影师，都能找到适合自己的机型。本文将为您推荐2024年最值得购买的数码相机，涵盖不同预算和使用场景。</p>
 
-          <h2>2024年数码相机市场概览</h2>
-          <p>今年相机市场呈现出几个明显趋势：</p>
+          <h2>2026年数码相机市场概览</h2>
+          <p>数码相机市场在2025-2026年迎来重大升级，AI对焦、部分堆叠传感器成为中高端机型标配，视频规格持续提升。</p>
           <ul>
-            <li><strong>全画幅微单普及</strong>：价格持续下降，更多入门级用户能够体验全画幅摄影</li>
-            <li><strong>AI对焦升级</strong>：智能识别技术让对焦更加精准快速</li>
-            <li><strong>视频能力增强</strong>：4K甚至8K视频成为中高端机型标配</li>
-            <li><strong>轻量化设计</strong>：厂商更加注重机身的便携性</li>
+            <li><strong>AI对焦普及</strong>：索尼A7V、尼康Z6III等机型搭载先进AI主体识别</li>
+            <li><strong>部分堆叠传感器</strong>：高速读出减少果冻效应，提升连拍性能</li>
+            <li><strong>8K视频下放</strong>：专业机型向中端市场延伸</li>
+            <li><strong>性价比提升</strong>：尼康Z6III等机型价格更加亲民</li>
           </ul>
 
-          <h2>按预算推荐</h2>
+          <h2>按预算推荐 (2026年)</h2>
 
-          <h3>$500-$1000 入门级推荐</h3>
+          <h3>$500-$1500 入门级推荐</h3>
           <p>对于预算有限但想要学习摄影的用户，以下几款相机是不错的选择：</p>
           <ul>
-            <li><strong>佳能 EOS R50</strong> - 高性价比入门微单，触摸操作友好</li>
-            <li><strong>索尼 ZV-E10</strong> - Vlog神器，对焦快速</li>
-            <li><strong>富士 X-T30 II</strong> - 复古设计，胶片模拟出色</li>
+            <li><strong>尼康 Z50 II</strong> - 21MP APS-C，9种主体识别，C30连拍，¥6,999</li>
+            <li><strong>佳能 EOS R7</strong> - 32.5MP，8级防抖，无裁切4K，¥7,999</li>
+            <li><strong>索尼 A7C II</strong> - 全画幅轻量化，AI对焦，¥11,999</li>
           </ul>
 
-          <h3>$1000-$2000 中端推荐</h3>
+          <h3>$1500-$2500 中端推荐</h3>
           <p>这个价位段可以买到性能出色的中端机型：</p>
           <ul>
-            <li><strong>富士 X-T5</strong> - 旗舰级APS-C，画质出色</li>
-            <li><strong>索尼 A7C II</strong> - 全画幅轻量化设计</li>
-            <li><strong>尼康 Z5</strong> - 入门级全画幅，性价比高</li>
+            <li><strong>尼康 Z6 III</strong> - 24.5MP部分堆叠，8级防抖，-10EV对焦，¥13,999</li>
+            <li><strong>索尼 A7 V</strong> - 33MP部分堆叠，AI对焦，30fps连拍，¥15,999</li>
+            <li><strong>富士 X-T5</strong> - 40.2MP，19种胶片模拟，¥10,499</li>
           </ul>
 
-          <h3>$2000+ 专业级推荐</h3>
+          <h3>$2500+ 专业级推荐</h3>
           <p>专业用户或进阶摄影师的选择：</p>
           <ul>
-            <li><strong>佳能 R6 II</strong> - 全能型旗舰，视频能力出色</li>
-            <li><strong>索尼 A7 IV</strong> - 综合性能强，用户口碑好</li>
-            <li><strong>尼康 Z8</strong> - 旗舰级性能，价格较高</li>
+            <li><strong>佳能 R6 III</strong> - 32.5MP，40fps RAW，6K RAW录制，¥19,999</li>
+            <li><strong>尼康 Z8</strong> - 45.7MP，8K 60fps，旗舰级性能，¥26,999</li>
+            <li><strong>佳能 R5 II</strong> - 45MP stacked，60fps RAW，8K RAW，¥27,999</li>
+            <li><strong>索尼 A1 II</strong> - 50MP，30fps，旗舰级，¥48,999</li>
           </ul>
 
           <h2>热门机型对比</h2>
@@ -138,11 +187,12 @@ export default function BestCameras2024Page() {
 
         <AdPlaceholder slot="article-bottom" className="mt-8" />
 
-        <div className="mt-12 bg-gray-100 rounded-lg p-6">
-          <h3 className="font-bold mb-2">免责声明</h3>
-          <p className="text-sm text-gray-600">本文包含的购买链接为联盟链接，我们可能会从中获得少量佣金，这不会影响您的购买价格。这是支持我们继续提供免费评测内容的方式之一，感谢您的理解。</p>
-        </div>
-      </article>
+          <div className="mt-12 bg-gray-100 rounded-lg p-6">
+            <h3 className="font-bold mb-2">免责声明</h3>
+            <p className="text-sm text-gray-600">本文包含的购买链接为联盟链接，我们可能会从中获得少量佣金，这不会影响您的购买价格。这是支持我们继续提供免费评测内容的方式之一，感谢您的理解。</p>
+          </div>
+        </article>
+      </div>
 
       <Footer />
     </div>

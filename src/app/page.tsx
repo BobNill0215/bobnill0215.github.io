@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import AdPlaceholder from '@/components/AdPlaceholder';
+import SearchModal from '@/components/SearchModal';
 import { Camera, Smartphone, Zap, Shield, Package, BookOpen } from 'lucide-react';
 
 export const metadata: Metadata = {
@@ -119,7 +120,16 @@ export default function Home() {
     <div className="min-h-screen bg-white">
       <Navbar />
 
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+        <div className="flex items-center justify-between gap-4">
+          <SearchModal />
+          <div className="text-sm text-gray-500">
+            共收录 <span className="font-bold text-blue-600">45+</span> 个产品数据库
+          </div>
+        </div>
+      </section>
+
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           <div className="lg:col-span-2">
             <Link href={featuredReview.href} className="group block relative overflow-hidden rounded-xl">
@@ -242,6 +252,20 @@ export default function Home() {
             </Link>
             <Link href="/camera-compare" className="bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-600 border border-blue-500">
               对比相机
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div className="bg-gradient-to-r from-blue-500 to-indigo-600 rounded-xl p-6 text-white">
+          <div className="flex items-center justify-between">
+            <div>
+              <h3 className="font-bold text-xl mb-1">📊 相机数据库上线</h3>
+              <p className="text-blue-100 text-sm">收录18款2025-2026热门数码相机参数，支持对比分析</p>
+            </div>
+            <Link href="/camera-database" className="bg-white text-blue-600 px-4 py-2 rounded-lg font-medium hover:bg-blue-50">
+              立即查看 →
             </Link>
           </div>
         </div>

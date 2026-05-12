@@ -2,38 +2,41 @@
 
 import Link from 'next/link';
 import { useState } from 'react';
+import SearchModal from './SearchModal';
 
 const navCategories = [
   {
     name: '数码相机评测',
     href: '/cameras',
     submenu: [
+      { name: '相机数据库', href: '/camera-database' },
+      { name: '相机对比', href: '/camera-compare' },
       { name: '索尼 Sony', href: '/cameras' },
       { name: '佳能 Canon', href: '/cameras' },
       { name: '尼康 Nikon', href: '/cameras' },
       { name: '富士 Fujifilm', href: '/cameras' },
-      { name: '全部相机', href: '/cameras' },
     ],
   },
   {
     name: '手机相机',
     href: '/smartphone-cameras',
     submenu: [
+      { name: '手机对比', href: '/camera-compare' },
       { name: 'iPhone', href: '/smartphone-cameras' },
       { name: '三星 Samsung', href: '/smartphone-cameras' },
       { name: '小米 Xiaomi', href: '/smartphone-cameras' },
       { name: '华为 Huawei', href: '/smartphone-cameras' },
-      { name: '全部手机', href: '/smartphone-cameras' },
     ],
   },
   {
     name: '运动相机',
     href: '/action-cameras',
     submenu: [
+      { name: '运动相机数据库', href: '/action-camera-database' },
+      { name: '运动相机对比', href: '/action-camera-compare' },
       { name: 'GoPro', href: '/action-cameras' },
       { name: '大疆 DJI', href: '/action-cameras' },
       { name: 'Insta360', href: '/action-cameras' },
-      { name: '全部运动相机', href: '/action-cameras' },
     ],
   },
   {
@@ -122,25 +125,12 @@ export default function Navbar() {
           </div>
 
           <div className="hidden lg:flex items-center gap-4">
-            <div className="relative">
-              <input
-                type="text"
-                placeholder="搜索产品..."
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-48 px-4 py-2 text-sm border border-gray-300 rounded-full focus:outline-none focus:border-blue-500"
-              />
-              <button className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400">
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                </svg>
-              </button>
-            </div>
+            <SearchModal />
 
             <Link href="/camera-compare" className="text-sm font-medium text-blue-600 hover:text-blue-700">
               相机对比
             </Link>
-            <Link href="/phone-database" className="text-sm font-medium text-blue-600 hover:text-blue-700">
+            <Link href="/search" className="text-sm font-medium text-blue-600 hover:text-blue-700">
               数据库
             </Link>
           </div>
@@ -189,7 +179,7 @@ export default function Navbar() {
               ))}
               <div className="pt-4 border-t mt-4 flex gap-4">
                 <Link href="/camera-compare" className="text-sm text-blue-600">相机对比</Link>
-                <Link href="/phone-database" className="text-sm text-blue-600">数据库</Link>
+                <Link href="/search" className="text-sm text-blue-600">搜索</Link>
               </div>
             </div>
           </div>

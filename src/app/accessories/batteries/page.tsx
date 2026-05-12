@@ -14,12 +14,24 @@ export default function BatteriesPage() {
     <div className="min-h-screen bg-gray-50">
       <Navbar />
 
+      <div className="relative h-64 md:h-80 bg-gradient-to-r from-teal-600 to-cyan-500">
+        <img 
+          src="https://images.unsplash.com/photo-1610334069251-326c90c00d0a?w=1600" 
+          alt="相机电池" 
+          className="w-full h-full object-cover opacity-30"
+        />
+        <div className="absolute inset-0 flex items-center justify-center">
+          <div className="text-center text-white px-4">
+            <span className="bg-white/20 backdrop-blur px-3 py-1 rounded-full text-sm mb-4 inline-block">对比评测</span>
+            <h1 className="text-3xl md:text-4xl font-bold mb-2">原厂 vs 副厂电池对比</h1>
+            <p className="text-lg text-teal-100">相机电池续航测试，充电器推荐</p>
+          </div>
+        </div>
+      </div>
+
       <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <header className="mb-8">
           <Link href="/accessories" className="text-blue-600 hover:text-blue-700 text-sm mb-4 inline-block">← 返回配件推荐</Link>
-          <span className="bg-teal-600 text-white text-xs px-2 py-1 rounded">对比评测</span>
-          <h1 className="text-3xl font-bold mt-4 mb-2">原厂 vs 副厂电池对比</h1>
-          <p className="text-gray-600">相机电池续航测试，充电器推荐</p>
           <div className="text-sm text-gray-500 mt-2">发布于 2024年1月8日</div>
         </header>
 

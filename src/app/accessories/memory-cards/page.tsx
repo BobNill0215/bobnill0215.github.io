@@ -14,12 +14,24 @@ export default function MemoryCardsPage() {
     <div className="min-h-screen bg-gray-50">
       <Navbar />
 
+      <div className="relative h-64 md:h-80 bg-gradient-to-r from-teal-600 to-cyan-500">
+        <img 
+          src="https://images.unsplash.com/photo-1617872534223-98d56e25b6c2?w=1600" 
+          alt="存储卡" 
+          className="w-full h-full object-cover opacity-30"
+        />
+        <div className="absolute inset-0 flex items-center justify-center">
+          <div className="text-center text-white px-4">
+            <span className="bg-white/20 backdrop-blur px-3 py-1 rounded-full text-sm mb-4 inline-block">知识科普</span>
+            <h1 className="text-3xl md:text-4xl font-bold mb-2">SD卡 vs CFexpress 存储卡选购指南</h1>
+            <p className="text-lg text-teal-100">速度对比，V90评级，品牌推荐</p>
+          </div>
+        </div>
+      </div>
+
       <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <header className="mb-8">
           <Link href="/accessories" className="text-blue-600 hover:text-blue-700 text-sm mb-4 inline-block">← 返回配件推荐</Link>
-          <span className="bg-teal-600 text-white text-xs px-2 py-1 rounded">知识科普</span>
-          <h1 className="text-3xl font-bold mt-4 mb-2">SD卡 vs CFexpress 存储卡选购指南</h1>
-          <p className="text-gray-600">速度对比，V90评级，品牌推荐</p>
           <div className="text-sm text-gray-500 mt-2">发布于 2024年1月12日</div>
         </header>
 
