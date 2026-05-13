@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Script from "next/script";
 import localFont from "next/font/local";
 import "./globals.css";
+import FeedbackModal from "@/components/FeedbackModal";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -109,6 +110,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+        <FeedbackModal />
       </body>
     </html>
   );

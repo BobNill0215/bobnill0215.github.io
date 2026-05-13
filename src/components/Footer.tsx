@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { MessageSquare } from 'lucide-react';
 
 const footerLinks = {
   products: [
@@ -10,6 +11,7 @@ const footerLinks = {
   ],
   resources: [
     { name: '相机选购指南', href: '/guides' },
+    { name: '反馈中心', href: '/feedback' },
   ],
 };
 
@@ -61,6 +63,18 @@ export default function Footer() {
                   </Link>
                 </li>
               ))}
+              <li>
+                <button
+                  onClick={() => {
+                    const event = new CustomEvent('openFeedback');
+                    window.dispatchEvent(event);
+                  }}
+                  className="text-sm text-blue-400 hover:text-blue-300 transition-colors flex items-center gap-1"
+                >
+                  <MessageSquare className="w-3 h-3" />
+                  快速反馈
+                </button>
+              </li>
             </ul>
           </div>
         </div>
