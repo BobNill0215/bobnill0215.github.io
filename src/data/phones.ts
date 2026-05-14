@@ -1,4 +1,4 @@
-﻿export interface CameraSpec {
+export interface CameraSpec {
   megapixels: string;
   aperture: string;
   focalLength: string;
@@ -4635,7 +4635,7 @@ export const phonesData: PhoneCamera[] = [
     id: 'oneplus-onepluspro-15pro',
     name: 'OnePlus OnePlus Pro 15 Pro',
     brand: 'OnePlus',
-    releaseDate: '2026-11',
+    releaseDate: '2026-07',
     mainCamera:     {
       megapixels: '200MP',
       aperture: 'f/1.5',
@@ -5314,7 +5314,7 @@ export const phonesData: PhoneCamera[] = [
     id: 'lenovo-legionphone-12-1',
     name: 'Lenovo Legion Phone 12',
     brand: 'Lenovo',
-    releaseDate: '2026-12',
+    releaseDate: '2026-08',
     mainCamera:     {
       megapixels: '48MP',
       aperture: 'f/1.9',
@@ -5669,7 +5669,7 @@ export const phonesData: PhoneCamera[] = [
     id: 'zte-axon-12',
     name: 'ZTE Axon 12',
     brand: 'ZTE',
-    releaseDate: '2026-11',
+    releaseDate: '2026-07',
     mainCamera:     {
       megapixels: '200MP',
       aperture: 'f/1.8',
@@ -7167,7 +7167,7 @@ export const phonesData: PhoneCamera[] = [
     id: 'samsung-galaxys-12',
     name: 'Samsung Galaxy S 12',
     brand: 'Samsung',
-    releaseDate: '2026-10',
+    releaseDate: '2026-06',
     mainCamera:     {
       megapixels: '108MP',
       aperture: 'f/1.9',
@@ -9063,7 +9063,7 @@ export const phonesData: PhoneCamera[] = [
     id: 'zte-blade-12',
     name: 'ZTE Blade 12',
     brand: 'ZTE',
-    releaseDate: '2026-12',
+    releaseDate: '2026-08',
     mainCamera:     {
       megapixels: '64MP',
       aperture: 'f/1.89',
@@ -11716,7 +11716,7 @@ export const phonesData: PhoneCamera[] = [
     id: 'nothing-nothingphone-12-2',
     name: 'Nothing Nothing Phone 12',
     brand: 'Nothing',
-    releaseDate: '2026-10',
+    releaseDate: '2026-06',
     mainCamera:     {
       megapixels: '108MP',
       aperture: 'f/1.9',
@@ -13103,7 +13103,7 @@ export const phonesData: PhoneCamera[] = [
     id: 'tcl-tcl50-12',
     name: 'TCL TCL 50 12',
     brand: 'TCL',
-    releaseDate: '2026-10',
+    releaseDate: '2026-06',
     mainCamera:     {
       megapixels: '64MP',
       aperture: 'f/1.8',
@@ -14841,7 +14841,7 @@ export const phonesData: PhoneCamera[] = [
     id: 'asus-zenfonepro-12-1',
     name: 'ASUS ZenFone Pro 12',
     brand: 'ASUS',
-    releaseDate: '2026-10',
+    releaseDate: '2026-06',
     mainCamera:     {
       megapixels: '50MP',
       aperture: 'f/1.88',
@@ -17418,7 +17418,7 @@ export const phonesData: PhoneCamera[] = [
     id: 'lg-lgwing-12-1',
     name: 'LG LG Wing 12',
     brand: 'LG',
-    releaseDate: '2026-10',
+    releaseDate: '2026-06',
     mainCamera:     {
       megapixels: '48MP',
       aperture: 'f/1.8',
@@ -19390,7 +19390,7 @@ export const phonesData: PhoneCamera[] = [
     id: 'motorola-edgepro-12',
     name: 'Motorola Edge Pro 12',
     brand: 'Motorola',
-    releaseDate: '2026-11',
+    releaseDate: '2026-07',
     mainCamera:     {
       megapixels: '48MP',
       aperture: 'f/1.78',
@@ -20874,7 +20874,7 @@ export const phonesData: PhoneCamera[] = [
     id: 'motorola-gpower-12',
     name: 'Motorola G Power 12',
     brand: 'Motorola',
-    releaseDate: '2026-10',
+    releaseDate: '2026-06',
     mainCamera:     {
       megapixels: '64MP',
       aperture: 'f/2.0',
@@ -20936,7 +20936,7 @@ export const phonesData: PhoneCamera[] = [
     id: 'lenovo-lenovo-12-3',
     name: 'Lenovo Lenovo 12',
     brand: 'Lenovo',
-    releaseDate: '2026-11',
+    releaseDate: '2026-07',
     mainCamera:     {
       megapixels: '50MP',
       aperture: 'f/1.95',
@@ -23187,7 +23187,7 @@ export const phonesData: PhoneCamera[] = [
     id: 'sony-xperia10-12',
     name: 'Sony Xperia 10 12',
     brand: 'Sony',
-    releaseDate: '2026-12',
+    releaseDate: '2026-08',
     mainCamera:     {
       megapixels: '50MP',
       aperture: 'f/1.5',
@@ -24499,7 +24499,7 @@ export const phonesData: PhoneCamera[] = [
     id: 'motorola-edge-12-1',
     name: 'Motorola Edge+ 12+',
     brand: 'Motorola',
-    releaseDate: '2026-11',
+    releaseDate: '2026-07',
     mainCamera:     {
       megapixels: '200MP',
       aperture: 'f/1.4',
@@ -26897,7 +26897,7 @@ export const phonesData: PhoneCamera[] = [
     id: 'google-pixelxl-11xl',
     name: 'Google Pixel XL 11 XL',
     brand: 'Google',
-    releaseDate: '2026-10',
+    releaseDate: '2026-06',
     mainCamera:     {
       megapixels: '48MP',
       aperture: 'f/1.8',
@@ -26962,7 +26962,7 @@ export const phonesData: PhoneCamera[] = [
     id: 'samsung-galaxys-12-1',
     name: 'Samsung Galaxy S+ 12+',
     brand: 'Samsung',
-    releaseDate: '2026-12',
+    releaseDate: '2026-08',
     mainCamera:     {
       megapixels: '200MP',
       aperture: 'f/2.0',
@@ -28182,7 +28182,7 @@ export const phonesData: PhoneCamera[] = [
     id: 'xiaomi-redmi-12',
     name: 'Xiaomi Redmi 12',
     brand: 'Xiaomi',
-    releaseDate: '2026-10',
+    releaseDate: '2026-06',
     mainCamera:     {
       megapixels: '48MP',
       aperture: 'f/1.78',
@@ -29136,7 +29136,7 @@ export const phonesData: PhoneCamera[] = [
     id: 'nothing-nothingphone-12-5',
     name: 'Nothing Nothing Phone+ 12+',
     brand: 'Nothing',
-    releaseDate: '2026-10',
+    releaseDate: '2026-06',
     mainCamera:     {
       megapixels: '64MP',
       aperture: 'f/2.0',
@@ -30118,7 +30118,7 @@ export const phonesData: PhoneCamera[] = [
     id: 'realme-narzo-12',
     name: 'Realme Narzo 12',
     brand: 'Realme',
-    releaseDate: '2026-11',
+    releaseDate: '2026-07',
     mainCamera:     {
       megapixels: '200MP',
       aperture: 'f/1.8',
@@ -31877,7 +31877,7 @@ export const phonesData: PhoneCamera[] = [
     id: 'zte-blade-12-1',
     name: 'ZTE Blade 12',
     brand: 'ZTE',
-    releaseDate: '2026-12',
+    releaseDate: '2026-08',
     mainCamera:     {
       megapixels: '64MP',
       aperture: 'f/2.0',
@@ -32079,7 +32079,7 @@ export const phonesData: PhoneCamera[] = [
     id: 'meizu-meizupro-12',
     name: 'Meizu Meizu Pro 12',
     brand: 'Meizu',
-    releaseDate: '2026-10',
+    releaseDate: '2026-06',
     mainCamera:     {
       megapixels: '64MP',
       aperture: 'f/1.8',
@@ -33586,7 +33586,7 @@ export const phonesData: PhoneCamera[] = [
     id: 'meizu-meizunote-12',
     name: 'Meizu Meizu Note 12',
     brand: 'Meizu',
-    releaseDate: '2026-12',
+    releaseDate: '2026-08',
     mainCamera:     {
       megapixels: '200MP',
       aperture: 'f/2.0',

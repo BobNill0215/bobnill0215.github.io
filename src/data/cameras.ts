@@ -2259,7 +2259,7 @@ export const camerasData: Camera[] = [
     id: 'sony-a6700',
     name: 'Sony A6700',
     brand: 'Sony',
-    releaseDate: '2026-12',
+    releaseDate: '2026-08',
     price: '¥12,610',
     sensor: {
       megapixels: '61MP',
@@ -2609,7 +2609,7 @@ export const camerasData: Camera[] = [
     id: 'panasonic-lumix-s1r',
     name: 'Panasonic Lumix S1R',
     brand: 'Panasonic',
-    releaseDate: '2026-11',
+    releaseDate: '2026-07',
     price: '¥509',
     sensor: {
       megapixels: '45.7MP',
