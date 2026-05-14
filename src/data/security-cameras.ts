@@ -23,7 +23,7 @@ export const securityCamerasData: SecurityCamera[] = [
     name: '萤石 C6CN',
     brand: '萤石 (EZVIZ)',
     type: 'indoor',
-    releaseDate: '2024-03',
+    releaseDate: '2026-05',
     price: '¥199',
     specs: {
       resolution: '1080P',
@@ -39,7 +39,7 @@ export const securityCamerasData: SecurityCamera[] = [
     name: '萤石 C6CN 4MP',
     brand: '萤石 (EZVIZ)',
     type: 'indoor',
-    releaseDate: '2024-06',
+    releaseDate: '2026-05',
     price: '¥299',
     specs: {
       resolution: '2K 4MP',
@@ -55,7 +55,7 @@ export const securityCamerasData: SecurityCamera[] = [
     name: '小米 智能摄像机 C400',
     brand: '小米',
     type: 'indoor',
-    releaseDate: '2024-02',
+    releaseDate: '2026-05',
     price: '¥249',
     specs: {
       resolution: '2K 4MP',
@@ -71,7 +71,7 @@ export const securityCamerasData: SecurityCamera[] = [
     name: '小米 智能摄像机 云台版 Q5CY',
     brand: '小米',
     type: 'indoor',
-    releaseDate: '2023-08',
+    releaseDate: '2026-05',
     price: '¥229',
     specs: {
       resolution: '3K 5MP',
@@ -103,7 +103,7 @@ export const securityCamerasData: SecurityCamera[] = [
     name: '萤石 C3TN',
     brand: '萤石 (EZVIZ)',
     type: 'outdoor',
-    releaseDate: '2023-11',
+    releaseDate: '2026-05',
     price: '¥199',
     specs: {
       resolution: '2MP',
@@ -119,7 +119,7 @@ export const securityCamerasData: SecurityCamera[] = [
     name: '萤石 C3A 4MP',
     brand: '萤石 (EZVIZ)',
     type: 'outdoor',
-    releaseDate: '2024-05',
+    releaseDate: '2026-05',
     price: '¥399',
     specs: {
       resolution: '4MP',
@@ -151,7 +151,7 @@ export const securityCamerasData: SecurityCamera[] = [
     name: '360 户外版 P5',
     brand: '360',
     type: 'outdoor',
-    releaseDate: '2024-02',
+    releaseDate: '2026-05',
     price: '¥349',
     specs: {
       resolution: '2K 4MP',
@@ -183,7 +183,7 @@ export const securityCamerasData: SecurityCamera[] = [
     name: 'TP-Link Tapo C325WB',
     brand: 'TP-Link',
     type: 'outdoor',
-    releaseDate: '2024-03',
+    releaseDate: '2026-05',
     price: '¥299',
     specs: {
       resolution: '2K 4MP',
@@ -199,7 +199,7 @@ export const securityCamerasData: SecurityCamera[] = [
     name: '小米 智能摄像机 BW300',
     brand: '小米',
     type: 'outdoor',
-    releaseDate: '2024-08',
+    releaseDate: '2026-05',
     price: '¥349',
     specs: {
       resolution: '2K 4MP',
@@ -215,7 +215,7 @@ export const securityCamerasData: SecurityCamera[] = [
     name: '小米 智能摄像机 AW300',
     brand: '小米',
     type: 'outdoor',
-    releaseDate: '2023-09',
+    releaseDate: '2026-05',
     price: '¥199',
     specs: {
       resolution: '2MP',
@@ -247,7 +247,7 @@ export const securityCamerasData: SecurityCamera[] = [
     name: '小米 智能门铃 5',
     brand: '小米',
     type: 'doorbell',
-    releaseDate: '2024-09',
+    releaseDate: '2026-05',
     price: '¥329',
     specs: {
       resolution: '2K 4MP',
@@ -263,7 +263,7 @@ export const securityCamerasData: SecurityCamera[] = [
     name: '萤石 4G太阳能摄像机',
     brand: '萤石 (EZVIZ)',
     type: 'solar',
-    releaseDate: '2024-06',
+    releaseDate: '2026-05',
     price: '¥699',
     specs: {
       resolution: '2K 4MP',
@@ -279,7 +279,7 @@ export const securityCamerasData: SecurityCamera[] = [
     name: '小米 太阳能摄像机 BW500',
     brand: '小米',
     type: 'solar',
-    releaseDate: '2024-10',
+    releaseDate: '2026-05',
     price: '¥599',
     specs: {
       resolution: '2K 4MP',
@@ -295,7 +295,7 @@ export const securityCamerasData: SecurityCamera[] = [
     name: 'TP-Link Tapo C510W',
     brand: 'TP-Link',
     type: 'outdoor',
-    releaseDate: '2024-08',
+    releaseDate: '2026-05',
     price: '¥399',
     specs: {
       resolution: '2K 4MP',
@@ -311,7 +311,7 @@ export const securityCamerasData: SecurityCamera[] = [
     name: '萤石 CB2 智能门铃',
     brand: '萤石 (EZVIZ)',
     type: 'doorbell',
-    releaseDate: '2023-10',
+    releaseDate: '2026-05',
     price: '¥299',
     specs: {
       resolution: '2MP',
@@ -392,7 +392,7 @@ export const securityCamerasData: SecurityCamera[] = [
     name: 'Xiaomi C700',
     brand: 'Xiaomi',
     type: 'solar',
-    releaseDate: '2023-10',
+    releaseDate: '2026-05',
     price: '¥1,675',
     specs: {
       resolution: '2K 4MP',
@@ -408,7 +408,7 @@ export const securityCamerasData: SecurityCamera[] = [
     name: 'TP-Link Tapo C200',
     brand: 'TP-Link',
     type: 'indoor',
-    releaseDate: '2024-09',
+    releaseDate: '2026-05',
     price: '¥673',
     specs: {
       resolution: '1080P',
@@ -424,7 +424,7 @@ export const securityCamerasData: SecurityCamera[] = [
     name: 'Ring Stick Up Cam 5MP',
     brand: 'Ring',
     type: 'outdoor',
-    releaseDate: '2025-03',
+    releaseDate: '2026-05',
     price: '¥471',
     specs: {
       resolution: '4K Ultra HD',
@@ -504,7 +504,7 @@ export const securityCamerasData: SecurityCamera[] = [
     name: 'Uniview IPC2324SB',
     brand: 'Uniview',
     type: 'doorbell',
-    releaseDate: '2024-02',
+    releaseDate: '2026-05',
     price: '¥629',
     specs: {
       resolution: '3K 5MP',
@@ -520,7 +520,7 @@ export const securityCamerasData: SecurityCamera[] = [
     name: 'Bosch FLEXIDOME IP 8000',
     brand: 'Bosch',
     type: 'solar',
-    releaseDate: '2025-04',
+    releaseDate: '2026-05',
     price: '¥1,253',
     specs: {
       resolution: '2K 4MP',
@@ -584,7 +584,7 @@ export const securityCamerasData: SecurityCamera[] = [
     name: 'Xiaomi C500',
     brand: 'Xiaomi',
     type: 'solar',
-    releaseDate: '2023-09',
+    releaseDate: '2026-05',
     price: '¥1,773',
     specs: {
       resolution: '5MP',
@@ -600,7 +600,7 @@ export const securityCamerasData: SecurityCamera[] = [
     name: 'TP-Link Tapo C210',
     brand: 'TP-Link',
     type: 'indoor',
-    releaseDate: '2024-09',
+    releaseDate: '2026-05',
     price: '¥1,408',
     specs: {
       resolution: '4K 8MP',
@@ -616,7 +616,7 @@ export const securityCamerasData: SecurityCamera[] = [
     name: 'Ring Indoor Cam 2K',
     brand: 'Ring',
     type: 'outdoor',
-    releaseDate: '2025-11',
+    releaseDate: '2026-05',
     price: '¥560',
     specs: {
       resolution: '4K 6MP',
@@ -680,7 +680,7 @@ export const securityCamerasData: SecurityCamera[] = [
     name: 'Reolink RLC-810A',
     brand: 'Reolink',
     type: 'outdoor',
-    releaseDate: '2023-11',
+    releaseDate: '2026-05',
     price: '¥1,448',
     specs: {
       resolution: '4K Ultra HD',
@@ -696,7 +696,7 @@ export const securityCamerasData: SecurityCamera[] = [
     name: 'Uniview IPC2314SB',
     brand: 'Uniview',
     type: 'doorbell',
-    releaseDate: '2024-05',
+    releaseDate: '2026-05',
     price: '¥130',
     specs: {
       resolution: '2K QHD',
@@ -712,7 +712,7 @@ export const securityCamerasData: SecurityCamera[] = [
     name: 'Bosch FLEXIDOME IP 7000',
     brand: 'Bosch',
     type: 'solar',
-    releaseDate: '2025-11',
+    releaseDate: '2026-05',
     price: '¥905',
     specs: {
       resolution: '5MP',
@@ -808,7 +808,7 @@ export const securityCamerasData: SecurityCamera[] = [
     name: 'Ring Spotlight Cam Plus',
     brand: 'Ring',
     type: 'outdoor',
-    releaseDate: '2025-12',
+    releaseDate: '2026-05',
     price: '¥171',
     specs: {
       resolution: '4K Ultra HD',
