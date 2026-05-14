@@ -1559,7 +1559,7 @@ export const camerasData: Camera[] = [
     id: 'om-system-om-1',
     name: 'OM SYSTEM OM-1',
     brand: 'OM SYSTEM',
-    releaseDate: '2026-07',
+    releaseDate: '2026-05',
     price: '¥17,511',
     sensor: {
       megapixels: '40.2MP',
@@ -1734,7 +1734,7 @@ export const camerasData: Camera[] = [
     id: 'nikon-z6-ii',
     name: 'Nikon Z6 II',
     brand: 'Nikon',
-    releaseDate: '2026-09',
+    releaseDate: '2026-05',
     price: '¥6,371',
     sensor: {
       megapixels: '36MP',
@@ -1909,7 +1909,7 @@ export const camerasData: Camera[] = [
     id: 'sigma-fp-l',
     name: 'Sigma fp L',
     brand: 'Sigma',
-    releaseDate: '2026-06',
+    releaseDate: '2026-05',
     price: '¥2,352',
     sensor: {
       megapixels: '20.4MP',
@@ -2259,7 +2259,7 @@ export const camerasData: Camera[] = [
     id: 'sony-a6700',
     name: 'Sony A6700',
     brand: 'Sony',
-    releaseDate: '2026-08',
+    releaseDate: '2026-05',
     price: '¥12,610',
     sensor: {
       megapixels: '61MP',
@@ -2434,7 +2434,7 @@ export const camerasData: Camera[] = [
     id: 'pentax-wg-8',
     name: 'Pentax WG-8',
     brand: 'Pentax',
-    releaseDate: '2026-08',
+    releaseDate: '2026-05',
     price: '¥7,550',
     sensor: {
       megapixels: '100MP',
@@ -2609,7 +2609,7 @@ export const camerasData: Camera[] = [
     id: 'panasonic-lumix-s1r',
     name: 'Panasonic Lumix S1R',
     brand: 'Panasonic',
-    releaseDate: '2026-07',
+    releaseDate: '2026-05',
     price: '¥509',
     sensor: {
       megapixels: '45.7MP',
