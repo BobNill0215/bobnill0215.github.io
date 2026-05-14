@@ -25,6 +25,7 @@ export interface ActionCamera {
   dimensions: string;
   screen: string;
   connectivity: string[];
+  image?: string;  videoUrl?: string;
 }
 
 export const actionCamerasData: ActionCamera[] = [

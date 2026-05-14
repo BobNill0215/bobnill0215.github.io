@@ -26,7 +26,7 @@ export interface Camera {
   weight: string;
   screen: string;
   connectivity: string[];
-}
+  image?: string;  videoUrl?: string;}
 
 export const camerasData: Camera[] = [
   {

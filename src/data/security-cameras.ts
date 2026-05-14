@@ -15,7 +15,7 @@ export interface SecurityCamera {
   specs: SecurityCameraSpec;
   waterproof: string;
   connectivity: string[];
-}
+  image?: string;  videoUrl?: string;}
 
 export const securityCamerasData: SecurityCamera[] = [
   {

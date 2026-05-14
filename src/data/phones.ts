@@ -20,7 +20,7 @@ export interface PhoneCamera {
   videoMax: string;
   videoFeatures: string[];
   imageFeatures: string[];
-}
+  image?: string;  videoUrl?: string;}
 
 export const phonesData: PhoneCamera[] = [
   {
