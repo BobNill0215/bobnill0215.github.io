@@ -3,6 +3,8 @@ import { notFound } from 'next/navigation';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import AdPlaceholder from '@/components/AdPlaceholder';
+import Breadcrumb from '@/components/Breadcrumb';
+import CommentSection from '@/components/CommentSection';
 import Link from 'next/link';
 import { articles } from '@/data/articles';
 
@@ -24,11 +26,21 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
   const article = articles.find((a) => a.slug === params.slug);
   if (!article) notFound();
 
+  const articleSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: article.title,
+    description: article.description,
+    datePublished: article.date,
+    author: { '@type': 'Organization', name: 'CamReview' },
+  };
+
   return (
     <div className="min-h-screen bg-gray-50">
       <Navbar />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <div className="relative h-48 md:h-56 bg-gradient-to-r from-blue-700 to-indigo-700">
-        <img src={article.image} alt={article.title} className="w-full h-full object-cover opacity-25" />
+        <img loading="lazy" src={article.image} alt={article.title} className="w-full h-full object-cover opacity-25" />
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="text-center text-white px-4">
             <span className="bg-white/20 backdrop-blur px-3 py-1 rounded-full text-sm mb-2 inline-block">{article.category}</span>
@@ -37,6 +49,11 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
         </div>
       </div>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <Breadcrumb items={[
+          { label: '文章', href: '/articles' },
+          { label: article.category, href: `/articles?category=${article.category}` },
+          { label: article.title },
+        ]} />
         <article className="bg-white rounded-xl shadow-sm p-8">
           <div className="mb-6 pb-6 border-b">
             <div className="flex items-center gap-3 text-sm text-gray-500">
@@ -69,6 +86,7 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
             <p className="text-sm text-gray-600">本文为联盟链接，我们可能会从中获得少量佣金，不影响您的购买价格。</p>
           </div>
         </article>
+        <CommentSection articleTitle={article.title} />
       </div>
       <Footer />
     </div>

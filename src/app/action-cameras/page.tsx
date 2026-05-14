@@ -86,7 +86,7 @@ export default function ActionCamerasPage() {
             <Link key={index} href={camera.href} className="group">
               <article className="bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-lg transition-shadow">
                 <div className="relative h-48 overflow-hidden">
-                  <img src={camera.image} alt={camera.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                  <img loading="lazy" src={camera.image} alt={camera.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
                   <span className="absolute top-2 left-2 bg-orange-600 text-white text-xs px-2 py-1 rounded">
                     {camera.category}
                   </span>

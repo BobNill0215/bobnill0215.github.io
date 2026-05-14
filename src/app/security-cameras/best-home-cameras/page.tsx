@@ -28,7 +28,7 @@ export default function BestHomeCamerasPage() {
       <Navbar />
 
       <div className="relative h-64 md:h-80 bg-gradient-to-r from-purple-600 to-indigo-500">
-        <img 
+        <img loading="lazy" 
           src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1600" 
           alt="监控摄像头" 
           className="w-full h-full object-cover opacity-30"

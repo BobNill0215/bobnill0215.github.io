@@ -15,7 +15,7 @@ export default function BestEntryLevelCamerasPage() {
     <div className="min-h-screen bg-gray-50">
       <Navbar />
       <div className="relative h-64 md:h-80 bg-gradient-to-r from-green-700 to-emerald-600">
-        <img src="https://images.unsplash.com/photo-1452780212940-6f5c0d14d848?w=1600" alt="入门相机" className="w-full h-full object-cover opacity-30" />
+        <img loading="lazy" src="https://images.unsplash.com/photo-1452780212940-6f5c0d14d848?w=1600" alt="入门相机" className="w-full h-full object-cover opacity-30" />
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="text-center text-white px-4">
             <span className="bg-white/20 backdrop-blur px-3 py-1 rounded-full text-sm mb-3 inline-block">新手必看</span>

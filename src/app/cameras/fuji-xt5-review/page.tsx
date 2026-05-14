@@ -15,7 +15,7 @@ export default function FujiXT5Page() {
       <Navbar />
 
       <div className="relative h-64 md:h-80 bg-gradient-to-r from-blue-600 to-indigo-500">
-        <img 
+        <img loading="lazy" 
           src="https://images.unsplash.com/photo-1581591524425-c7e0978865fc?w=1600" 
           alt="富士 X-T5" 
           className="w-full h-full object-cover opacity-30"

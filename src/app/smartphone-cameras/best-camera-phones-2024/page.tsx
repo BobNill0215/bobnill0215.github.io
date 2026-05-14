@@ -49,7 +49,7 @@ export default function BestCameraPhones2024Page() {
       <Navbar />
 
       <div className="relative h-64 md:h-80 bg-gradient-to-r from-green-600 to-emerald-500">
-        <img 
+        <img loading="lazy" 
           src="https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=1600" 
           alt="拍照手机" 
           className="w-full h-full object-cover opacity-30"

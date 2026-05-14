@@ -25,7 +25,7 @@ export default function BestActionCameras2024Page() {
       <Navbar />
 
       <div className="relative h-64 md:h-80 bg-gradient-to-r from-orange-500 to-red-500">
-        <img 
+        <img loading="lazy" 
           src="https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=1600" 
           alt="运动相机" 
           className="w-full h-full object-cover opacity-30"

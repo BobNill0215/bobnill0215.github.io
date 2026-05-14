@@ -15,7 +15,7 @@ export default function Pixel9ProPage() {
       <Navbar />
 
       <div className="relative h-64 md:h-80 bg-gradient-to-r from-green-600 to-emerald-500">
-        <img 
+        <img loading="lazy" 
           src="https://images.unsplash.com/photo-1605236453806-6ff36851218e?w=1600" 
           alt="Pixel 9 Pro" 
           className="w-full h-full object-cover opacity-30"

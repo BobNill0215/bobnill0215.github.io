@@ -15,7 +15,7 @@ export default function SonyA7CIITPage() {
       <Navbar />
 
       <div className="relative h-64 md:h-80 bg-gradient-to-r from-blue-600 to-indigo-500">
-        <img 
+        <img loading="lazy" 
           src="https://images.unsplash.com/photo-1617005082133-548c4dd27f35?w=1600" 
           alt="索尼 A7C II" 
           className="w-full h-full object-cover opacity-30"

@@ -15,7 +15,7 @@ export default function DJIPocket3Page() {
       <Navbar />
 
       <div className="relative h-64 md:h-80 bg-gradient-to-r from-orange-500 to-red-500">
-        <img 
+        <img loading="lazy" 
           src="https://images.unsplash.com/photo-1601262876412-3d8b2cd5a96f?w=1600" 
           alt="大疆 Pocket 3" 
           className="w-full h-full object-cover opacity-30"

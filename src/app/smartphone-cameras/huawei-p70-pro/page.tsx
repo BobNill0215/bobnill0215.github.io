@@ -15,7 +15,7 @@ export default function HuaweiP70ProPage() {
       <Navbar />
 
       <div className="relative h-64 md:h-80 bg-gradient-to-r from-green-600 to-emerald-500">
-        <img 
+        <img loading="lazy" 
           src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=1600" 
           alt="华为 P70 Pro+" 
           className="w-full h-full object-cover opacity-30"

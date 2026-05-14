@@ -16,7 +16,7 @@ export default function HowToChooseCameraPage() {
       <Navbar />
 
       <div className="relative h-64 md:h-80 bg-gradient-to-r from-green-600 to-teal-600">
-        <img 
+        <img loading="lazy" 
           src="https://images.unsplash.com/photo-1452780212940-6f5c0d14d848?w=1600" 
           alt="相机选购" 
           className="w-full h-full object-cover opacity-30"

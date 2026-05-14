@@ -15,7 +15,7 @@ export default function VivoX100ProPage() {
       <Navbar />
 
       <div className="relative h-64 md:h-80 bg-gradient-to-r from-green-600 to-emerald-500">
-        <img 
+        <img loading="lazy" 
           src="https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?w=1600" 
           alt="vivo X100 Pro" 
           className="w-full h-full object-cover opacity-30"

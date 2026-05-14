@@ -16,7 +16,7 @@ export default function BestVlogCamerasPage() {
       <Navbar />
 
       <div className="relative h-64 md:h-80 bg-gradient-to-r from-pink-600 to-rose-600">
-        <img 
+        <img loading="lazy" 
           src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=1600" 
           alt="Vlog相机" 
           className="w-full h-full object-cover opacity-30"

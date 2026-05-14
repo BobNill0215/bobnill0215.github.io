@@ -15,7 +15,7 @@ export default function VlogKitPage() {
       <Navbar />
 
       <div className="relative h-64 md:h-80 bg-gradient-to-r from-teal-600 to-cyan-500">
-        <img 
+        <img loading="lazy" 
           src="https://images.unsplash.com/photo-1598387846419-c0afb8cb6bcd?w=1600" 
           alt="Vlog配件" 
           className="w-full h-full object-cover opacity-30"

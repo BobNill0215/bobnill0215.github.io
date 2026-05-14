@@ -15,7 +15,7 @@ export default function GoproHero13Page() {
       <Navbar />
 
       <div className="relative h-64 md:h-80 bg-gradient-to-r from-orange-500 to-red-500">
-        <img 
+        <img loading="lazy" 
           src="https://images.unsplash.com/photo-1601599561213-832382fd07ba?w=1600" 
           alt="GoPro Hero 13" 
           className="w-full h-full object-cover opacity-30"

@@ -149,7 +149,7 @@ export default function Home() {
           <div className="lg:col-span-2">
             <Link href={featuredReview.href} className="group block relative overflow-hidden rounded-xl">
               <div className="relative h-96 md:h-[500px]">
-                <img 
+                <img loading="lazy" 
                   src={featuredReview.image} 
                   alt={featuredReview.title} 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" 
@@ -174,7 +174,7 @@ export default function Home() {
             {latestReviews.map((review, index) => (
               <Link key={index} href={review.href} className="group flex gap-4 p-3 rounded-lg hover:bg-gray-50">
                 <div className="relative w-24 h-20 flex-shrink-0 overflow-hidden rounded-lg">
-                  <img src={review.image} alt={review.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform" />
+                  <img loading="lazy" src={review.image} alt={review.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform" />
                 </div>
                 <div className="flex-1 min-w-0">
                   <h3 className="font-medium text-gray-900 text-sm mb-1 line-clamp-2 group-hover:text-blue-600">{review.title}</h3>
@@ -213,7 +213,7 @@ export default function Home() {
               <Link key={index} href={guide.href} className="group">
                 <article className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
                   <div className="relative h-40 overflow-hidden">
-                    <img 
+                    <img loading="lazy" 
                       src={guide.image} 
                       alt={guide.title} 
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" 
@@ -244,7 +244,7 @@ export default function Home() {
             <Link key={index} href={cat.href} className="group">
               <article className="bg-white rounded-xl shadow-sm overflow-hidden hover:shadow-lg transition-shadow">
                 <div className="relative h-32 overflow-hidden">
-                  <img src={cat.image} alt={cat.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                  <img loading="lazy" src={cat.image} alt={cat.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
                   {cat.badge && (
                     <span className="absolute top-2 right-2 bg-red-500 text-white text-xs font-medium px-2 py-0.5 rounded-full">

@@ -15,7 +15,7 @@ export default function NikonZ8Page() {
       <Navbar />
 
       <div className="relative h-64 md:h-80 bg-gradient-to-r from-blue-600 to-indigo-500">
-        <img 
+        <img loading="lazy" 
           src="https://images.unsplash.com/photo-1510127034890-ba27508e9f1c?w=1600" 
           alt="尼康 Z8" 
           className="w-full h-full object-cover opacity-30"

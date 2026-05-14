@@ -15,7 +15,7 @@ export default function Insta360X4Page() {
       <Navbar />
 
       <div className="relative h-64 md:h-80 bg-gradient-to-r from-orange-500 to-red-500">
-        <img 
+        <img loading="lazy" 
           src="https://images.unsplash.com/photo-1564463836146-4e30522c298c?w=1600" 
           alt="Insta360 X4" 
           className="w-full h-full object-cover opacity-30"

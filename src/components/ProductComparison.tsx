@@ -31,7 +31,7 @@ export default function ProductComparison({
               >
                 <div className="flex flex-col items-center">
                   <div className="w-20 h-20 relative mb-2">
-                    <img
+                    <img loading="lazy"
                       src={product.image}
                       alt={product.name}
                       className="w-full h-full object-contain"

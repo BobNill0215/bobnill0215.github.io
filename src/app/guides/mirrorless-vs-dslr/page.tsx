@@ -16,7 +16,7 @@ export default function MirrorlessVsDSLRPage() {
       <Navbar />
 
       <div className="relative h-64 md:h-80 bg-gradient-to-r from-purple-600 to-indigo-600">
-        <img 
+        <img loading="lazy" 
           src="https://images.unsplash.com/photo-1516724562728-afc824a36e84?w=1600" 
           alt="微单vs单反" 
           className="w-full h-full object-cover opacity-30"

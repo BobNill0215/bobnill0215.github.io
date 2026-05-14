@@ -3,6 +3,7 @@
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import AdPlaceholder from '@/components/AdPlaceholder';
+import Breadcrumb from '@/components/Breadcrumb';
 import { MessageSquare, ExternalLink, Bug, Lightbulb, HelpCircle, Mail } from 'lucide-react';
 
 const GOOGLE_FORM_URL = 'https://docs.google.com/forms/d/e/1FAIpQLScjyHa2VgyamhnrPdeaz7WA5CZmg-2_aDMwwoF3ZNMguFB-FA/viewform?usp=pp_url';
@@ -18,6 +19,7 @@ export default function FeedbackPage() {
             <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
               <MessageSquare className="w-8 h-8" />
             </div>
+            <Breadcrumb items={[{ label: '反馈中心' }]} />
             <h1 className="text-3xl md:text-4xl font-bold mb-2">反馈中心</h1>
             <p className="text-lg text-blue-100">帮助我们改进，为您提供更好的服务</p>
           </div>

@@ -123,7 +123,7 @@ export default function BestActionCamerasPage() {
                 <div key={index} className="bg-white border rounded-lg overflow-hidden">
                   <div className="md:flex">
                     <div className="md:w-1/3">
-                      <img src={camera.image} alt={camera.name} className="w-full h-48 object-cover" />
+                      <img loading="lazy" src={camera.image} alt={camera.name} className="w-full h-48 object-cover" />
                     </div>
                     <div className="md:w-2/3 p-4">
                       <div className="flex justify-between items-start mb-2">

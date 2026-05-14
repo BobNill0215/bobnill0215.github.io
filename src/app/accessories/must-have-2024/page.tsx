@@ -15,7 +15,7 @@ export default function MustHave2024Page() {
       <Navbar />
 
       <div className="relative h-64 md:h-80 bg-gradient-to-r from-teal-600 to-cyan-500">
-        <img 
+        <img loading="lazy" 
           src="https://images.unsplash.com/photo-1617005082133-548c4dd27f35?w=1600" 
           alt="相机配件" 
           className="w-full h-full object-cover opacity-30"

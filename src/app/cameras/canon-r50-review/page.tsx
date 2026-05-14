@@ -15,7 +15,7 @@ export default function CanonR50Page() {
       <Navbar />
 
       <div className="relative h-64 md:h-80 bg-gradient-to-r from-blue-600 to-indigo-500">
-        <img 
+        <img loading="lazy" 
           src="https://images.unsplash.com/photo-1604168648028-2f1ed4a4b4e8?w=1600" 
           alt="佳能 EOS R50" 
           className="w-full h-full object-cover opacity-30"

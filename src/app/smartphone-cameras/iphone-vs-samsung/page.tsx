@@ -15,7 +15,7 @@ export default function IphoneVsSamsungPage() {
       <Navbar />
 
       <div className="relative h-64 md:h-80 bg-gradient-to-r from-green-600 to-emerald-500">
-        <img 
+        <img loading="lazy" 
           src="https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=1600" 
           alt="iPhone vs 三星" 
           className="w-full h-full object-cover opacity-30"

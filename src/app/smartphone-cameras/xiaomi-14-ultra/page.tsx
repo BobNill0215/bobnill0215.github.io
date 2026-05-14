@@ -15,7 +15,7 @@ export default function Xiaomi14UltraPage() {
       <Navbar />
 
       <div className="relative h-64 md:h-80 bg-gradient-to-r from-green-600 to-emerald-500">
-        <img 
+        <img loading="lazy" 
           src="https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?w=1600" 
           alt="小米 14 Ultra" 
           className="w-full h-full object-cover opacity-30"
