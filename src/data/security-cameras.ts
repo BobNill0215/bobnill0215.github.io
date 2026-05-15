@@ -20,7 +20,8 @@ export interface SecurityCamera {
 export const securityCamerasData: SecurityCamera[] = [
   {
     id: 'hikvision-c6c',
-    name: '萤石 C6CN',
+    image: 'https://www.ezviz.com/product/c6cn',
+  name: '萤石 C6CN',
     brand: '萤石 (EZVIZ)',
     type: 'indoor',
     releaseDate: '2026-05',
@@ -36,7 +37,8 @@ export const securityCamerasData: SecurityCamera[] = [
   },
   {
     id: 'hikvision-c6cn-4mp',
-    name: '萤石 C6CN 4MP',
+    image: 'https://www.ezviz.com/product/c6cn',
+  name: '萤石 C6CN 4MP',
     brand: '萤石 (EZVIZ)',
     type: 'indoor',
     releaseDate: '2026-05',
@@ -52,7 +54,8 @@ export const securityCamerasData: SecurityCamera[] = [
   },
   {
     id: 'xiaomi-c400',
-    name: '小米 智能摄像机 C400',
+    image: 'https://www.mi.com/smart-camera-c400',
+  name: '小米 智能摄像机 C400',
     brand: '小米',
     type: 'indoor',
     releaseDate: '2026-05',
@@ -68,7 +71,8 @@ export const securityCamerasData: SecurityCamera[] = [
   },
   {
     id: 'xiaomi-mjjsq05py',
-    name: '小米 智能摄像机 云台版 Q5CY',
+    image: 'https://www.mi.com/smart-camera-q5cy',
+  name: '小米 智能摄像机 云台版 Q5CY',
     brand: '小米',
     type: 'indoor',
     releaseDate: '2026-05',
@@ -84,7 +88,8 @@ export const securityCamerasData: SecurityCamera[] = [
   },
   {
     id: 'hikvision-c3w',
-    name: '萤石 C3W',
+    image: 'https://www.ezviz.com/product/c3w',
+  name: '萤石 C3W',
     brand: '萤石 (EZVIZ)',
     type: 'outdoor',
     releaseDate: '2024-01',
@@ -100,7 +105,8 @@ export const securityCamerasData: SecurityCamera[] = [
   },
   {
     id: 'hikvision-c3tn',
-    name: '萤石 C3TN',
+    image: 'https://www.ezviz.com/product/c3tn',
+  name: '萤石 C3TN',
     brand: '萤石 (EZVIZ)',
     type: 'outdoor',
     releaseDate: '2026-05',
@@ -116,7 +122,8 @@ export const securityCamerasData: SecurityCamera[] = [
   },
   {
     id: 'hikvision-c3a-4mp',
-    name: '萤石 C3A 4MP',
+    image: 'https://www.ezviz.com/product/c3a',
+  name: '萤石 C3A 4MP',
     brand: '萤石 (EZVIZ)',
     type: 'outdoor',
     releaseDate: '2026-05',
@@ -132,7 +139,8 @@ export const securityCamerasData: SecurityCamera[] = [
   },
   {
     id: '360-p8',
-    name: '360 智能摄像机 P8',
+    image: 'https://www.360.cn/smart-camera-p8',
+  name: '360 智能摄像机 P8',
     brand: '360',
     type: 'indoor',
     releaseDate: '2024-04',
@@ -148,7 +156,8 @@ export const securityCamerasData: SecurityCamera[] = [
   },
   {
     id: '360-outdoor-p5',
-    name: '360 户外版 P5',
+    image: 'https://www.360.cn/outdoor-p5',
+  name: '360 户外版 P5',
     brand: '360',
     type: 'outdoor',
     releaseDate: '2026-05',
@@ -164,7 +173,8 @@ export const securityCamerasData: SecurityCamera[] = [
   },
   {
     id: 'tp-link-tapo-c310',
-    name: 'TP-Link Tapo C310',
+    image: 'https://static.tp-link.com/upload/product/Tapo_C310_V2/overview/Tapo_C310_V2_01_L.jpg',
+  name: 'TP-Link Tapo C310',
     brand: 'TP-Link',
     type: 'outdoor',
     releaseDate: '2023-06',
@@ -180,7 +190,8 @@ export const securityCamerasData: SecurityCamera[] = [
   },
   {
     id: 'tp-link-tapo-c325wb',
-    name: 'TP-Link Tapo C325WB',
+    image: 'https://static.tp-link.com/upload/product/Tapo_C325WB/overview/Tapo_C325WB_01_L.jpg',
+  name: 'TP-Link Tapo C325WB',
     brand: 'TP-Link',
     type: 'outdoor',
     releaseDate: '2026-05',
@@ -196,7 +207,8 @@ export const securityCamerasData: SecurityCamera[] = [
   },
   {
     id: 'xiaomi-bw300',
-    name: '小米 智能摄像机 BW300',
+    image: 'https://www.mi.com/smart-camera-bw300',
+  name: '小米 智能摄像机 BW300',
     brand: '小米',
     type: 'outdoor',
     releaseDate: '2026-05',
@@ -212,7 +224,8 @@ export const securityCamerasData: SecurityCamera[] = [
   },
   {
     id: 'xiaomi-aw300',
-    name: '小米 智能摄像机 AW300',
+    image: 'https://www.mi.com/smart-camera-aw300',
+  name: '小米 智能摄像机 AW300',
     brand: '小米',
     type: 'outdoor',
     releaseDate: '2026-05',
@@ -228,7 +241,8 @@ export const securityCamerasData: SecurityCamera[] = [
   },
   {
     id: 'hikvision-dscd1',
-    name: '萤石 智能可视门铃 E6',
+    image: 'https://www.ezviz.com/product/e6',
+  name: '萤石 智能可视门铃 E6',
     brand: '萤石 (EZVIZ)',
     type: 'doorbell',
     releaseDate: '2024-04',
@@ -244,7 +258,8 @@ export const securityCamerasData: SecurityCamera[] = [
   },
   {
     id: 'xiaomi-dw5',
-    name: '小米 智能门铃 5',
+    image: 'https://www.mi.com/smart-doorbell-5',
+  name: '小米 智能门铃 5',
     brand: '小米',
     type: 'doorbell',
     releaseDate: '2026-05',
@@ -260,7 +275,8 @@ export const securityCamerasData: SecurityCamera[] = [
   },
   {
     id: 'hikvision-solar-4g',
-    name: '萤石 4G太阳能摄像机',
+    image: 'https://www.ezviz.com/product/solar-4g',
+  name: '萤石 4G太阳能摄像机',
     brand: '萤石 (EZVIZ)',
     type: 'solar',
     releaseDate: '2026-05',
@@ -276,7 +292,8 @@ export const securityCamerasData: SecurityCamera[] = [
   },
   {
     id: 'xiaomi-solar-bw500',
-    name: '小米 太阳能摄像机 BW500',
+    image: 'https://www.mi.com/solar-camera-bw500',
+  name: '小米 太阳能摄像机 BW500',
     brand: '小米',
     type: 'solar',
     releaseDate: '2026-05',
@@ -292,7 +309,8 @@ export const securityCamerasData: SecurityCamera[] = [
   },
   {
     id: 'tp-link-tapo-c510w',
-    name: 'TP-Link Tapo C510W',
+    image: 'https://static.tp-link.com/upload/product/Tapo_C510W/overview/Tapo_C510W_01_L.jpg',
+  name: 'TP-Link Tapo C510W',
     brand: 'TP-Link',
     type: 'outdoor',
     releaseDate: '2026-05',
@@ -308,7 +326,8 @@ export const securityCamerasData: SecurityCamera[] = [
   },
   {
     id: 'ezviz-cb2',
-    name: '萤石 CB2 智能门铃',
+    image: 'https://www.ezviz.com/product/cb2',
+  name: '萤石 CB2 智能门铃',
     brand: '萤石 (EZVIZ)',
     type: 'doorbell',
     releaseDate: '2026-05',
@@ -324,7 +343,8 @@ export const securityCamerasData: SecurityCamera[] = [
   },
   {
     id: '360-p9',
-    name: '360 智能摄像机 P9',
+    image: 'https://www.360.cn/smart-camera-p9',
+  name: '360 智能摄像机 P9',
     brand: '360',
     type: 'indoor',
     releaseDate: '2024-01',
@@ -341,7 +361,8 @@ export const securityCamerasData: SecurityCamera[] = [
 
   {
     id: 'hikvision-ds-2cd2387g2-lu',
-    name: 'Hikvision DS-2CD2387G2-LU',
+    image: 'https://www.hikvision.com/upload/image/DS-2CD2387G2-LU.png',
+  name: 'Hikvision DS-2CD2387G2-LU',
     brand: 'Hikvision',
     type: 'indoor',
     releaseDate: '2020-04',
@@ -357,7 +378,8 @@ export const securityCamerasData: SecurityCamera[] = [
   },
   {
     id: 'dahua-ipc-hdw3849hp-as',
-    name: 'Dahua IPC-HDW3849HP-AS',
+    image: 'https://www.dahuasecurity.com/upload/image/IPC-HDW3849HP-AS.png',
+  name: 'Dahua IPC-HDW3849HP-AS',
     brand: 'Dahua',
     type: 'outdoor',
     releaseDate: '2021-04',
@@ -373,7 +395,8 @@ export const securityCamerasData: SecurityCamera[] = [
   },
   {
     id: 'ezviz-c8w-pro',
-    name: 'EZVIZ C8W Pro',
+    image: 'https://www.ezviz.com/product/c8w-pro',
+  name: 'EZVIZ C8W Pro',
     brand: 'EZVIZ',
     type: 'doorbell',
     releaseDate: '2022-04',
@@ -389,7 +412,8 @@ export const securityCamerasData: SecurityCamera[] = [
   },
   {
     id: 'xiaomi-c700',
-    name: 'Xiaomi C700',
+    image: 'https://www.mi.com/smart-camera-c700',
+  name: 'Xiaomi C700',
     brand: 'Xiaomi',
     type: 'solar',
     releaseDate: '2026-05',
@@ -405,7 +429,8 @@ export const securityCamerasData: SecurityCamera[] = [
   },
   {
     id: 'tp-link-tapo-c200',
-    name: 'TP-Link Tapo C200',
+    image: 'https://static.tp-link.com/upload/product/Tapo_C200/overview/Tapo_C200_01_L.jpg',
+  name: 'TP-Link Tapo C200',
     brand: 'TP-Link',
     type: 'indoor',
     releaseDate: '2026-05',
@@ -421,7 +446,8 @@ export const securityCamerasData: SecurityCamera[] = [
   },
   {
     id: 'ring-stick-up-cam-5mp',
-    name: 'Ring Stick Up Cam 5MP',
+    image: 'https://ring.com/products/stick-up-cam',
+  name: 'Ring Stick Up Cam 5MP',
     brand: 'Ring',
     type: 'outdoor',
     releaseDate: '2026-05',
@@ -437,7 +463,8 @@ export const securityCamerasData: SecurityCamera[] = [
   },
   {
     id: 'arlo-ultra-2',
-    name: 'Arlo Ultra 2',
+    image: 'https://www.arlo.com/en-us/products/arlo-ultra-2',
+  name: 'Arlo Ultra 2',
     brand: 'Arlo',
     type: 'doorbell',
     releaseDate: '2020-12',
@@ -453,7 +480,8 @@ export const securityCamerasData: SecurityCamera[] = [
   },
   {
     id: 'google-nest-cam-iq-outdoor',
-    name: 'Google Nest Cam IQ Outdoor',
+    image: 'https://store.google.com/product/nest_cam_iq_outdoor',
+  name: 'Google Nest Cam IQ Outdoor',
     brand: 'Google Nest',
     type: 'solar',
     releaseDate: '2021-03',
@@ -469,7 +497,8 @@ export const securityCamerasData: SecurityCamera[] = [
   },
   {
     id: 'annke-nc800',
-    name: 'Annke NC800',
+    image: 'https://www.annke.com/products/nc800',
+  name: 'Annke NC800',
     brand: 'Annke',
     type: 'indoor',
     releaseDate: '2022-12',
@@ -485,7 +514,8 @@ export const securityCamerasData: SecurityCamera[] = [
   },
   {
     id: 'reolink-rlc-811a',
-    name: 'Reolink RLC-811A',
+    image: 'https://reolink.com/product/rlc-811a',
+  name: 'Reolink RLC-811A',
     brand: 'Reolink',
     type: 'outdoor',
     releaseDate: '2023-04',
@@ -501,7 +531,8 @@ export const securityCamerasData: SecurityCamera[] = [
   },
   {
     id: 'uniview-ipc2324sb',
-    name: 'Uniview IPC2324SB',
+    image: 'https://en.uniview.com/product/IPC2324SB',
+  name: 'Uniview IPC2324SB',
     brand: 'Uniview',
     type: 'doorbell',
     releaseDate: '2026-05',
@@ -517,7 +548,8 @@ export const securityCamerasData: SecurityCamera[] = [
   },
   {
     id: 'bosch-flexidome-ip-8000',
-    name: 'Bosch FLEXIDOME IP 8000',
+    image: 'https://www.boschsecurity.com/flexidome-ip-8000',
+  name: 'Bosch FLEXIDOME IP 8000',
     brand: 'Bosch',
     type: 'solar',
     releaseDate: '2026-05',
@@ -533,7 +565,8 @@ export const securityCamerasData: SecurityCamera[] = [
   },
   {
     id: 'hikvision-ds-2cd2347g2-lu',
-    name: 'Hikvision DS-2CD2347G2-LU',
+    image: 'https://www.hikvision.com/upload/image/DS-2CD2347G2-LU.png',
+  name: 'Hikvision DS-2CD2347G2-LU',
     brand: 'Hikvision',
     type: 'indoor',
     releaseDate: '2020-07',
@@ -549,7 +582,8 @@ export const securityCamerasData: SecurityCamera[] = [
   },
   {
     id: 'dahua-ipc-hdw2849hp-as',
-    name: 'Dahua IPC-HDW2849HP-AS',
+    image: 'https://www.dahuasecurity.com/upload/image/IPC-HDW2849HP-AS.png',
+  name: 'Dahua IPC-HDW2849HP-AS',
     brand: 'Dahua',
     type: 'outdoor',
     releaseDate: '2021-01',
@@ -565,7 +599,8 @@ export const securityCamerasData: SecurityCamera[] = [
   },
   {
     id: 'ezviz-c8c',
-    name: 'EZVIZ C8C',
+    image: 'https://www.ezviz.com/product/c8c',
+  name: 'EZVIZ C8C',
     brand: 'EZVIZ',
     type: 'doorbell',
     releaseDate: '2022-12',
@@ -581,7 +616,8 @@ export const securityCamerasData: SecurityCamera[] = [
   },
   {
     id: 'xiaomi-c500',
-    name: 'Xiaomi C500',
+    image: 'https://www.mi.com/smart-camera-c500',
+  name: 'Xiaomi C500',
     brand: 'Xiaomi',
     type: 'solar',
     releaseDate: '2026-05',
@@ -597,7 +633,8 @@ export const securityCamerasData: SecurityCamera[] = [
   },
   {
     id: 'tp-link-tapo-c210',
-    name: 'TP-Link Tapo C210',
+    image: 'https://static.tp-link.com/upload/product/Tapo_C210/overview/Tapo_C210_01_L.jpg',
+  name: 'TP-Link Tapo C210',
     brand: 'TP-Link',
     type: 'indoor',
     releaseDate: '2026-05',
@@ -613,7 +650,8 @@ export const securityCamerasData: SecurityCamera[] = [
   },
   {
     id: 'ring-indoor-cam-2k',
-    name: 'Ring Indoor Cam 2K',
+    image: 'https://ring.com/products/indoor-cam-2k',
+  name: 'Ring Indoor Cam 2K',
     brand: 'Ring',
     type: 'outdoor',
     releaseDate: '2026-05',
@@ -629,7 +667,8 @@ export const securityCamerasData: SecurityCamera[] = [
   },
   {
     id: 'arlo-pro-5',
-    name: 'Arlo Pro 5',
+    image: 'https://www.arlo.com/en-us/products/arlo-pro-5',
+  name: 'Arlo Pro 5',
     brand: 'Arlo',
     type: 'doorbell',
     releaseDate: '2020-01',
@@ -645,7 +684,8 @@ export const securityCamerasData: SecurityCamera[] = [
   },
   {
     id: 'google-nest-cam-iq-indoor',
-    name: 'Google Nest Cam IQ Indoor',
+    image: 'https://store.google.com/product/nest_cam_iq_indoor',
+  name: 'Google Nest Cam IQ Indoor',
     brand: 'Google Nest',
     type: 'solar',
     releaseDate: '2021-08',
@@ -661,7 +701,8 @@ export const securityCamerasData: SecurityCamera[] = [
   },
   {
     id: 'annke-nc500',
-    name: 'Annke NC500',
+    image: 'https://www.annke.com/products/nc500',
+  name: 'Annke NC500',
     brand: 'Annke',
     type: 'indoor',
     releaseDate: '2022-07',
@@ -677,7 +718,8 @@ export const securityCamerasData: SecurityCamera[] = [
   },
   {
     id: 'reolink-rlc-810a',
-    name: 'Reolink RLC-810A',
+    image: 'https://reolink.com/product/rlc-810a',
+  name: 'Reolink RLC-810A',
     brand: 'Reolink',
     type: 'outdoor',
     releaseDate: '2026-05',
@@ -693,7 +735,8 @@ export const securityCamerasData: SecurityCamera[] = [
   },
   {
     id: 'uniview-ipc2314sb',
-    name: 'Uniview IPC2314SB',
+    image: 'https://en.uniview.com/product/IPC2314SB',
+  name: 'Uniview IPC2314SB',
     brand: 'Uniview',
     type: 'doorbell',
     releaseDate: '2026-05',
@@ -709,7 +752,8 @@ export const securityCamerasData: SecurityCamera[] = [
   },
   {
     id: 'bosch-flexidome-ip-7000',
-    name: 'Bosch FLEXIDOME IP 7000',
+    image: 'https://www.boschsecurity.com/flexidome-ip-7000',
+  name: 'Bosch FLEXIDOME IP 7000',
     brand: 'Bosch',
     type: 'solar',
     releaseDate: '2026-05',
@@ -725,7 +769,8 @@ export const securityCamerasData: SecurityCamera[] = [
   },
   {
     id: 'hikvision-ds-2cd2386g2-i',
-    name: 'Hikvision DS-2CD2386G2-I',
+    image: 'https://www.hikvision.com/upload/image/DS-2CD2386G2-I.png',
+  name: 'Hikvision DS-2CD2386G2-I',
     brand: 'Hikvision',
     type: 'indoor',
     releaseDate: '2020-07',
@@ -741,7 +786,8 @@ export const securityCamerasData: SecurityCamera[] = [
   },
   {
     id: 'dahua-ipc-hdw2549hp-as',
-    name: 'Dahua IPC-HDW2549HP-AS',
+    image: 'https://www.dahuasecurity.com/upload/image/IPC-HDW2549HP-AS.png',
+  name: 'Dahua IPC-HDW2549HP-AS',
     brand: 'Dahua',
     type: 'outdoor',
     releaseDate: '2021-07',
@@ -757,7 +803,8 @@ export const securityCamerasData: SecurityCamera[] = [
   },
   {
     id: 'ezviz-c6w-4mp',
-    name: 'EZVIZ C6W 4MP',
+    image: 'https://www.ezviz.com/product/c6w',
+  name: 'EZVIZ C6W 4MP',
     brand: 'EZVIZ',
     type: 'doorbell',
     releaseDate: '2022-07',
@@ -773,7 +820,8 @@ export const securityCamerasData: SecurityCamera[] = [
   },
   {
     id: 'xiaomi-c300',
-    name: 'Xiaomi C300',
+    image: 'https://www.mi.com/smart-camera-c300',
+  name: 'Xiaomi C300',
     brand: 'Xiaomi',
     type: 'solar',
     releaseDate: '2023-04',
@@ -789,7 +837,8 @@ export const securityCamerasData: SecurityCamera[] = [
   },
   {
     id: 'tp-link-tapo-c310',
-    name: 'TP-Link Tapo C310',
+    image: 'https://static.tp-link.com/upload/product/Tapo_C310_V2/overview/Tapo_C310_V2_01_L.jpg',
+  name: 'TP-Link Tapo C310',
     brand: 'TP-Link',
     type: 'indoor',
     releaseDate: '2024-01',
@@ -805,7 +854,8 @@ export const securityCamerasData: SecurityCamera[] = [
   },
   {
     id: 'ring-spotlight-cam-plus',
-    name: 'Ring Spotlight Cam Plus',
+    image: 'https://ring.com/products/spotlight-cam-plus',
+  name: 'Ring Spotlight Cam Plus',
     brand: 'Ring',
     type: 'outdoor',
     releaseDate: '2026-05',

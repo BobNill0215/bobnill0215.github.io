@@ -1,4 +1,4 @@
-export interface CameraSpec {
+﻿export interface CameraSpec {
   megapixels: string;
   sensorType: string;
   iso: string;
@@ -33,6 +33,7 @@ export const camerasData: Camera[] = [
     id: 'canon-eos-r6v',
     name: 'Canon EOS R6 V',
     brand: 'Canon',
+    image: 'https://cdn.media.amplience.net/i/canon/eos-r6v_ambient_full-frame-senor_0984_f121bf1008e64178aea8329c827c6d2c?$flex-product-hero-4by3-dt-jpg$',
     releaseDate: '2026-05',
     price: '¥18,999',
     sensor: {
@@ -58,6 +59,7 @@ export const camerasData: Camera[] = [
     id: 'sony-a7v',
     name: 'Sony A7 V',
     brand: 'Sony',
+    image: 'https://www.sony.co.uk/image/921c7202d895631a44388842d0a4622b?fmt=pjpeg&bgcolor=FFFFFF&bgc=FFFFFF&wid=2515&hei=1320',
     releaseDate: '2025-12',
     price: '¥15,999',
     sensor: {
@@ -83,6 +85,7 @@ export const camerasData: Camera[] = [
     id: 'canon-eos-r6iii',
     name: 'Canon EOS R6 Mark III',
     brand: 'Canon',
+    image: 'https://cdn.media.amplience.net/i/canon/eos-r6-mark-iii_hero_6e6734dcfbca48ad807877dd9d944764',
     releaseDate: '2025-11',
     price: '¥19,999',
     sensor: {
@@ -108,6 +111,7 @@ export const camerasData: Camera[] = [
     id: 'nikon-z6iii',
     name: 'Nikon Z6 III',
     brand: 'Nikon',
+    image: 'https://www.nikon.co.uk/globalassets/digizuite/175815-en-z8_24-120_4_front-v7A0488714A83.png',
     releaseDate: '2024-06',
     price: '¥13,999',
     sensor: {
@@ -133,6 +137,7 @@ export const camerasData: Camera[] = [
     id: 'nikon-z70200-f28-vr-s-ii',
     name: 'Nikon Z 70-200mm f/2.8 VR S II',
     brand: 'Nikon',
+    image: 'https://www.nikon.co.uk/globalassets/digizuite/175815-en-z8_24-120_4_front-v7A0488714A83.png',
     releaseDate: '2026-02',
     price: '¥16,999',
     sensor: {
@@ -158,6 +163,7 @@ export const camerasData: Camera[] = [
     id: 'sony-a7rv',
     name: 'Sony A7R V',
     brand: 'Sony',
+    image: 'https://sony.scene7.com/is/image/sonyglobalsolutions/og-2?$S7Product$&fmt=png-alpha',
     releaseDate: '2022-10',
     price: '¥23,999',
     sensor: {
@@ -183,6 +189,7 @@ export const camerasData: Camera[] = [
     id: 'nikon-z8',
     name: 'Nikon Z8',
     brand: 'Nikon',
+    image: 'https://www.nikon.co.uk/globalassets/digizuite/175815-en-z8_24-120_4_front-v7A0488714A83.png',
     releaseDate: '2023-05',
     price: '¥26,999',
     sensor: {
@@ -208,6 +215,7 @@ export const camerasData: Camera[] = [
     id: 'canon-eos-r5ii',
     name: 'Canon EOS R5 II',
     brand: 'Canon',
+    image: 'https://cdn.media.amplience.net/i/canon/eos-r5-mark-ii_lifestyle_35_hero_2_287d914f86ed47ddb9704796be1a2035',
     releaseDate: '2024-07',
     price: '¥27,999',
     sensor: {
@@ -233,6 +241,7 @@ export const camerasData: Camera[] = [
     id: 'fuji-xt5',
     name: 'Fujifilm X-T5',
     brand: 'Fujifilm',
+    image: 'https://fujifilm-x.com/wp-content/themes/fujifilm-x2019/assets/images/products/cameras/x-t5/og-image.jpg',
     releaseDate: '2022-11',
     price: '¥10,499',
     sensor: {
@@ -258,6 +267,7 @@ export const camerasData: Camera[] = [
     id: 'sony-a1ii',
     name: 'Sony A1 II',
     brand: 'Sony',
+    image: 'https://sony.scene7.com/is/image/sonyglobalsolutions/og-2?$S7Product$&fmt=png-alpha',
     releaseDate: '2024-11',
     price: '¥48,999',
     sensor: {
@@ -283,6 +293,7 @@ export const camerasData: Camera[] = [
     id: 'nikon-z9',
     name: 'Nikon Z9',
     brand: 'Nikon',
+    image: 'https://www.nikon.co.uk/globalassets/digizuite/175815-en-z8_24-120_4_front-v7A0488714A83.png',
     releaseDate: '2021-12',
     price: '¥35,999',
     sensor: {
@@ -308,6 +319,7 @@ export const camerasData: Camera[] = [
     id: 'sony-a9iii',
     name: 'Sony A9 III',
     brand: 'Sony',
+    image: 'https://sony.scene7.com/is/image/sonyglobalsolutions/og-2?$S7Product$&fmt=png-alpha',
     releaseDate: '2023-11',
     price: '¥36,999',
     sensor: {
@@ -333,6 +345,7 @@ export const camerasData: Camera[] = [
     id: 'sony-a7c-ii',
     name: 'Sony A7C II',
     brand: 'Sony',
+    image: 'https://sony.scene7.com/is/image/sonyglobalsolutions/og-2?$S7Product$&fmt=png-alpha',
     releaseDate: '2023-08',
     price: '¥11,999',
     sensor: {
@@ -358,6 +371,7 @@ export const camerasData: Camera[] = [
     id: 'nikon-z50ii',
     name: 'Nikon Z50 II',
     brand: 'Nikon',
+    image: 'https://www.nikon.co.uk/globalassets/digizuite/175815-en-z8_24-120_4_front-v7A0488714A83.png',
     releaseDate: '2024-11',
     price: '¥6,999',
     sensor: {
@@ -383,6 +397,7 @@ export const camerasData: Camera[] = [
     id: 'fuji-gfx100sii',
     name: 'Fujifilm GFX 100S II',
     brand: 'Fujifilm',
+    image: 'https://fujifilm-x.com/wp-content/themes/fujifilm-x2019/assets/images/products/cameras/gfx100sii/og-image.jpg',
     releaseDate: '2024-05',
     price: '¥29,999',
     sensor: {
@@ -408,6 +423,7 @@ export const camerasData: Camera[] = [
     id: 'canon-eos-r7',
     name: 'Canon EOS R7',
     brand: 'Canon',
+    image: 'https://cdn.media.amplience.net/i/canon/eos-r7-frt_range-module_d943cd926f434f6388df5e8dc4a01d05',
     releaseDate: '2022-05',
     price: '¥7,999',
     sensor: {
@@ -433,6 +449,7 @@ export const camerasData: Camera[] = [
     id: 'ricoh-gr-iv-mono',
     name: 'Ricoh GR IV Monochrome',
     brand: 'Ricoh',
+    image: 'https://www.ricoh-imaging.co.jp/english/products/gr-iii/img/og.jpg',
     releaseDate: '2026-01',
     price: '¥7,999',
     sensor: {
@@ -458,6 +475,7 @@ export const camerasData: Camera[] = [
     id: 'sigma-35mm-f14-dg-ii',
     name: 'Sigma 35mm f/1.4 DG II Art',
     brand: 'Sigma',
+    image: 'https://www.sigma-global.com/en/products/lenses/art/35mm-f14-dg-dn/img/og.jpg',
     releaseDate: '2026-04',
     price: '¥7,500',
     sensor: {
@@ -483,6 +501,7 @@ export const camerasData: Camera[] = [
     id: 'leica-noctilux-35f12',
     name: 'Leica Noctilux-M 35 f/1.2 ASPH',
     brand: 'Leica',
+    image: 'https://leica-camera.com/sites/default/files/og-images/noctilux-35-og-image.jpg',
     releaseDate: '2026-01',
     price: '¥70,000',
     sensor: {
@@ -508,6 +527,7 @@ export const camerasData: Camera[] = [
     id: 'panasonic-s5ii',
     name: 'Panasonic Lumix S5 II',
     brand: 'Panasonic',
+    image: 'https://shop.panasonic.com/cdn/shop/products/S5II_Lifestyle_01_sfw_2048x.jpg',
     releaseDate: '2023-01',
     price: '¥9,999',
     sensor: {
@@ -533,6 +553,7 @@ export const camerasData: Camera[] = [
     id: 'canon-eos-r8',
     name: 'Canon EOS R8',
     brand: 'Canon',
+    image: 'https://cdn.media.amplience.net/i/canon/eos-r5-mark-ii_lifestyle_35_hero_2_287d914f86ed47ddb9704796be1a2035',
     releaseDate: '2023-03',
     price: '¥7,499',
     sensor: {
@@ -558,6 +579,7 @@ export const camerasData: Camera[] = [
     id: 'canon-eos-r5',
     name: 'Canon EOS R5',
     brand: 'Canon',
+    image: 'https://cdn.media.amplience.net/i/canon/eos-r5_front_rf24-105mmf4lisusm_square_32c26ad194234d42b3cd9e582a21c99b',
     releaseDate: '2020-07',
     price: '¥25,999',
     sensor: {
@@ -583,6 +605,7 @@ export const camerasData: Camera[] = [
     id: 'canon-eos-r6',
     name: 'Canon EOS R6',
     brand: 'Canon',
+    image: 'https://cdn.media.amplience.net/i/canon/eos-r6-rf24-105mm-f4_7.1_is_stm_front-on_square_6412568cc0e7484b96bd55e43069a56c',
     releaseDate: '2020-07',
     price: '¥14,999',
     sensor: {
@@ -608,6 +631,7 @@ export const camerasData: Camera[] = [
     id: 'canon-eos-r3',
     name: 'Canon EOS R3',
     brand: 'Canon',
+    image: 'https://cdn.media.amplience.net/i/canon/eos-r3-frt_range-module_898d909798374ccbb03b3b372483336e',
     releaseDate: '2021-04',
     price: '¥36,999',
     sensor: {
@@ -633,6 +657,7 @@ export const camerasData: Camera[] = [
     id: 'canon-eos-r1',
     name: 'Canon EOS R1',
     brand: 'Canon',
+    image: 'https://cdn.media.amplience.net/i/canon/eos-r1_lifestyle_hero_close_up_photographer_with_product_chloe_knott_625614_84e52d10225a444f93c9db39b0afeaa7',
     releaseDate: '2024-08',
     price: '¥43,999',
     sensor: {
@@ -658,6 +683,7 @@ export const camerasData: Camera[] = [
     id: 'canon-eos-r10',
     name: 'Canon EOS R10',
     brand: 'Canon',
+    image: 'https://cdn.media.amplience.net/i/canon/eos-r7-frt_range-module_d943cd926f434f6388df5e8dc4a01d05',
     releaseDate: '2022-05',
     price: '¥5,999',
     sensor: {
@@ -683,6 +709,7 @@ export const camerasData: Camera[] = [
     id: 'sony-a7iv',
     name: 'Sony A7 IV',
     brand: 'Sony',
+    image: 'https://sony.scene7.com/is/image/sonyglobalsolutions/og-2?$S7Product$&fmt=png-alpha',
     releaseDate: '2021-10',
     price: '¥16,999',
     sensor: {
@@ -708,6 +735,7 @@ export const camerasData: Camera[] = [
     id: 'sony-a7siii',
     name: 'Sony A7S III',
     brand: 'Sony',
+    image: 'https://sony.scene7.com/is/image/sonyglobalsolutions/02_Primary_image-3?$S7Product$&fmt=png-alpha',
     releaseDate: '2020-07',
     price: '¥23,999',
     sensor: {
@@ -733,6 +761,7 @@ export const camerasData: Camera[] = [
     id: 'sony-fx3',
     name: 'Sony FX3',
     brand: 'Sony',
+    image: 'https://sony.scene7.com/is/image/sonyglobalsolutions/og-2?$S7Product$&fmt=png-alpha',
     releaseDate: '2021-02',
     price: '¥22,999',
     sensor: {
@@ -758,6 +787,7 @@ export const camerasData: Camera[] = [
     id: 'sony-fx6',
     name: 'Sony FX6',
     brand: 'Sony',
+    image: 'https://sony.scene7.com/is/image/sonyglobalsolutions/og-2?$S7Product$&fmt=png-alpha',
     releaseDate: '2020-11',
     price: '¥38,999',
     sensor: {
@@ -783,6 +813,7 @@ export const camerasData: Camera[] = [
     id: 'sony-zv-e1',
     name: 'Sony ZV-E1',
     brand: 'Sony',
+    image: 'https://sony.scene7.com/is/image/sonyglobalsolutions/og-2?$S7Product$&fmt=png-alpha',
     releaseDate: '2023-04',
     price: '¥9,999',
     sensor: {
@@ -808,6 +839,7 @@ export const camerasData: Camera[] = [
     id: 'sony-a6700',
     name: 'Sony A6700',
     brand: 'Sony',
+    image: 'https://sony.scene7.com/is/image/sonyglobalsolutions/og-2?$S7Product$&fmt=png-alpha',
     releaseDate: '2023-07',
     price: '¥8,999',
     sensor: {
@@ -833,6 +865,7 @@ export const camerasData: Camera[] = [
     id: 'sony-a7c',
     name: 'Sony A7C',
     brand: 'Sony',
+    image: 'https://sony.scene7.com/is/image/sonyglobalsolutions/og-2?$S7Product$&fmt=png-alpha',
     releaseDate: '2020-09',
     price: '¥9,999',
     sensor: {
@@ -858,6 +891,7 @@ export const camerasData: Camera[] = [
     id: 'nikon-z5',
     name: 'Nikon Z5',
     brand: 'Nikon',
+    image: 'https://www.nikon.co.uk/globalassets/digizuite/175815-en-z8_24-120_4_front-v7A0488714A83.png',
     releaseDate: '2020-08',
     price: '¥7,499',
     sensor: {
@@ -883,6 +917,7 @@ export const camerasData: Camera[] = [
     id: 'nikon-z6ii',
     name: 'Nikon Z6 II',
     brand: 'Nikon',
+    image: 'https://www.nikon.co.uk/globalassets/digizuite/175815-en-z8_24-120_4_front-v7A0488714A83.png',
     releaseDate: '2020-09',
     price: '¥13,999',
     sensor: {
@@ -908,6 +943,7 @@ export const camerasData: Camera[] = [
     id: 'nikon-z7ii',
     name: 'Nikon Z7 II',
     brand: 'Nikon',
+    image: 'https://www.nikon.co.uk/globalassets/digizuite/175815-en-z8_24-120_4_front-v7A0488714A83.png',
     releaseDate: '2020-09',
     price: '¥19,999',
     sensor: {
@@ -933,6 +969,7 @@ export const camerasData: Camera[] = [
     id: 'nikon-zf',
     name: 'Nikon Zf',
     brand: 'Nikon',
+    image: 'https://www.nikon.co.uk/globalassets/digizuite/175815-en-z8_24-120_4_front-v7A0488714A83.png',
     releaseDate: '2023-09',
     price: '¥13,999',
     sensor: {
@@ -958,6 +995,7 @@ export const camerasData: Camera[] = [
     id: 'nikon-z6iv',
     name: 'Nikon Z6 IV',
     brand: 'Nikon',
+    image: 'https://www.nikon.co.uk/globalassets/digizuite/175815-en-z8_24-120_4_front-v7A0488714A83.png',
     releaseDate: '2024-10',
     price: '¥14,999',
     sensor: {
@@ -983,6 +1021,7 @@ export const camerasData: Camera[] = [
     id: 'nikon-z7iii',
     name: 'Nikon Z7 III',
     brand: 'Nikon',
+    image: 'https://www.nikon.co.uk/globalassets/digizuite/175815-en-z8_24-120_4_front-v7A0488714A83.png',
     releaseDate: '2024-10',
     price: '¥21,999',
     sensor: {
@@ -1008,6 +1047,7 @@ export const camerasData: Camera[] = [
     id: 'fuji-xh2',
     name: 'Fujifilm X-H2',
     brand: 'Fujifilm',
+    image: 'https://fujifilm-x.com/wp-content/themes/fujifilm-x2019/assets/images/products/cameras/x-h2/og-image.jpg',
     releaseDate: '2022-09',
     price: '¥11,999',
     sensor: {
@@ -1033,6 +1073,7 @@ export const camerasData: Camera[] = [
     id: 'fuji-xh2s',
     name: 'Fujifilm X-H2S',
     brand: 'Fujifilm',
+    image: 'https://fujifilm-x.com/wp-content/themes/fujifilm-x2019/assets/images/products/cameras/x-h2s/og-image.jpg',
     releaseDate: '2022-09',
     price: '¥13,499',
     sensor: {
@@ -1058,6 +1099,7 @@ export const camerasData: Camera[] = [
     id: 'fuji-xs20',
     name: 'Fujifilm X-S20',
     brand: 'Fujifilm',
+    image: 'https://fujifilm-x.com/wp-content/themes/fujifilm-x2019/assets/images/products/cameras/x-s20/og-image.jpg',
     releaseDate: '2023-05',
     price: '¥6,999',
     sensor: {
@@ -1083,6 +1125,7 @@ export const camerasData: Camera[] = [
     id: 'fuji-xt30ii',
     name: 'Fujifilm X-T30 II',
     brand: 'Fujifilm',
+    image: 'https://fujifilm-x.com/wp-content/themes/fujifilm-x2019/assets/images/products/cameras/x-t30-ii/og-image.jpg',
     releaseDate: '2021-09',
     price: '¥4,999',
     sensor: {
@@ -1108,6 +1151,7 @@ export const camerasData: Camera[] = [
     id: 'fuji-xt50',
     name: 'Fujifilm X-T50',
     brand: 'Fujifilm',
+    image: 'https://fujifilm-x.com/wp-content/themes/fujifilm-x2019/assets/images/products/cameras/x-t50/og-image.jpg',
     releaseDate: '2024-05',
     price: '¥9,999',
     sensor: {
@@ -1133,6 +1177,7 @@ export const camerasData: Camera[] = [
     id: 'panasonic-s5iix',
     name: 'Panasonic Lumix S5 II X',
     brand: 'Panasonic',
+    image: 'https://shop.panasonic.com/cdn/shop/products/S5IIX_Lifestyle_01_sfw_2048x.jpg',
     releaseDate: '2023-05',
     price: '¥11,499',
     sensor: {
@@ -1158,6 +1203,7 @@ export const camerasData: Camera[] = [
     id: 'panasonic-s1',
     name: 'Panasonic Lumix S1',
     brand: 'Panasonic',
+    image: 'https://shop.panasonic.com/cdn/shop/products/S1_Lifestyle_01_sfw_2048x.jpg',
     releaseDate: '2019-02',
     price: '¥12,999',
     sensor: {
@@ -1183,6 +1229,7 @@ export const camerasData: Camera[] = [
     id: 'panasonic-s1r',
     name: 'Panasonic Lumix S1R',
     brand: 'Panasonic',
+    image: 'https://shop.panasonic.com/cdn/shop/products/S1R_Lifestyle_01_sfw_2048x.jpg',
     releaseDate: '2019-02',
     price: '¥22,999',
     sensor: {
@@ -1208,6 +1255,7 @@ export const camerasData: Camera[] = [
     id: 'panasonic-s1h',
     name: 'Panasonic Lumix S1H',
     brand: 'Panasonic',
+    image: 'https://shop.panasonic.com/cdn/shop/products/S1H_Lifestyle_01_sfw_2048x.jpg',
     releaseDate: '2019-05',
     price: '¥27,999',
     sensor: {
@@ -1233,6 +1281,7 @@ export const camerasData: Camera[] = [
     id: 'leica-sl3',
     name: 'Leica SL3',
     brand: 'Leica',
+    image: 'https://leica-camera.com/sites/default/files/og-images/sl3-og-image.jpg',
     releaseDate: '2024-03',
     price: '¥42,999',
     sensor: {
@@ -1258,6 +1307,7 @@ export const camerasData: Camera[] = [
     id: 'leica-m11',
     name: 'Leica M11',
     brand: 'Leica',
+    image: 'https://leica-camera.com/sites/default/files/og-images/m11-og-image.jpg',
     releaseDate: '2022-01',
     price: '¥68,999',
     sensor: {
@@ -1283,6 +1333,7 @@ export const camerasData: Camera[] = [
     id: 'om-system-om1',
     name: 'OM System OM-1',
     brand: 'OM System',
+    image: 'https://www.om-digitalsolutions.com/sites/default/files/styles/og_image/public/2022-02/OM-1_og.jpg',
     releaseDate: '2022-02',
     price: '¥9,999',
     sensor: {
@@ -1308,6 +1359,7 @@ export const camerasData: Camera[] = [
     id: 'om-system-om1-ii',
     name: 'OM System OM-1 Mark II',
     brand: 'OM System',
+    image: 'https://www.om-digitalsolutions.com/sites/default/files/styles/og_image/public/2024-01/OM-1-II_og.jpg',
     releaseDate: '2024-02',
     price: '¥11,999',
     sensor: {
@@ -1333,6 +1385,7 @@ export const camerasData: Camera[] = [
     id: 'om-system-om5',
     name: 'OM System OM-5',
     brand: 'OM System',
+    image: 'https://www.om-digitalsolutions.com/sites/default/files/styles/og_image/public/2022-10/OM-5_og.jpg',
     releaseDate: '2022-10',
     price: '¥5,999',
     sensor: {
@@ -1358,6 +1411,7 @@ export const camerasData: Camera[] = [
     id: 'blackmagic-pocket-cinema-4k',
     name: 'Blackmagic Pocket Cinema 4K',
     brand: 'Blackmagic',
+    image: 'https://www.blackmagicdesign.com/img/products/pocket-cinema-camera-4k/hero.jpg',
     releaseDate: '2023-09',
     price: '¥6,999',
     sensor: {
@@ -1383,6 +1437,7 @@ export const camerasData: Camera[] = [
     id: 'blackmagic-pocket-cinema-6k',
     name: 'Blackmagic Pocket Cinema 6K',
     brand: 'Blackmagic',
+    image: 'https://www.blackmagicdesign.com/img/products/pocket-cinema-camera-6k/hero.jpg',
     releaseDate: '2020-08',
     price: '¥8,999',
     sensor: {
@@ -1409,6 +1464,7 @@ export const camerasData: Camera[] = [
     id: 'canon-eos-r',
     name: 'Canon EOS R',
     brand: 'Canon',
+    image: 'https://cdn.media.amplience.net/i/canon/eos-r5_front_rf24-105mmf4lisusm_square_32c26ad194234d42b3cd9e582a21c99b',
     releaseDate: '2020-11',
     price: '¥1,169',
     sensor: {
@@ -1434,6 +1490,7 @@ export const camerasData: Camera[] = [
     id: 'sony-a7-iv',
     name: 'Sony A7 IV',
     brand: 'Sony',
+    image: 'https://sony.scene7.com/is/image/sonyglobalsolutions/og-2?$S7Product$&fmt=png-alpha',
     releaseDate: '2021-08',
     price: '¥6,492',
     sensor: {
@@ -1459,6 +1516,7 @@ export const camerasData: Camera[] = [
     id: 'nikon-z5',
     name: 'Nikon Z5',
     brand: 'Nikon',
+    image: 'https://www.nikon.co.uk/globalassets/digizuite/175815-en-z8_24-120_4_front-v7A0488714A83.png',
     releaseDate: '2022-07',
     price: '¥13,845',
     sensor: {
@@ -1484,6 +1542,7 @@ export const camerasData: Camera[] = [
     id: 'fujifilm-x-t4',
     name: 'Fujifilm X-T4',
     brand: 'Fujifilm',
+    image: 'https://fujifilm-x.com/wp-content/themes/fujifilm-x2019/assets/images/products/cameras/x-t4/og-image.jpg',
     releaseDate: '2023-02',
     price: '¥36,862',
     sensor: {
@@ -1509,6 +1568,7 @@ export const camerasData: Camera[] = [
     id: 'panasonic-lumix-s5',
     name: 'Panasonic Lumix S5',
     brand: 'Panasonic',
+    image: 'https://shop.panasonic.com/cdn/shop/products/S5_Lifestyle_01_sfw_2048x.jpg',
     releaseDate: '2024-09',
     price: '¥703',
     sensor: {
@@ -1534,6 +1594,7 @@ export const camerasData: Camera[] = [
     id: 'leica-q2',
     name: 'Leica Q2',
     brand: 'Leica',
+    image: 'https://leica-camera.com/sites/default/files/og-images/q2-og-image.jpg',
     releaseDate: '2025-02',
     price: '¥5,778',
     sensor: {
@@ -1559,6 +1620,7 @@ export const camerasData: Camera[] = [
     id: 'om-system-om-1',
     name: 'OM SYSTEM OM-1',
     brand: 'OM SYSTEM',
+    image: 'https://www.om-digitalsolutions.com/sites/default/files/styles/og_image/public/2022-02/OM-1_og.jpg',
     releaseDate: '2026-05',
     price: '¥17,511',
     sensor: {
@@ -1584,6 +1646,7 @@ export const camerasData: Camera[] = [
     id: 'blackmagic-pocket-cinema-6k-pro',
     name: 'Blackmagic Pocket Cinema 6K Pro',
     brand: 'Blackmagic',
+    image: 'https://www.blackmagicdesign.com/img/products/pocket-cinema-camera-6k-pro/hero.jpg',
     releaseDate: '2020-05',
     price: '¥26,983',
     sensor: {
@@ -1609,6 +1672,7 @@ export const camerasData: Camera[] = [
     id: 'pentax-k-3-iii',
     name: 'Pentax K-3 III',
     brand: 'Pentax',
+    image: 'https://www.ricoh-imaging.co.jp/english/products/k-3-mark-3/img/og.jpg',
     releaseDate: '2021-07',
     price: '¥2,325',
     sensor: {
@@ -1634,6 +1698,7 @@ export const camerasData: Camera[] = [
     id: 'sigma-fp',
     name: 'Sigma fp',
     brand: 'Sigma',
+    image: 'https://www.sigma-global.com/en/products/camera/fp-series/img/og.jpg',
     releaseDate: '2022-07',
     price: '¥6,506',
     sensor: {
@@ -1659,6 +1724,7 @@ export const camerasData: Camera[] = [
     id: 'hasselblad-x1d-ii-50c',
     name: 'Hasselblad X1D II 50C',
     brand: 'Hasselblad',
+    image: 'https://www.hasselblad.com/globalassets/systems/x1d-ii-50c/hero/x1d-ii-50c_hero.jpg',
     releaseDate: '2023-11',
     price: '¥15,969',
     sensor: {
@@ -1684,6 +1750,7 @@ export const camerasData: Camera[] = [
     id: 'canon-eos-rp',
     name: 'Canon EOS RP',
     brand: 'Canon',
+    image: 'https://cdn.media.amplience.net/i/canon/eos-r5_front_rf24-105mmf4lisusm_square_32c26ad194234d42b3cd9e582a21c99b',
     releaseDate: '2024-06',
     price: '¥29,655',
     sensor: {
@@ -1709,6 +1776,7 @@ export const camerasData: Camera[] = [
     id: 'sony-a7s-iii',
     name: 'Sony A7S III',
     brand: 'Sony',
+    image: 'https://sony.scene7.com/is/image/sonyglobalsolutions/02_Primary_image-3?$S7Product$&fmt=png-alpha',
     releaseDate: '2025-06',
     price: '¥1,980',
     sensor: {
@@ -1734,6 +1802,7 @@ export const camerasData: Camera[] = [
     id: 'nikon-z6-ii',
     name: 'Nikon Z6 II',
     brand: 'Nikon',
+    image: 'https://www.nikon.co.uk/globalassets/digizuite/175815-en-z8_24-120_4_front-v7A0488714A83.png',
     releaseDate: '2026-05',
     price: '¥6,371',
     sensor: {
@@ -1759,6 +1828,7 @@ export const camerasData: Camera[] = [
     id: 'fujifilm-x-t30-ii',
     name: 'Fujifilm X-T30 II',
     brand: 'Fujifilm',
+    image: 'https://fujifilm-x.com/wp-content/themes/fujifilm-x2019/assets/images/products/cameras/x-t30-ii/og-image.jpg',
     releaseDate: '2020-03',
     price: '¥17,359',
     sensor: {
@@ -1784,6 +1854,7 @@ export const camerasData: Camera[] = [
     id: 'panasonic-lumix-gh6',
     name: 'Panasonic Lumix GH6',
     brand: 'Panasonic',
+    image: 'https://shop.panasonic.com/cdn/shop/products/GH6_Lifestyle_01_sfw_2048x.jpg',
     releaseDate: '2021-07',
     price: '¥20,866',
     sensor: {
@@ -1809,6 +1880,7 @@ export const camerasData: Camera[] = [
     id: 'leica-m11',
     name: 'Leica M11',
     brand: 'Leica',
+    image: 'https://leica-camera.com/sites/default/files/og-images/m11-og-image.jpg',
     releaseDate: '2022-09',
     price: '¥854',
     sensor: {
@@ -1834,6 +1906,7 @@ export const camerasData: Camera[] = [
     id: 'om-system-om-5',
     name: 'OM SYSTEM OM-5',
     brand: 'OM SYSTEM',
+    image: 'https://www.om-digitalsolutions.com/sites/default/files/styles/og_image/public/2022-10/OM-5_og.jpg',
     releaseDate: '2023-03',
     price: '¥3,775',
     sensor: {
@@ -1859,6 +1932,7 @@ export const camerasData: Camera[] = [
     id: 'blackmagic-pocket-cinema-4k',
     name: 'Blackmagic Pocket Cinema 4K',
     brand: 'Blackmagic',
+    image: 'https://www.blackmagicdesign.com/img/products/pocket-cinema-camera-4k/hero.jpg',
     releaseDate: '2024-10',
     price: '¥11,092',
     sensor: {
@@ -1884,6 +1958,7 @@ export const camerasData: Camera[] = [
     id: 'pentax-k-1-ii',
     name: 'Pentax K-1 II',
     brand: 'Pentax',
+    image: 'https://www.ricoh-imaging.co.jp/english/products/k-1-mark-2/img/og.jpg',
     releaseDate: '2025-04',
     price: '¥38,878',
     sensor: {
@@ -1909,6 +1984,7 @@ export const camerasData: Camera[] = [
     id: 'sigma-fp-l',
     name: 'Sigma fp L',
     brand: 'Sigma',
+    image: 'https://www.sigma-global.com/en/products/camera/fp-series/img/og.jpg',
     releaseDate: '2026-05',
     price: '¥2,352',
     sensor: {
@@ -1934,6 +2010,7 @@ export const camerasData: Camera[] = [
     id: 'hasselblad-907x',
     name: 'Hasselblad 907X',
     brand: 'Hasselblad',
+    image: 'https://www.hasselblad.com/globalassets/systems/907x/hero/907x_hero.jpg',
     releaseDate: '2020-03',
     price: '¥4,702',
     sensor: {
@@ -1959,6 +2036,7 @@ export const camerasData: Camera[] = [
     id: 'canon-eos-r10',
     name: 'Canon EOS R10',
     brand: 'Canon',
+    image: 'https://cdn.media.amplience.net/i/canon/eos-r7-frt_range-module_d943cd926f434f6388df5e8dc4a01d05',
     releaseDate: '2021-07',
     price: '¥15,019',
     sensor: {
@@ -1984,6 +2062,7 @@ export const camerasData: Camera[] = [
     id: 'sony-a7c',
     name: 'Sony A7C',
     brand: 'Sony',
+    image: 'https://sony.scene7.com/is/image/sonyglobalsolutions/og-2?$S7Product$&fmt=png-alpha',
     releaseDate: '2022-12',
     price: '¥49,527',
     sensor: {
@@ -2009,6 +2088,7 @@ export const camerasData: Camera[] = [
     id: 'nikon-z7-ii',
     name: 'Nikon Z7 II',
     brand: 'Nikon',
+    image: 'https://www.nikon.co.uk/globalassets/digizuite/175815-en-z8_24-120_4_front-v7A0488714A83.png',
     releaseDate: '2023-01',
     price: '¥2,343',
     sensor: {
@@ -2034,6 +2114,7 @@ export const camerasData: Camera[] = [
     id: 'fujifilm-x-s10',
     name: 'Fujifilm X-S10',
     brand: 'Fujifilm',
+    image: 'https://fujifilm-x.com/wp-content/themes/fujifilm-x2019/assets/images/products/cameras/x-s10/og-image.jpg',
     releaseDate: '2024-06',
     price: '¥6,288',
     sensor: {
@@ -2059,6 +2140,7 @@ export const camerasData: Camera[] = [
     id: 'panasonic-lumix-g100',
     name: 'Panasonic Lumix G100',
     brand: 'Panasonic',
+    image: 'https://shop.panasonic.com/cdn/shop/products/G100_Lifestyle_01_sfw_2048x.jpg',
     releaseDate: '2025-09',
     price: '¥12,576',
     sensor: {
@@ -2084,6 +2166,7 @@ export const camerasData: Camera[] = [
     id: 'leica-sl2',
     name: 'Leica SL2',
     brand: 'Leica',
+    image: 'https://leica-camera.com/sites/default/files/og-images/sl2-og-image.jpg',
     releaseDate: '2026-02',
     price: '¥32,465',
     sensor: {
@@ -2109,6 +2192,7 @@ export const camerasData: Camera[] = [
     id: 'om-system-om-d-e-m1x',
     name: 'OM SYSTEM OM-D E-M1X',
     brand: 'OM SYSTEM',
+    image: 'https://www.om-digitalsolutions.com/sites/default/files/styles/og_image/public/2019-01/E-M1X_og.jpg',
     releaseDate: '2020-07',
     price: '¥775',
     sensor: {
@@ -2134,6 +2218,7 @@ export const camerasData: Camera[] = [
     id: 'blackmagic-ursa-mini-pro-12k',
     name: 'Blackmagic URSA Mini Pro 12K',
     brand: 'Blackmagic',
+    image: 'https://www.blackmagicdesign.com/img/products/ursa-mini-pro-12k/hero.jpg',
     releaseDate: '2021-12',
     price: '¥4,214',
     sensor: {
@@ -2159,6 +2244,7 @@ export const camerasData: Camera[] = [
     id: 'pentax-kf',
     name: 'Pentax KF',
     brand: 'Pentax',
+    image: 'https://www.ricoh-imaging.co.jp/english/products/kf/img/og.jpg',
     releaseDate: '2022-10',
     price: '¥16,954',
     sensor: {
@@ -2184,6 +2270,7 @@ export const camerasData: Camera[] = [
     id: 'sigma-sd-quattro-h',
     name: 'Sigma sd Quattro H',
     brand: 'Sigma',
+    image: 'https://www.sigma-global.com/en/products/camera/sd-quattro-series/img/og.jpg',
     releaseDate: '2023-12',
     price: '¥29,137',
     sensor: {
@@ -2209,6 +2296,7 @@ export const camerasData: Camera[] = [
     id: 'hasselblad-h6d-100c',
     name: 'Hasselblad H6D-100c',
     brand: 'Hasselblad',
+    image: 'https://www.hasselblad.com/globalassets/systems/h6d/hero/h6d-100c-hero.jpg',
     releaseDate: '2024-01',
     price: '¥861',
     sensor: {
@@ -2234,6 +2322,7 @@ export const camerasData: Camera[] = [
     id: 'canon-eos-r50',
     name: 'Canon EOS R50',
     brand: 'Canon',
+    image: 'https://cdn.media.amplience.net/i/canon/eos-r7-frt_range-module_d943cd926f434f6388df5e8dc4a01d05',
     releaseDate: '2025-04',
     price: '¥5,308',
     sensor: {
@@ -2259,6 +2348,7 @@ export const camerasData: Camera[] = [
     id: 'sony-a6700',
     name: 'Sony A6700',
     brand: 'Sony',
+    image: 'https://sony.scene7.com/is/image/sonyglobalsolutions/og-2?$S7Product$&fmt=png-alpha',
     releaseDate: '2026-05',
     price: '¥12,610',
     sensor: {
@@ -2284,6 +2374,7 @@ export const camerasData: Camera[] = [
     id: 'nikon-z50',
     name: 'Nikon Z50',
     brand: 'Nikon',
+    image: 'https://www.nikon.co.uk/globalassets/digizuite/175815-en-z8_24-120_4_front-v7A0488714A83.png',
     releaseDate: '2020-02',
     price: '¥27,691',
     sensor: {
@@ -2309,6 +2400,7 @@ export const camerasData: Camera[] = [
     id: 'fujifilm-x100v',
     name: 'Fujifilm X100V',
     brand: 'Fujifilm',
+    image: 'https://fujifilm-x.com/wp-content/themes/fujifilm-x2019/assets/images/products/cameras/x100v/og-image.jpg',
     releaseDate: '2021-02',
     price: '¥1,460',
     sensor: {
@@ -2334,6 +2426,7 @@ export const camerasData: Camera[] = [
     id: 'panasonic-lumix-s1',
     name: 'Panasonic Lumix S1',
     brand: 'Panasonic',
+    image: 'https://shop.panasonic.com/cdn/shop/products/S1_Lifestyle_01_sfw_2048x.jpg',
     releaseDate: '2022-03',
     price: '¥7,573',
     sensor: {
@@ -2359,6 +2452,7 @@ export const camerasData: Camera[] = [
     id: 'leica-m10-p',
     name: 'Leica M10-P',
     brand: 'Leica',
+    image: 'https://leica-camera.com/sites/default/files/og-images/m10-p-og-image.jpg',
     releaseDate: '2023-02',
     price: '¥14,565',
     sensor: {
@@ -2384,6 +2478,7 @@ export const camerasData: Camera[] = [
     id: 'om-system-om-d-e-m10-iv',
     name: 'OM SYSTEM OM-D E-M10 IV',
     brand: 'OM SYSTEM',
+    image: 'https://www.om-digitalsolutions.com/sites/default/files/styles/og_image/public/2020-08/E-M10-IV_og.jpg',
     releaseDate: '2024-08',
     price: '¥37,594',
     sensor: {
@@ -2409,6 +2504,7 @@ export const camerasData: Camera[] = [
     id: 'blackmagic-micro-studio-4k-g2',
     name: 'Blackmagic Micro Studio 4K G2',
     brand: 'Blackmagic',
+    image: 'https://www.blackmagicdesign.com/img/products/micro-studio-camera-4k-g2/hero.jpg',
     releaseDate: '2025-06',
     price: '¥933',
     sensor: {
@@ -2434,6 +2530,7 @@ export const camerasData: Camera[] = [
     id: 'pentax-wg-8',
     name: 'Pentax WG-8',
     brand: 'Pentax',
+    image: 'https://www.ricoh-imaging.co.jp/english/products/wg-8/img/og.jpg',
     releaseDate: '2026-05',
     price: '¥7,550',
     sensor: {
@@ -2459,6 +2556,7 @@ export const camerasData: Camera[] = [
     id: 'sigma-dp-quattro',
     name: 'Sigma dp Quattro',
     brand: 'Sigma',
+    image: 'https://www.sigma-global.com/en/products/camera/dp-quattro-series/img/og.jpg',
     releaseDate: '2020-02',
     price: '¥12,953',
     sensor: {
@@ -2484,6 +2582,7 @@ export const camerasData: Camera[] = [
     id: 'hasselblad-cfv-ii-50c',
     name: 'Hasselblad CFV II 50C',
     brand: 'Hasselblad',
+    image: 'https://www.hasselblad.com/globalassets/systems/cfv-ii-50c/hero/cfv-ii-50c-hero.jpg',
     releaseDate: '2021-09',
     price: '¥47,764',
     sensor: {
@@ -2509,6 +2608,7 @@ export const camerasData: Camera[] = [
     id: 'canon-eos-r8',
     name: 'Canon EOS R8',
     brand: 'Canon',
+    image: 'https://cdn.media.amplience.net/i/canon/eos-r5-mark-ii_lifestyle_35_hero_2_287d914f86ed47ddb9704796be1a2035',
     releaseDate: '2022-02',
     price: '¥2,634',
     sensor: {
@@ -2534,6 +2634,7 @@ export const camerasData: Camera[] = [
     id: 'sony-a6100',
     name: 'Sony A6100',
     brand: 'Sony',
+    image: 'https://sony.scene7.com/is/image/sonyglobalsolutions/og-2?$S7Product$&fmt=png-alpha',
     releaseDate: '2023-10',
     price: '¥5,445',
     sensor: {
@@ -2559,6 +2660,7 @@ export const camerasData: Camera[] = [
     id: 'nikon-z30',
     name: 'Nikon Z30',
     brand: 'Nikon',
+    image: 'https://www.nikon.co.uk/globalassets/digizuite/175815-en-z8_24-120_4_front-v7A0488714A83.png',
     releaseDate: '2024-04',
     price: '¥16,285',
     sensor: {
@@ -2584,6 +2686,7 @@ export const camerasData: Camera[] = [
     id: 'fujifilm-x-e4',
     name: 'Fujifilm X-E4',
     brand: 'Fujifilm',
+    image: 'https://fujifilm-x.com/wp-content/themes/fujifilm-x2019/assets/images/products/cameras/x-e4/og-image.jpg',
     releaseDate: '2025-05',
     price: '¥45,334',
     sensor: {
@@ -2609,6 +2712,7 @@ export const camerasData: Camera[] = [
     id: 'panasonic-lumix-s1r',
     name: 'Panasonic Lumix S1R',
     brand: 'Panasonic',
+    image: 'https://shop.panasonic.com/cdn/shop/products/S1R_Lifestyle_01_sfw_2048x.jpg',
     releaseDate: '2026-05',
     price: '¥509',
     sensor: {
@@ -2634,6 +2738,7 @@ export const camerasData: Camera[] = [
     id: 'leica-q-p',
     name: 'Leica Q-P',
     brand: 'Leica',
+    image: 'https://leica-camera.com/sites/default/files/og-images/q-p-og-image.jpg',
     releaseDate: '2020-09',
     price: '¥6,856',
     sensor: {

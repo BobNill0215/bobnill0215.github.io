@@ -31,7 +31,8 @@ export interface ActionCamera {
 export const actionCamerasData: ActionCamera[] = [
   {
     id: 'dji-action-4',
-    name: 'DJI Action 4',
+    image: 'https://www-cdn.djiits.com/cms/uploads/fd525dd9cd6a4dec4c3ae81ebf35d8af@374*374.png',
+  name: 'DJI Action 4',
     brand: 'DJI',
     releaseDate: '2026-05',
     price: '¥2,198',
@@ -55,7 +56,8 @@ export const actionCamerasData: ActionCamera[] = [
   },
   {
     id: 'dji-action-3',
-    name: 'DJI Action 3',
+    image: 'https://www-cdn.djiits.com/cms/uploads/d1eb453f380269c8ff68ea2feb376be8@374*374.png',
+  name: 'DJI Action 3',
     brand: 'DJI',
     releaseDate: '2026-05',
     price: '¥2,299',
@@ -79,7 +81,8 @@ export const actionCamerasData: ActionCamera[] = [
   },
   {
     id: 'dji-action-2',
-    name: 'DJI Action 2',
+    image: 'https://www-cdn.djiits.com/cms/uploads/d1eb453f380269c8ff68ea2feb376be8@374*374.png',
+  name: 'DJI Action 2',
     brand: 'DJI',
     releaseDate: '2021-10',
     price: '¥2,499',
@@ -103,7 +106,8 @@ export const actionCamerasData: ActionCamera[] = [
   },
   {
     id: 'dji-osmo-mobile-6',
-    name: 'DJI Osmo Mobile 6',
+    image: 'https://store.dji.com/shop/osmo-mobile-6',
+  name: 'DJI Osmo Mobile 6',
     brand: 'DJI',
     releaseDate: '2026-05',
     price: '¥999',
@@ -126,7 +130,8 @@ export const actionCamerasData: ActionCamera[] = [
   },
   {
     id: 'dji-osmo-mobile-se',
-    name: 'DJI Osmo Mobile SE',
+    image: 'https://store.dji.com/shop/osmo-mobile-se',
+  name: 'DJI Osmo Mobile SE',
     brand: 'DJI',
     releaseDate: '2022',
     price: '¥599',
@@ -149,7 +154,8 @@ export const actionCamerasData: ActionCamera[] = [
   },
   {
     id: 'dji-avata-360',
-    name: 'DJI Avata 360',
+    image: 'https://store.dji.com/product/dji-avata',
+  name: 'DJI Avata 360',
     brand: 'DJI',
     releaseDate: '2026-04',
     price: '¥5,999',
@@ -173,7 +179,8 @@ export const actionCamerasData: ActionCamera[] = [
   },
   {
     id: 'dji-osmo-mobile-7p',
-    name: 'DJI Osmo Mobile 7P',
+    image: 'https://store.dji.com/shop/osmo-mobile-7',
+  name: 'DJI Osmo Mobile 7P',
     brand: 'DJI',
     releaseDate: '2025',
     price: '¥999',
@@ -196,7 +203,8 @@ export const actionCamerasData: ActionCamera[] = [
   },
   {
     id: 'gopro-hero-12-black',
-    name: 'GoPro Hero 12 Black',
+    image: 'https://gopro.com/en/us/shop/cameras/hero12-black',
+  name: 'GoPro Hero 12 Black',
     brand: 'GoPro',
     releaseDate: '2026-05',
     price: '¥2,698',
@@ -220,7 +228,8 @@ export const actionCamerasData: ActionCamera[] = [
   },
   {
     id: 'gopro-hero-11-black',
-    name: 'GoPro Hero 11 Black',
+    image: 'https://gopro.com/en/us/shop/cameras/hero11-black',
+  name: 'GoPro Hero 11 Black',
     brand: 'GoPro',
     releaseDate: '2026-05',
     price: '¥2,998',
@@ -244,7 +253,8 @@ export const actionCamerasData: ActionCamera[] = [
   },
   {
     id: 'gopro-hero-10-black',
-    name: 'GoPro Hero 10 Black',
+    image: 'https://gopro.com/en/us/shop/cameras/hero10-black',
+  name: 'GoPro Hero 10 Black',
     brand: 'GoPro',
     releaseDate: '2021-09',
     price: '¥3,498',
@@ -268,7 +278,8 @@ export const actionCamerasData: ActionCamera[] = [
   },
   {
     id: 'gopro-hero-9-black',
-    name: 'GoPro Hero 9 Black',
+    image: 'https://gopro.com/en/us/shop/cameras/hero9-black',
+  name: 'GoPro Hero 9 Black',
     brand: 'GoPro',
     releaseDate: '2020-09',
     price: '¥3,298',
@@ -292,7 +303,8 @@ export const actionCamerasData: ActionCamera[] = [
   },
   {
     id: 'gopro-max',
-    name: 'GoPro Max',
+    image: 'https://gopro.com/en/us/shop/cameras/max',
+  name: 'GoPro Max',
     brand: 'GoPro',
     releaseDate: '2019-10',
     price: '¥3,998',
@@ -316,7 +328,8 @@ export const actionCamerasData: ActionCamera[] = [
   },
   {
     id: 'gopro-session',
-    name: 'GoPro Session',
+    image: 'https://gopro.com/en/us/shop/cameras/hero-session',
+  name: 'GoPro Session',
     brand: 'GoPro',
     releaseDate: '2016',
     price: '¥1,000',
@@ -340,7 +353,8 @@ export const actionCamerasData: ActionCamera[] = [
   },
   {
     id: 'gopro-omni',
-    name: 'GoPro Omni',
+    image: 'https://gopro.com/en/us/shop/cameras',
+  name: 'GoPro Omni',
     brand: 'GoPro',
     releaseDate: '2016',
     price: '¥14,999',
@@ -364,7 +378,8 @@ export const actionCamerasData: ActionCamera[] = [
   },
   {
     id: 'gopro-hero-13',
-    name: 'GoPro Hero 13 Black',
+    image: 'https://gopro.com/en/us/shop/cameras/hero13-black',
+  name: 'GoPro Hero 13 Black',
     brand: 'GoPro',
     releaseDate: '2026-05',
     price: '¥2,998',
@@ -388,7 +403,8 @@ export const actionCamerasData: ActionCamera[] = [
   },
   {
     id: 'gopro-fluid-pro-ai',
-    name: 'GoPro Fluid Pro AI',
+    image: 'https://gopro.com/en/us/shop/accessories/fluid-pro-ai',
+  name: 'GoPro Fluid Pro AI',
     brand: 'GoPro',
     releaseDate: '2026',
     price: '¥1,999',
@@ -411,7 +427,8 @@ export const actionCamerasData: ActionCamera[] = [
   },
   {
     id: 'insta360-x3',
-    name: 'Insta360 X3',
+    image: 'https://res.insta360.com/static/871c67fb553317c6e21a06d2210dd2a9/x3-new.png',
+  name: 'Insta360 X3',
     brand: 'Insta360',
     releaseDate: '2026-05',
     price: '¥2,998',
@@ -435,7 +452,8 @@ export const actionCamerasData: ActionCamera[] = [
   },
   {
     id: 'insta360-one-x2',
-    name: 'Insta360 One X2',
+    image: 'https://res.insta360.com/static/ad37fa7db81f416e7a477c49173ff583/x2.png',
+  name: 'Insta360 One X2',
     brand: 'Insta360',
     releaseDate: '2020-10',
     price: '¥2,698',
@@ -459,7 +477,8 @@ export const actionCamerasData: ActionCamera[] = [
   },
   {
     id: 'insta360-one-rs',
-    name: 'Insta360 One RS',
+    image: 'https://res.insta360.com/static/a7e1e6632afa8dc15821776d712a352f/acepro&ace.png',
+  name: 'Insta360 One RS',
     brand: 'Insta360',
     releaseDate: '2022-01',
     price: '¥2,498',
@@ -483,7 +502,8 @@ export const actionCamerasData: ActionCamera[] = [
   },
   {
     id: 'insta360-one-rs-twin-edition',
-    name: 'Insta360 One RS Twin Edition',
+    image: 'https://res.insta360.com/static/a7e1e6632afa8dc15821776d712a352f/acepro&ace.png',
+  name: 'Insta360 One RS Twin Edition',
     brand: 'Insta360',
     releaseDate: '2022',
     price: '¥2,998',
@@ -507,7 +527,8 @@ export const actionCamerasData: ActionCamera[] = [
   },
   {
     id: 'insta360-flow',
-    name: 'Insta360 Flow',
+    image: 'https://res.insta360.com/static/9beabb79c8704c571feaaff0fb67c962/flowpro.png',
+  name: 'Insta360 Flow',
     brand: 'Insta360',
     releaseDate: '2024',
     price: '¥999',
@@ -530,7 +551,8 @@ export const actionCamerasData: ActionCamera[] = [
   },
   {
     id: 'insta360-x5',
-    name: 'Insta360 X5',
+    image: 'https://res.insta360.com/static/8e1e5fe57cc0152e9c07bb5bc3eccc0a/x5-double.png',
+  name: 'Insta360 X5',
     brand: 'Insta360',
     releaseDate: '2025',
     price: '¥3,499',
@@ -554,7 +576,8 @@ export const actionCamerasData: ActionCamera[] = [
   },
   {
     id: 'insta360-x4',
-    name: 'Insta360 X4',
+    image: 'https://res.insta360.com/static/9b3f6248055c4b255cdd5bdc5e9b8b64/x4-new.png',
+  name: 'Insta360 X4',
     brand: 'Insta360',
     releaseDate: '2026-05',
     price: '¥2,999',
@@ -578,7 +601,8 @@ export const actionCamerasData: ActionCamera[] = [
   },
   {
     id: 'insta360-ace-pro2',
-    name: 'Insta360 Ace Pro 2',
+    image: 'https://res.insta360.com/static/d4b2c2128a05379151d74ac016831591/Recommended-PC.png',
+  name: 'Insta360 Ace Pro 2',
     brand: 'Insta360',
     releaseDate: '2025',
     price: '¥3,298',
@@ -602,7 +626,8 @@ export const actionCamerasData: ActionCamera[] = [
   },
   {
     id: 'dji-pocket-3',
-    name: 'DJI Osmo Pocket 3',
+    image: 'https://www-cdn.djiits.com/cms/uploads/551e7d13228ed00e3486566918a183fd@374*374.png',
+  name: 'DJI Osmo Pocket 3',
     brand: 'DJI',
     releaseDate: '2026-05',
     price: '¥3,499',
@@ -626,7 +651,8 @@ export const actionCamerasData: ActionCamera[] = [
   },
   {
     id: 'dji-action-5-pro',
-    name: 'DJI Action 5 Pro',
+    image: 'https://www-cdn.djiits.com/cms/uploads/20dd07025c2d44092cd9dbf76ad1ecb6@374*374.png',
+  name: 'DJI Action 5 Pro',
     brand: 'DJI',
     releaseDate: '2026-05',
     price: '¥3,298',
@@ -650,7 +676,8 @@ export const actionCamerasData: ActionCamera[] = [
   },
   {
     id: 'fimi-x8-tele-max',
-    name: 'FIMI X8 Tele Max',
+    image: 'https://www.fimi.com/fimi-x8-tele-max',
+  name: 'FIMI X8 Tele Max',
     brand: 'FIMI',
     releaseDate: '2026',
     price: '¥3,999',
@@ -674,7 +701,8 @@ export const actionCamerasData: ActionCamera[] = [
   },
   {
     id: 'hohem-isteady-mt3-pro',
-    name: 'Hohem iSteady MT3 Pro',
+    image: 'https://www.hohem.com/products/isteady-mt3-pro',
+  name: 'Hohem iSteady MT3 Pro',
     brand: 'Hohem',
     releaseDate: '2026',
     price: '¥1,999',
@@ -697,7 +725,8 @@ export const actionCamerasData: ActionCamera[] = [
   },
   {
     id: 'hohem-isteady-pro-4',
-    name: 'Hohem iSteady Pro 4',
+    image: 'https://www.hohem.com/products/isteady-pro-4',
+  name: 'Hohem iSteady Pro 4',
     brand: 'Hohem',
     releaseDate: '2025',
     price: '¥699',
@@ -720,7 +749,8 @@ export const actionCamerasData: ActionCamera[] = [
   },
   {
     id: 'akaso-brave-8',
-    name: 'AKASO Brave 8',
+    image: 'https://shopakaso.com/products/akaso-brave-8',
+  name: 'AKASO Brave 8',
     brand: 'AKASO',
     releaseDate: '2023',
     price: '¥1,899',
@@ -744,7 +774,8 @@ export const actionCamerasData: ActionCamera[] = [
   },
   {
     id: 'akaso-brave-7-le',
-    name: 'AKASO Brave 7 LE',
+    image: 'https://shopakaso.com/products/akaso-brave-7-le',
+  name: 'AKASO Brave 7 LE',
     brand: 'AKASO',
     releaseDate: '2022',
     price: '¥999',
@@ -767,7 +798,8 @@ export const actionCamerasData: ActionCamera[] = [
   },
   {
     id: 'akaso-brave-12',
-    name: 'AKASO Brave 12',
+    image: 'https://shopakaso.com/products/akaso-brave-12',
+  name: 'AKASO Brave 12',
     brand: 'AKASO',
     releaseDate: '2026-05',
     price: '¥999',
@@ -790,7 +822,8 @@ export const actionCamerasData: ActionCamera[] = [
   },
   {
     id: 'sjcam-sj8-pro',
-    name: 'SJCAM SJ8 Pro',
+    image: 'https://sjcamstores.com/products/sj8-pro-action-camera',
+  name: 'SJCAM SJ8 Pro',
     brand: 'SJCAM',
     releaseDate: '2020',
     price: '¥1,899',
@@ -814,7 +847,8 @@ export const actionCamerasData: ActionCamera[] = [
   },
   {
     id: 'sjcam-sj10-pro',
-    name: 'SJCAM SJ10 Pro',
+    image: 'https://sjcamstores.com/products/sj10-pro-dual-screen-action-camera',
+  name: 'SJCAM SJ10 Pro',
     brand: 'SJCAM',
     releaseDate: '2020',
     price: '¥1,499',
@@ -838,7 +872,8 @@ export const actionCamerasData: ActionCamera[] = [
   },
   {
     id: 'ricoh-theta-z1',
-    name: 'Ricoh Theta Z1',
+    image: 'https://us.ricoh-imaging.com/product/theta-z1',
+  name: 'Ricoh Theta Z1',
     brand: 'Ricoh',
     releaseDate: '2019',
     price: '¥6,999',
@@ -862,7 +897,8 @@ export const actionCamerasData: ActionCamera[] = [
   },
   {
     id: 'ricoh-theta-x',
-    name: 'Ricoh Theta X',
+    image: 'https://us.ricoh-imaging.com/product/theta-x',
+  name: 'Ricoh Theta X',
     brand: 'Ricoh',
     releaseDate: '2022',
     price: '¥3,999',
@@ -886,7 +922,8 @@ export const actionCamerasData: ActionCamera[] = [
   },
   {
     id: 'garmin-virb-360',
-    name: 'Garmin VIRB 360',
+    image: 'https://www.garmin.com/en-US/p/592819',
+  name: 'Garmin VIRB 360',
     brand: 'Garmin',
     releaseDate: '2017',
     price: '¥4,999',
@@ -910,7 +947,8 @@ export const actionCamerasData: ActionCamera[] = [
   },
   {
     id: 'panasonic-hx-a1',
-    name: 'Panasonic HX-A1',
+    image: 'https://shop.panasonic.com/hx-a1',
+  name: 'Panasonic HX-A1',
     brand: 'Panasonic',
     releaseDate: '2015',
     price: '¥1,999',
@@ -935,7 +973,8 @@ export const actionCamerasData: ActionCamera[] = [
 
   {
     id: 'gopro-hero13-black',
-    name: 'GoPro HERO13 Black',
+    image: 'https://gopro.com/en/us/shop/cameras/hero13-black',
+  name: 'GoPro HERO13 Black',
     brand: 'GoPro',
     releaseDate: '2020-10',
     price: '¥3,177',
@@ -960,7 +999,8 @@ export const actionCamerasData: ActionCamera[] = [
   },
   {
     id: 'dji-action-5',
-    name: 'DJI Action 5',
+    image: 'https://www-cdn.djiits.com/cms/uploads/20dd07025c2d44092cd9dbf76ad1ecb6@374*374.png',
+  name: 'DJI Action 5',
     brand: 'DJI',
     releaseDate: '2021-01',
     price: '¥3,509',
@@ -984,7 +1024,8 @@ export const actionCamerasData: ActionCamera[] = [
   },
   {
     id: 'insta360-x5',
-    name: 'Insta360 X5',
+    image: 'https://res.insta360.com/static/8e1e5fe57cc0152e9c07bb5bc3eccc0a/x5-double.png',
+  name: 'Insta360 X5',
     brand: 'Insta360',
     releaseDate: '2026-05',
     price: '¥4,617',
@@ -1008,7 +1049,8 @@ export const actionCamerasData: ActionCamera[] = [
   },
   {
     id: 'sony-hdr-as300',
-    name: 'Sony HDR-AS300',
+    image: 'https://www.sony.com/electronics/action-cam/hdr-as300',
+  name: 'Sony HDR-AS300',
     brand: 'Sony',
     releaseDate: '2026-05',
     price: '¥1,721',
@@ -1033,7 +1075,8 @@ export const actionCamerasData: ActionCamera[] = [
   },
   {
     id: 'garmin-virb-ultra-30',
-    name: 'Garmin VIRB Ultra 30',
+    image: 'https://www.garmin.com/en-US/p/548978',
+  name: 'Garmin VIRB Ultra 30',
     brand: 'Garmin',
     releaseDate: '2026-05',
     price: '¥4,958',
@@ -1057,7 +1100,8 @@ export const actionCamerasData: ActionCamera[] = [
   },
   {
     id: 'akaso-brave-8-le',
-    name: 'Akaso BRAVE 8 LE',
+    image: 'https://shopakaso.com/products/akaso-brave-8',
+  name: 'Akaso BRAVE 8 LE',
     brand: 'Akaso',
     releaseDate: '2026-05',
     price: '¥4,553',
@@ -1081,7 +1125,8 @@ export const actionCamerasData: ActionCamera[] = [
   },
   {
     id: 'sjcam-c500x',
-    name: 'SJCAM C500X',
+    image: 'https://www.sjcam.com/cameras/action-cameras/c500x',
+  name: 'SJCAM C500X',
     brand: 'SJCAM',
     releaseDate: '2020-01',
     price: '¥623',
@@ -1106,7 +1151,8 @@ export const actionCamerasData: ActionCamera[] = [
   },
   {
     id: 'ricoh-theta-z1',
-    name: 'RICOH Theta Z1',
+    image: 'https://us.ricoh-imaging.com/product/theta-z1',
+  name: 'RICOH Theta Z1',
     brand: 'RICOH',
     releaseDate: '2021-05',
     price: '¥4,337',
@@ -1130,7 +1176,8 @@ export const actionCamerasData: ActionCamera[] = [
   },
   {
     id: 'xiaomi-mi-action-camera-4k',
-    name: 'Xiaomi Mi Action Camera 4K',
+    image: 'https://www.mi.com/global/mi-action-camera-4k',
+  name: 'Xiaomi Mi Action Camera 4K',
     brand: 'Xiaomi',
     releaseDate: '2026-05',
     price: '¥4,627',
@@ -1154,7 +1201,8 @@ export const actionCamerasData: ActionCamera[] = [
   },
   {
     id: 'gopro-hero12-black',
-    name: 'GoPro HERO12 Black',
+    image: 'https://gopro.com/en/us/shop/cameras/hero12-black',
+  name: 'GoPro HERO12 Black',
     brand: 'GoPro',
     releaseDate: '2026-05',
     price: '¥2,010',
@@ -1179,7 +1227,8 @@ export const actionCamerasData: ActionCamera[] = [
   },
   {
     id: 'dji-action-3',
-    name: 'DJI Action 3',
+    image: 'https://www-cdn.djiits.com/cms/uploads/d1eb453f380269c8ff68ea2feb376be8@374*374.png',
+  name: 'DJI Action 3',
     brand: 'DJI',
     releaseDate: '2026-05',
     price: '¥3,670',
@@ -1203,7 +1252,8 @@ export const actionCamerasData: ActionCamera[] = [
   },
   {
     id: 'insta360-x4',
-    name: 'Insta360 X4',
+    image: 'https://res.insta360.com/static/9b3f6248055c4b255cdd5bdc5e9b8b64/x4-new.png',
+  name: 'Insta360 X4',
     brand: 'Insta360',
     releaseDate: '2026-05',
     price: '¥2,362',
@@ -1228,7 +1278,8 @@ export const actionCamerasData: ActionCamera[] = [
 
   {
     id: 'gopro-hero13-black',
-    name: 'GoPro HERO13 Black',
+    image: 'https://gopro.com/en/us/shop/cameras/hero13-black',
+  name: 'GoPro HERO13 Black',
     brand: 'GoPro',
     releaseDate: '2020-01',
     price: '¥1,883',
@@ -1253,7 +1304,8 @@ export const actionCamerasData: ActionCamera[] = [
   },
   {
     id: 'dji-action-5',
-    name: 'DJI Action 5',
+    image: 'https://www-cdn.djiits.com/cms/uploads/20dd07025c2d44092cd9dbf76ad1ecb6@374*374.png',
+  name: 'DJI Action 5',
     brand: 'DJI',
     releaseDate: '2021-02',
     price: '¥4,196',
@@ -1277,7 +1329,8 @@ export const actionCamerasData: ActionCamera[] = [
   },
   {
     id: 'insta360-x5',
-    name: 'Insta360 X5',
+    image: 'https://res.insta360.com/static/8e1e5fe57cc0152e9c07bb5bc3eccc0a/x5-double.png',
+  name: 'Insta360 X5',
     brand: 'Insta360',
     releaseDate: '2022-12',
     price: '¥3,488',
@@ -1301,7 +1354,8 @@ export const actionCamerasData: ActionCamera[] = [
   },
   {
     id: 'sony-hdr-as300',
-    name: 'Sony HDR-AS300',
+    image: 'https://www.sony.com/electronics/action-cam/hdr-as300',
+  name: 'Sony HDR-AS300',
     brand: 'Sony',
     releaseDate: '2023-12',
     price: '¥4,261',
@@ -1326,7 +1380,8 @@ export const actionCamerasData: ActionCamera[] = [
   },
   {
     id: 'garmin-virb-ultra-30',
-    name: 'Garmin VIRB Ultra 30',
+    image: 'https://www.garmin.com/en-US/p/548978',
+  name: 'Garmin VIRB Ultra 30',
     brand: 'Garmin',
     releaseDate: '2024-12',
     price: '¥4,378',
@@ -1350,7 +1405,8 @@ export const actionCamerasData: ActionCamera[] = [
   },
   {
     id: 'akaso-brave-8-le',
-    name: 'Akaso BRAVE 8 LE',
+    image: 'https://shopakaso.com/products/akaso-brave-8',
+  name: 'Akaso BRAVE 8 LE',
     brand: 'Akaso',
     releaseDate: '2025-02',
     price: '¥1,694',
@@ -1374,7 +1430,8 @@ export const actionCamerasData: ActionCamera[] = [
   },
   {
     id: 'sjcam-c500x',
-    name: 'SJCAM C500X',
+    image: 'https://www.sjcam.com/cameras/action-cameras/c500x',
+  name: 'SJCAM C500X',
     brand: 'SJCAM',
     releaseDate: '2020-11',
     price: '¥2,695',
@@ -1399,7 +1456,8 @@ export const actionCamerasData: ActionCamera[] = [
   },
   {
     id: 'ricoh-theta-z1',
-    name: 'RICOH Theta Z1',
+    image: 'https://us.ricoh-imaging.com/product/theta-z1',
+  name: 'RICOH Theta Z1',
     brand: 'RICOH',
     releaseDate: '2021-12',
     price: '¥3,143',
@@ -1423,7 +1481,8 @@ export const actionCamerasData: ActionCamera[] = [
   },
   {
     id: 'xiaomi-mi-action-camera-4k',
-    name: 'Xiaomi Mi Action Camera 4K',
+    image: 'https://www.mi.com/global/mi-action-camera-4k',
+  name: 'Xiaomi Mi Action Camera 4K',
     brand: 'Xiaomi',
     releaseDate: '2022-12',
     price: '¥1,870',
@@ -1447,7 +1506,8 @@ export const actionCamerasData: ActionCamera[] = [
   },
   {
     id: 'gopro-hero12-black',
-    name: 'GoPro HERO12 Black',
+    image: 'https://gopro.com/en/us/shop/cameras/hero12-black',
+  name: 'GoPro HERO12 Black',
     brand: 'GoPro',
     releaseDate: '2023-06',
     price: '¥4,550',
@@ -1472,7 +1532,8 @@ export const actionCamerasData: ActionCamera[] = [
   },
   {
     id: 'dji-action-3',
-    name: 'DJI Action 3',
+    image: 'https://www-cdn.djiits.com/cms/uploads/d1eb453f380269c8ff68ea2feb376be8@374*374.png',
+  name: 'DJI Action 3',
     brand: 'DJI',
     releaseDate: '2024-11',
     price: '¥4,246',
@@ -1496,7 +1557,8 @@ export const actionCamerasData: ActionCamera[] = [
   },
   {
     id: 'insta360-x4',
-    name: 'Insta360 X4',
+    image: 'https://res.insta360.com/static/9b3f6248055c4b255cdd5bdc5e9b8b64/x4-new.png',
+  name: 'Insta360 X4',
     brand: 'Insta360',
     releaseDate: '2025-05',
     price: '¥824',

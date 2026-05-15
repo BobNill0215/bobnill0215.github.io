@@ -103,6 +103,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI Scene Optimization'
     ],
+    image: 'https://www.honor.com/content/dam/honor/v2/product/phone/magic-v2/magic-v2-hero.png',
   },
 
   {
@@ -166,6 +167,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Object Eraser'
     ],
+    image: 'https://www.sony.com/image/sonyview1?fmt=png&wid=1200',
   },
 
   {
@@ -229,6 +231,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Hasselblad Natural Color'
     ],
+    image: 'https://oasis.opstatics.com/content/dam/oasis/page/2024/global/product/waffle/nav-g.png',
   },
 
   {
@@ -308,6 +311,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Smart HDR'
     ],
+    image: 'https://www.sony.com/image/sonyview1?fmt=png&wid=1200',
   },
 
   {
@@ -385,6 +389,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Long exposure'
     ],
+    image: 'https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/find-x7-ultra-navigation/Find-X7-Ultra-blue.png',
   },
 
   {
@@ -461,6 +466,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Zeiss optics'
     ],
+    image: 'https://www.honor.com/content/dam/honor/v2/product/phone/magic-v2/magic-v2-hero.png',
   },
 
   {
@@ -525,6 +531,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Zeiss optics'
     ],
+    image: 'https://www.tcl.com/content/dam/tcl/product/mobile-phone/tcl-40-series-hero.png',
   },
 
   {
@@ -599,6 +606,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Best Take'
     ],
+    image: 'https://oasis.opstatics.com/content/dam/oasis/page/2024/global/product/waffle/nav-g.png',
   },
 
   {
@@ -675,6 +683,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Leica filters'
     ],
+    image: 'https://storage.googleapis.com/gweb-uniblog-publish-prod/images/P9P9PThumbnail_16x9_Opt2_2.width-1300.jpg',
   },
 
   {
@@ -747,6 +756,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI portrait'
     ],
+    image: 'https://storage.googleapis.com/gweb-uniblog-publish-prod/images/P9P9PThumbnail_16x9_Opt2_2.width-1300.jpg',
   },
 
   {
@@ -808,6 +818,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Portrait Mode'
     ],
+    image: 'https://www.lenovo.com/medias/lenovo-legion-phone-dual.png',
   },
 
   {
@@ -885,6 +896,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Super Resolution'
     ],
+    image: 'https://www.nokia.com/phones/sites/default/files/styles/hero/public/nokia-x30-5g-hero.png',
   },
 
   {
@@ -958,6 +970,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Ultra HDR'
     ],
+    image: 'https://i03.appmifile.com/584_item_in/04/07/2024/69af272b112bd2935f0f00559d76c966.png',
   },
 
   {
@@ -1022,6 +1035,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Portrait Mode'
     ],
+    image: 'https://www.tcl.com/content/dam/tcl/product/mobile-phone/tcl-40-series-hero.png',
   },
 
   {
@@ -1100,6 +1114,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Dual Capture'
     ],
+    image: 'https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-iphoneplus-select-2024?wid=512',
   },
 
   {
@@ -1177,6 +1192,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Magic Eraser'
     ],
+    image: 'https://www.meizu.com/uploads/phone/meizu-21-pro-hero.png',
   },
 
   {
@@ -1258,6 +1274,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Super Resolution'
     ],
+    image: 'https://images.samsung.com/is/image/samsung/assets/smartphones/galaxy-galaxyzfold-9/images/galaxy-galaxyzfold-9-share-image.jpg',
   },
 
   {
@@ -1332,6 +1349,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Panorama'
     ],
+    image: 'https://www.zte.com.cn/content/dam/zte/product/mobile/nubia-z60-ultra-hero.png',
   },
 
   {
@@ -1406,6 +1424,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Ultra HDR'
     ],
+    image: 'https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-iphonese-select-2024?wid=512',
   },
 
   {
@@ -1479,6 +1498,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Object Eraser'
     ],
+    image: 'https://cdn.shopify.com/s/files/1/0585/1172/0640/products/BA_ALAK_200.1001.png',
   },
 
   {
@@ -1559,6 +1579,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI Remove'
     ],
+    image: 'https://storage.googleapis.com/gweb-uniblog-publish-prod/images/P9P9PThumbnail_16x9_Opt2_2.width-1300.jpg',
   },
 
   {
@@ -1624,6 +1645,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'XMAGE'
     ],
+    image: 'https://dlcdnwebimgs.asus.com/files/media/5170538/rog-phone-8-pro-hero.png',
   },
 
   {
@@ -1700,6 +1722,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'ProRAW'
     ],
+    image: 'https://www.tcl.com/content/dam/tcl/product/mobile-phone/tcl-40-series-hero.png',
   },
 
   {
@@ -1777,6 +1800,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Dual Capture'
     ],
+    image: 'https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/find-x7-ultra-navigation/Find-X7-Ultra-blue.png',
   },
 
   {
@@ -1842,6 +1866,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI Enhance'
     ],
+    image: 'https://www.tcl.com/content/dam/tcl/product/mobile-phone/tcl-40-series-hero.png',
   },
 
   {
@@ -1903,6 +1928,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'XMAGE'
     ],
+    image: 'https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/find-x7-ultra-navigation/Find-X7-Ultra-blue.png',
   },
 
   {
@@ -1982,6 +2008,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI Photo Edit'
     ],
+    image: 'https://cdn.shopify.com/s/files/1/0585/1172/0640/products/BA_ALAK_200.1001.png',
   },
 
   {
@@ -2045,6 +2072,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'ProRAW'
     ],
+    image: 'https://i03.appmifile.com/584_item_in/04/07/2024/69af272b112bd2935f0f00559d76c966.png',
   },
 
   {
@@ -2111,6 +2139,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Magic Eraser'
     ],
+    image: 'https://www.motorola.com/sites/default/files/images/motorola-edge-40-pro-hero.png',
   },
 
   {
@@ -2188,6 +2217,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Long exposure'
     ],
+    image: 'https://www.tcl.com/content/dam/tcl/product/mobile-phone/tcl-40-series-hero.png',
   },
 
   {
@@ -2249,6 +2279,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'XMAGE'
     ],
+    image: 'https://www.lg.com/us/images/mobile-phos/md07519966/gallery/medium01.jpg',
   },
 
   {
@@ -2326,6 +2357,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Smart HDR'
     ],
+    image: 'https://www.zte.com.cn/content/dam/zte/product/mobile/nubia-z60-ultra-hero.png',
   },
 
   {
@@ -2391,6 +2423,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Long exposure'
     ],
+    image: 'https://images.samsung.com/is/image/samsung/assets/smartphones/galaxy-galaxysultra-10/images/galaxy-galaxysultra-10-share-image.jpg',
   },
 
   {
@@ -2454,6 +2487,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Object Eraser'
     ],
+    image: 'https://storage.googleapis.com/gweb-uniblog-publish-prod/images/P9P9PThumbnail_16x9_Opt2_2.width-1300.jpg',
   },
 
   {
@@ -2520,6 +2554,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Best Take'
     ],
+    image: 'https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-iphonepro-select-2024?wid=512',
   },
 
   {
@@ -2594,6 +2629,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Pro mode RAW'
     ],
+    image: 'https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1740478567559/1342e5c528e002e7c89e900be2ed2595.png',
   },
 
   {
@@ -2669,6 +2705,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Super Resolution'
     ],
+    image: 'https://www.tcl.com/content/dam/tcl/product/mobile-phone/tcl-40-series-hero.png',
   },
 
   {
@@ -2732,6 +2769,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Object Eraser'
     ],
+    image: 'https://www.nokia.com/phones/sites/default/files/styles/hero/public/nokia-x30-5g-hero.png',
   },
 
   {
@@ -2800,6 +2838,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Monochrome'
     ],
+    image: 'https://www.tcl.com/content/dam/tcl/product/mobile-phone/tcl-40-series-hero.png',
   },
 
   {
@@ -2876,6 +2915,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI beauty'
     ],
+    image: 'https://www.lenovo.com/medias/lenovo-legion-phone-dual.png',
   },
 
   {
@@ -2950,6 +2990,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Astrophotography'
     ],
+    image: 'https://www.sony.com/image/sonyview1?fmt=png&wid=1200',
   },
 
   {
@@ -3011,6 +3052,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Leica Vibrant'
     ],
+    image: 'https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/find-x7-ultra-navigation/Find-X7-Ultra-blue.png',
   },
 
   {
@@ -3074,6 +3116,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Hasselblad Natural Color'
     ],
+    image: 'https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1740478567559/1342e5c528e002e7c89e900be2ed2595.png',
   },
 
   {
@@ -3138,6 +3181,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Zeiss Cinematic'
     ],
+    image: 'https://dlcdnwebimgs.asus.com/files/media/5170538/rog-phone-8-pro-hero.png',
   },
 
   {
@@ -3203,6 +3247,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI Enhance'
     ],
+    image: 'https://consumer.huawei.com/content/dam/huawei-cbg-site/common/mkt/pdp/phones/p60-pro/images/hero/huawei-p60-pro-kv-xs.webp',
   },
 
   {
@@ -3279,6 +3324,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Long exposure'
     ],
+    image: 'https://oasis.opstatics.com/content/dam/oasis/page/2024/global/product/waffle/nav-g.png',
   },
 
   {
@@ -3353,6 +3399,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Magic Eraser'
     ],
+    image: 'https://i03.appmifile.com/584_item_in/04/07/2024/69af272b112bd2935f0f00559d76c966.png',
   },
 
   {
@@ -3418,6 +3465,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Watermark'
     ],
+    image: 'https://consumer.huawei.com/content/dam/huawei-cbg-site/common/mkt/pdp/phones/p60-pro/images/hero/huawei-p60-pro-kv-xs.webp',
   },
 
   {
@@ -3482,6 +3530,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Panorama'
     ],
+    image: 'https://i03.appmifile.com/584_item_in/04/07/2024/69af272b112bd2935f0f00559d76c966.png',
   },
 
   {
@@ -3559,6 +3608,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Smart HDR'
     ],
+    image: 'https://dlcdnwebimgs.asus.com/files/media/5170538/rog-phone-8-pro-hero.png',
   },
 
   {
@@ -3622,6 +3672,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Pro mode RAW'
     ],
+    image: 'https://www.lg.com/us/images/mobile-phos/md07519966/gallery/medium01.jpg',
   },
 
   {
@@ -3697,6 +3748,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'ProRAW'
     ],
+    image: 'https://www.lg.com/us/images/mobile-phos/md07519966/gallery/medium01.jpg',
   },
 
   {
@@ -3773,6 +3825,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Portrait Mode'
     ],
+    image: 'https://www.honor.com/content/dam/honor/v2/product/phone/magic-v2/magic-v2-hero.png',
   },
 
   {
@@ -3854,6 +3907,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Document mode'
     ],
+    image: 'https://www.realme.com/sites/default/files/realme-gt-pro-product-image.png',
   },
 
   {
@@ -3917,6 +3971,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI beauty'
     ],
+    image: 'https://storage.googleapis.com/gweb-uniblog-publish-prod/images/P9P9PThumbnail_16x9_Opt2_2.width-1300.jpg',
   },
 
   {
@@ -3983,6 +4038,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI Enhance'
     ],
+    image: 'https://images.samsung.com/is/image/samsung/assets/smartphones/galaxy-galaxyzflip-6/images/galaxy-galaxyzflip-6-share-image.jpg',
   },
 
   {
@@ -4062,6 +4118,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Smart HDR'
     ],
+    image: 'https://dlcdnwebimgs.asus.com/files/media/5170538/rog-phone-8-pro-hero.png',
   },
 
   {
@@ -4139,6 +4196,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Professional Mode'
     ],
+    image: 'https://consumer.huawei.com/content/dam/huawei-cbg-site/common/mkt/pdp/phones/p60-pro/images/hero/huawei-p60-pro-kv-xs.webp',
   },
 
   {
@@ -4200,6 +4258,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Monochrome'
     ],
+    image: 'https://oasis.opstatics.com/content/dam/oasis/page/2024/global/product/waffle/nav-g.png',
   },
 
   {
@@ -4263,6 +4322,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Super Resolution'
     ],
+    image: 'https://cdn.shopify.com/s/files/1/0585/1172/0640/products/BA_ALAK_200.1001.png',
   },
 
   {
@@ -4337,6 +4397,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Live Photo'
     ],
+    image: 'https://storage.googleapis.com/gweb-uniblog-publish-prod/images/P9P9PThumbnail_16x9_Opt2_2.width-1300.jpg',
   },
 
   {
@@ -4415,6 +4476,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Food mode'
     ],
+    image: 'https://i03.appmifile.com/584_item_in/04/07/2024/69af272b112bd2935f0f00559d76c966.png',
   },
 
   {
@@ -4478,6 +4540,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Magic Eraser'
     ],
+    image: 'https://www.sony.com/image/sonyview1?fmt=png&wid=1200',
   },
 
   {
@@ -4555,6 +4618,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Professional Mode'
     ],
+    image: 'https://www.nokia.com/phones/sites/default/files/styles/hero/public/nokia-x30-5g-hero.png',
   },
 
   {
@@ -4629,6 +4693,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Leica Authentic'
     ],
+    image: 'https://www.sony.com/image/sonyview1?fmt=png&wid=1200',
   },
 
   {
@@ -4694,6 +4759,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI Scene Optimization'
     ],
+    image: 'https://oasis.opstatics.com/content/dam/oasis/page/2024/global/product/waffle/nav-g.png',
   },
 
   {
@@ -4760,6 +4826,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Live Photo'
     ],
+    image: 'https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1740478567559/1342e5c528e002e7c89e900be2ed2595.png',
   },
 
   {
@@ -4838,6 +4905,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Macro mode'
     ],
+    image: 'https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1740478567559/1342e5c528e002e7c89e900be2ed2595.png',
   },
 
   {
@@ -4902,6 +4970,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Document mode'
     ],
+    image: 'https://www.lg.com/us/images/mobile-phos/md07519966/gallery/medium01.jpg',
   },
 
   {
@@ -4965,6 +5034,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Pixel Shift'
     ],
+    image: 'https://dlcdnwebimgs.asus.com/files/media/5170538/rog-phone-8-pro-hero.png',
   },
 
   {
@@ -5026,6 +5096,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI Photo Edit'
     ],
+    image: 'https://www.lenovo.com/medias/lenovo-legion-phone-dual.png',
   },
 
   {
@@ -5102,6 +5173,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Panorama'
     ],
+    image: 'https://www.lenovo.com/medias/lenovo-legion-phone-dual.png',
   },
 
   {
@@ -5179,6 +5251,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI portrait'
     ],
+    image: 'https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1740478567559/1342e5c528e002e7c89e900be2ed2595.png',
   },
 
   {
@@ -5244,6 +5317,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Best Take'
     ],
+    image: 'https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/find-x7-ultra-navigation/Find-X7-Ultra-blue.png',
   },
 
   {
@@ -5308,6 +5382,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'HDR+'
     ],
+    image: 'https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1740478567559/1342e5c528e002e7c89e900be2ed2595.png',
   },
 
   {
@@ -5386,6 +5461,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Zeiss optics'
     ],
+    image: 'https://www.lenovo.com/medias/lenovo-legion-phone-dual.png',
   },
 
   {
@@ -5453,6 +5529,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Monochrome'
     ],
+    image: 'https://www.lg.com/us/images/mobile-phos/md07519966/gallery/medium01.jpg',
   },
 
   {
@@ -5532,6 +5609,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Zeiss optics'
     ],
+    image: 'https://i03.appmifile.com/584_item_in/04/07/2024/69af272b112bd2935f0f00559d76c966.png',
   },
 
   {
@@ -5597,6 +5675,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI portrait'
     ],
+    image: 'https://www.tcl.com/content/dam/tcl/product/mobile-phone/tcl-40-series-hero.png',
   },
 
   {
@@ -5663,6 +5742,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Leica Vibrant'
     ],
+    image: 'https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1740478567559/1342e5c528e002e7c89e900be2ed2595.png',
   },
 
   {
@@ -5738,6 +5818,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Panorama'
     ],
+    image: 'https://www.zte.com.cn/content/dam/zte/product/mobile/nubia-z60-ultra-hero.png',
   },
 
   {
@@ -5804,6 +5885,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Leica filters'
     ],
+    image: 'https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-iphonepromax-select-2024?wid=512',
   },
 
   {
@@ -5879,6 +5961,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Zeiss Cinematic'
     ],
+    image: 'https://www.realme.com/sites/default/files/realme-gt-pro-product-image.png',
   },
 
   {
@@ -5945,6 +6028,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Pixel Shift'
     ],
+    image: 'https://www.tcl.com/content/dam/tcl/product/mobile-phone/tcl-40-series-hero.png',
   },
 
   {
@@ -6010,6 +6094,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI Remove'
     ],
+    image: 'https://www.lg.com/us/images/mobile-phos/md07519966/gallery/medium01.jpg',
   },
 
   {
@@ -6091,6 +6176,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Super Resolution'
     ],
+    image: 'https://www.honor.com/content/dam/honor/v2/product/phone/magic-v2/magic-v2-hero.png',
   },
 
   {
@@ -6153,6 +6239,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'ProRAW'
     ],
+    image: 'https://consumer.huawei.com/content/dam/huawei-cbg-site/common/mkt/pdp/phones/p60-pro/images/hero/huawei-p60-pro-kv-xs.webp',
   },
 
   {
@@ -6230,6 +6317,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Document mode'
     ],
+    image: 'https://dlcdnwebimgs.asus.com/files/media/5170538/rog-phone-8-pro-hero.png',
   },
 
   {
@@ -6311,6 +6399,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Best Take'
     ],
+    image: 'https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-iphonepro-select-2024?wid=512',
   },
 
   {
@@ -6385,6 +6474,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'XD Fusion'
     ],
+    image: 'https://consumer.huawei.com/content/dam/huawei-cbg-site/common/mkt/pdp/phones/p60-pro/images/hero/huawei-p60-pro-kv-xs.webp',
   },
 
   {
@@ -6460,6 +6550,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Monochrome'
     ],
+    image: 'https://www.meizu.com/uploads/phone/meizu-21-pro-hero.png',
   },
 
   {
@@ -6525,6 +6616,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Portrait Mode'
     ],
+    image: 'https://www.nokia.com/phones/sites/default/files/styles/hero/public/nokia-x30-5g-hero.png',
   },
 
   {
@@ -6602,6 +6694,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Dual Capture'
     ],
+    image: 'https://www.nokia.com/phones/sites/default/files/styles/hero/public/nokia-x30-5g-hero.png',
   },
 
   {
@@ -6677,6 +6770,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Pro mode RAW'
     ],
+    image: 'https://www.lenovo.com/medias/lenovo-legion-phone-dual.png',
   },
 
   {
@@ -6751,6 +6845,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Magic Eraser'
     ],
+    image: 'https://www.realme.com/sites/default/files/realme-gt-pro-product-image.png',
   },
 
   {
@@ -6816,6 +6911,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI portrait'
     ],
+    image: 'https://storage.googleapis.com/gweb-uniblog-publish-prod/images/P9P9PThumbnail_16x9_Opt2_2.width-1300.jpg',
   },
 
   {
@@ -6879,6 +6975,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Time-lapse'
     ],
+    image: 'https://www.nokia.com/phones/sites/default/files/styles/hero/public/nokia-x30-5g-hero.png',
   },
 
   {
@@ -6942,6 +7039,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Magic Eraser'
     ],
+    image: 'https://www.sony.com/image/sonyview1?fmt=png&wid=1200',
   },
 
   {
@@ -7018,6 +7116,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Pro mode RAW'
     ],
+    image: 'https://www.motorola.com/sites/default/files/images/motorola-edge-40-pro-hero.png',
   },
 
   {
@@ -7083,6 +7182,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'XMAGE'
     ],
+    image: 'https://www.nokia.com/phones/sites/default/files/styles/hero/public/nokia-x30-5g-hero.png',
   },
 
   {
@@ -7161,6 +7261,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Super Resolution'
     ],
+    image: 'https://dlcdnwebimgs.asus.com/files/media/5170538/rog-phone-8-pro-hero.png',
   },
 
   {
@@ -7223,6 +7324,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Object Eraser'
     ],
+    image: 'https://images.samsung.com/is/image/samsung/assets/smartphones/galaxy-galaxys-12/images/galaxy-galaxys-12-share-image.jpg',
   },
 
   {
@@ -7286,6 +7388,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'HDR+'
     ],
+    image: 'https://www.sony.com/image/sonyview1?fmt=png&wid=1200',
   },
 
   {
@@ -7350,6 +7453,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI Enhance'
     ],
+    image: 'https://oasis.opstatics.com/content/dam/oasis/page/2024/global/product/waffle/nav-g.png',
   },
 
   {
@@ -7424,6 +7528,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Long exposure'
     ],
+    image: 'https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/find-x7-ultra-navigation/Find-X7-Ultra-blue.png',
   },
 
   {
@@ -7503,6 +7608,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Pixel Shift'
     ],
+    image: 'https://www.zte.com.cn/content/dam/zte/product/mobile/nubia-z60-ultra-hero.png',
   },
 
   {
@@ -7565,6 +7671,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'ProRAW'
     ],
+    image: 'https://www.honor.com/content/dam/honor/v2/product/phone/magic-v2/magic-v2-hero.png',
   },
 
   {
@@ -7641,6 +7748,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI Remove'
     ],
+    image: 'https://www.nokia.com/phones/sites/default/files/styles/hero/public/nokia-x30-5g-hero.png',
   },
 
   {
@@ -7715,6 +7823,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Best Take'
     ],
+    image: 'https://dlcdnwebimgs.asus.com/files/media/5170538/rog-phone-8-pro-hero.png',
   },
 
   {
@@ -7791,6 +7900,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Long exposure'
     ],
+    image: 'https://consumer.huawei.com/content/dam/huawei-cbg-site/common/mkt/pdp/phones/p60-pro/images/hero/huawei-p60-pro-kv-xs.webp',
   },
 
   {
@@ -7870,6 +7980,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Leica Vibrant'
     ],
+    image: 'https://www.honor.com/content/dam/honor/v2/product/phone/magic-v2/magic-v2-hero.png',
   },
 
   {
@@ -7934,6 +8045,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Zeiss Cinematic'
     ],
+    image: 'https://www.lenovo.com/medias/lenovo-legion-phone-dual.png',
   },
 
   {
@@ -8010,6 +8122,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Photo Unblur'
     ],
+    image: 'https://www.honor.com/content/dam/honor/v2/product/phone/magic-v2/magic-v2-hero.png',
   },
 
   {
@@ -8088,6 +8201,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Object Eraser'
     ],
+    image: 'https://i03.appmifile.com/584_item_in/04/07/2024/69af272b112bd2935f0f00559d76c966.png',
   },
 
   {
@@ -8158,6 +8272,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Time-lapse'
     ],
+    image: 'https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-iphonepro-1-select-2024?wid=512',
   },
 
   {
@@ -8237,6 +8352,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'HDR+'
     ],
+    image: 'https://storage.googleapis.com/gweb-uniblog-publish-prod/images/P9P9PThumbnail_16x9_Opt2_2.width-1300.jpg',
   },
 
   {
@@ -8303,6 +8419,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Best Take'
     ],
+    image: 'https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1740478567559/1342e5c528e002e7c89e900be2ed2595.png',
   },
 
   {
@@ -8366,6 +8483,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Document mode'
     ],
+    image: 'https://www.motorola.com/sites/default/files/images/motorola-edge-40-pro-hero.png',
   },
 
   {
@@ -8430,6 +8548,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Professional Mode'
     ],
+    image: 'https://www.nokia.com/phones/sites/default/files/styles/hero/public/nokia-x30-5g-hero.png',
   },
 
   {
@@ -8509,6 +8628,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Professional Mode'
     ],
+    image: 'https://www.meizu.com/uploads/phone/meizu-21-pro-hero.png',
   },
 
   {
@@ -8573,6 +8693,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Magic Editor'
     ],
+    image: 'https://storage.googleapis.com/gweb-uniblog-publish-prod/images/P9P9PThumbnail_16x9_Opt2_2.width-1300.jpg',
   },
 
   {
@@ -8645,6 +8766,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Leica Vibrant'
     ],
+    image: 'https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1740478567559/1342e5c528e002e7c89e900be2ed2595.png',
   },
 
   {
@@ -8710,6 +8832,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Watermark'
     ],
+    image: 'https://cdn.shopify.com/s/files/1/0585/1172/0640/products/BA_ALAK_200.1001.png',
   },
 
   {
@@ -8790,6 +8913,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Zeiss Cinematic'
     ],
+    image: 'https://cdn.shopify.com/s/files/1/0585/1172/0640/products/BA_ALAK_200.1001.png',
   },
 
   {
@@ -8857,6 +8981,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Macro mode'
     ],
+    image: 'https://www.zte.com.cn/content/dam/zte/product/mobile/nubia-z60-ultra-hero.png',
   },
 
   {
@@ -8918,6 +9043,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Macro mode'
     ],
+    image: 'https://www.zte.com.cn/content/dam/zte/product/mobile/nubia-z60-ultra-hero.png',
   },
 
   {
@@ -8992,6 +9118,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Live Photo'
     ],
+    image: 'https://cdn.shopify.com/s/files/1/0585/1172/0640/products/BA_ALAK_200.1001.png',
   },
 
   {
@@ -9057,6 +9184,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI beauty'
     ],
+    image: 'https://i03.appmifile.com/584_item_in/04/07/2024/69af272b112bd2935f0f00559d76c966.png',
   },
 
   {
@@ -9118,6 +9246,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Night Mode'
     ],
+    image: 'https://www.zte.com.cn/content/dam/zte/product/mobile/nubia-z60-ultra-hero.png',
   },
 
   {
@@ -9188,6 +9317,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Magic Eraser'
     ],
+    image: 'https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1740478567559/1342e5c528e002e7c89e900be2ed2595.png',
   },
 
   {
@@ -9253,6 +9383,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Leica Authentic'
     ],
+    image: 'https://consumer.huawei.com/content/dam/huawei-cbg-site/common/mkt/pdp/phones/p60-pro/images/hero/huawei-p60-pro-kv-xs.webp',
   },
 
   {
@@ -9330,6 +9461,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'XMAGE'
     ],
+    image: 'https://www.tcl.com/content/dam/tcl/product/mobile-phone/tcl-40-series-hero.png',
   },
 
   {
@@ -9407,6 +9539,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Super Resolution'
     ],
+    image: 'https://www.realme.com/sites/default/files/realme-gt-pro-product-image.png',
   },
 
   {
@@ -9484,6 +9617,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI Photo Edit'
     ],
+    image: 'https://www.honor.com/content/dam/honor/v2/product/phone/magic-v2/magic-v2-hero.png',
   },
 
   {
@@ -9550,6 +9684,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI Remove'
     ],
+    image: 'https://storage.googleapis.com/gweb-uniblog-publish-prod/images/P9P9PThumbnail_16x9_Opt2_2.width-1300.jpg',
   },
 
   {
@@ -9618,6 +9753,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI Enhance'
     ],
+    image: 'https://www.lenovo.com/medias/lenovo-legion-phone-dual.png',
   },
 
   {
@@ -9695,6 +9831,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Document mode'
     ],
+    image: 'https://images.samsung.com/is/image/samsung/assets/smartphones/galaxy-galaxya-9/images/galaxy-galaxya-9-share-image.jpg',
   },
 
   {
@@ -9760,6 +9897,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Document mode'
     ],
+    image: 'https://oasis.opstatics.com/content/dam/oasis/page/2024/global/product/waffle/nav-g.png',
   },
 
   {
@@ -9821,6 +9959,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Ultra HDR'
     ],
+    image: 'https://dlcdnwebimgs.asus.com/files/media/5170538/rog-phone-8-pro-hero.png',
   },
 
   {
@@ -9893,6 +10032,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Photo Unblur'
     ],
+    image: 'https://www.realme.com/sites/default/files/realme-gt-pro-product-image.png',
   },
 
   {
@@ -9957,6 +10097,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Hasselblad Natural Color'
     ],
+    image: 'https://www.lenovo.com/medias/lenovo-legion-phone-dual.png',
   },
 
   {
@@ -10021,6 +10162,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Food mode'
     ],
+    image: 'https://www.lenovo.com/medias/lenovo-legion-phone-dual.png',
   },
 
   {
@@ -10086,6 +10228,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Hasselblad Natural Color'
     ],
+    image: 'https://www.lg.com/us/images/mobile-phos/md07519966/gallery/medium01.jpg',
   },
 
   {
@@ -10147,6 +10290,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Object Eraser'
     ],
+    image: 'https://i03.appmifile.com/584_item_in/04/07/2024/69af272b112bd2935f0f00559d76c966.png',
   },
 
   {
@@ -10211,6 +10355,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Pixel Shift'
     ],
+    image: 'https://images.samsung.com/is/image/samsung/assets/smartphones/galaxy-galaxym-11/images/galaxy-galaxym-11-share-image.jpg',
   },
 
   {
@@ -10286,6 +10431,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Astrophotography'
     ],
+    image: 'https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/find-x7-ultra-navigation/Find-X7-Ultra-blue.png',
   },
 
   {
@@ -10360,6 +10506,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Astrophotography'
     ],
+    image: 'https://cdn.shopify.com/s/files/1/0585/1172/0640/products/BA_ALAK_200.1001.png',
   },
 
   {
@@ -10435,6 +10582,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Dual Capture'
     ],
+    image: 'https://www.nokia.com/phones/sites/default/files/styles/hero/public/nokia-x30-5g-hero.png',
   },
 
   {
@@ -10511,6 +10659,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Leica Vibrant'
     ],
+    image: 'https://www.sony.com/image/sonyview1?fmt=png&wid=1200',
   },
 
   {
@@ -10584,6 +10733,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Portrait Mode'
     ],
+    image: 'https://storage.googleapis.com/gweb-uniblog-publish-prod/images/P9P9PThumbnail_16x9_Opt2_2.width-1300.jpg',
   },
 
   {
@@ -10661,6 +10811,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Magic Editor'
     ],
+    image: 'https://www.honor.com/content/dam/honor/v2/product/phone/magic-v2/magic-v2-hero.png',
   },
 
   {
@@ -10736,6 +10887,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'XD Fusion'
     ],
+    image: 'https://www.zte.com.cn/content/dam/zte/product/mobile/nubia-z60-ultra-hero.png',
   },
 
   {
@@ -10814,6 +10966,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Portrait Mode'
     ],
+    image: 'https://storage.googleapis.com/gweb-uniblog-publish-prod/images/P9P9PThumbnail_16x9_Opt2_2.width-1300.jpg',
   },
 
   {
@@ -10891,6 +11044,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI Enhance'
     ],
+    image: 'https://www.tcl.com/content/dam/tcl/product/mobile-phone/tcl-40-series-hero.png',
   },
 
   {
@@ -10961,6 +11115,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Pixel Shift'
     ],
+    image: 'https://www.motorola.com/sites/default/files/images/motorola-edge-40-pro-hero.png',
   },
 
   {
@@ -11037,6 +11192,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Astrophotography'
     ],
+    image: 'https://images.samsung.com/is/image/samsung/assets/smartphones/galaxy-galaxys-10/images/galaxy-galaxys-10-share-image.jpg',
   },
 
   {
@@ -11097,6 +11253,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Macro mode'
     ],
+    image: 'https://www.honor.com/content/dam/honor/v2/product/phone/magic-v2/magic-v2-hero.png',
   },
 
   {
@@ -11159,6 +11316,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI Photo Edit'
     ],
+    image: 'https://www.realme.com/sites/default/files/realme-gt-pro-product-image.png',
   },
 
   {
@@ -11221,6 +11379,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Professional Mode'
     ],
+    image: 'https://www.motorola.com/sites/default/files/images/motorola-edge-40-pro-hero.png',
   },
 
   {
@@ -11300,6 +11459,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Super Resolution'
     ],
+    image: 'https://consumer.huawei.com/content/dam/huawei-cbg-site/common/mkt/pdp/phones/p60-pro/images/hero/huawei-p60-pro-kv-xs.webp',
   },
 
   {
@@ -11364,6 +11524,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI beauty'
     ],
+    image: 'https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/find-x7-ultra-navigation/Find-X7-Ultra-blue.png',
   },
 
   {
@@ -11423,6 +11584,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Professional Mode'
     ],
+    image: 'https://www.zte.com.cn/content/dam/zte/product/mobile/nubia-z60-ultra-hero.png',
   },
 
   {
@@ -11487,6 +11649,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI Enhance'
     ],
+    image: 'https://www.realme.com/sites/default/files/realme-gt-pro-product-image.png',
   },
 
   {
@@ -11555,6 +11718,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Zeiss optics'
     ],
+    image: 'https://www.nokia.com/phones/sites/default/files/styles/hero/public/nokia-x30-5g-hero.png',
   },
 
   {
@@ -11633,6 +11797,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Astrophotography'
     ],
+    image: 'https://www.motorola.com/sites/default/files/images/motorola-edge-40-pro-hero.png',
   },
 
   {
@@ -11710,6 +11875,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Leica Vibrant'
     ],
+    image: 'https://www.tcl.com/content/dam/tcl/product/mobile-phone/tcl-40-series-hero.png',
   },
 
   {
@@ -11774,6 +11940,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'ProRAW'
     ],
+    image: 'https://cdn.shopify.com/s/files/1/0585/1172/0640/products/BA_ALAK_200.1001.png',
   },
 
   {
@@ -11840,6 +12007,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI Scene Optimization'
     ],
+    image: 'https://i03.appmifile.com/584_item_in/04/07/2024/69af272b112bd2935f0f00559d76c966.png',
   },
 
   {
@@ -11902,6 +12070,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Pixel Shift'
     ],
+    image: 'https://storage.googleapis.com/gweb-uniblog-publish-prod/images/P9P9PThumbnail_16x9_Opt2_2.width-1300.jpg',
   },
 
   {
@@ -11966,6 +12135,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Watermark'
     ],
+    image: 'https://consumer.huawei.com/content/dam/huawei-cbg-site/common/mkt/pdp/phones/p60-pro/images/hero/huawei-p60-pro-kv-xs.webp',
   },
 
   {
@@ -12029,6 +12199,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Zeiss optics'
     ],
+    image: 'https://images.samsung.com/is/image/samsung/assets/smartphones/galaxy-galaxya-10/images/galaxy-galaxya-10-share-image.jpg',
   },
 
   {
@@ -12103,6 +12274,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Hasselblad Natural Color'
     ],
+    image: 'https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/find-x7-ultra-navigation/Find-X7-Ultra-blue.png',
   },
 
   {
@@ -12164,6 +12336,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'ProRAW'
     ],
+    image: 'https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1740478567559/1342e5c528e002e7c89e900be2ed2595.png',
   },
 
   {
@@ -12228,6 +12401,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Watermark'
     ],
+    image: 'https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-iphonepromax-1-select-2024?wid=512',
   },
 
   {
@@ -12291,6 +12465,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Portrait Mode'
     ],
+    image: 'https://dlcdnwebimgs.asus.com/files/media/5170538/rog-phone-8-pro-hero.png',
   },
 
   {
@@ -12352,6 +12527,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Document mode'
     ],
+    image: 'https://images.samsung.com/is/image/samsung/assets/smartphones/galaxy-galaxys-11/images/galaxy-galaxys-11-share-image.jpg',
   },
 
   {
@@ -12425,6 +12601,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Monochrome'
     ],
+    image: 'https://www.nokia.com/phones/sites/default/files/styles/hero/public/nokia-x30-5g-hero.png',
   },
 
   {
@@ -12499,6 +12676,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Ultra HDR'
     ],
+    image: 'https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/find-x7-ultra-navigation/Find-X7-Ultra-blue.png',
   },
 
   {
@@ -12575,6 +12753,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Magic Editor'
     ],
+    image: 'https://i03.appmifile.com/584_item_in/04/07/2024/69af272b112bd2935f0f00559d76c966.png',
   },
 
   {
@@ -12639,6 +12818,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Object Eraser'
     ],
+    image: 'https://consumer.huawei.com/content/dam/huawei-cbg-site/common/mkt/pdp/phones/p60-pro/images/hero/huawei-p60-pro-kv-xs.webp',
   },
 
   {
@@ -12702,6 +12882,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI portrait'
     ],
+    image: 'https://www.tcl.com/content/dam/tcl/product/mobile-phone/tcl-40-series-hero.png',
   },
 
   {
@@ -12768,6 +12949,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Smart HDR'
     ],
+    image: 'https://www.honor.com/content/dam/honor/v2/product/phone/magic-v2/magic-v2-hero.png',
   },
 
   {
@@ -12829,6 +13011,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI Scene Optimization'
     ],
+    image: 'https://www.motorola.com/sites/default/files/images/motorola-edge-40-pro-hero.png',
   },
 
   {
@@ -12891,6 +13074,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Long exposure'
     ],
+    image: 'https://dlcdnwebimgs.asus.com/files/media/5170538/rog-phone-8-pro-hero.png',
   },
 
   {
@@ -12967,6 +13151,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Astrophotography'
     ],
+    image: 'https://www.realme.com/sites/default/files/realme-gt-pro-product-image.png',
   },
 
   {
@@ -13032,6 +13217,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Zeiss Cinematic'
     ],
+    image: 'https://images.samsung.com/is/image/samsung/assets/smartphones/galaxy-galaxyzflip-11/images/galaxy-galaxyzflip-11-share-image.jpg',
   },
 
   {
@@ -13097,6 +13283,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI Photo Edit'
     ],
+    image: 'https://dlcdnwebimgs.asus.com/files/media/5170538/rog-phone-8-pro-hero.png',
   },
 
   {
@@ -13162,6 +13349,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Best Take'
     ],
+    image: 'https://www.tcl.com/content/dam/tcl/product/mobile-phone/tcl-40-series-hero.png',
   },
 
   {
@@ -13224,6 +13412,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Leica Authentic'
     ],
+    image: 'https://oasis.opstatics.com/content/dam/oasis/page/2024/global/product/waffle/nav-g.png',
   },
 
   {
@@ -13299,6 +13488,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Leica filters'
     ],
+    image: 'https://www.zte.com.cn/content/dam/zte/product/mobile/nubia-z60-ultra-hero.png',
   },
 
   {
@@ -13360,6 +13550,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Macro mode'
     ],
+    image: 'https://www.tcl.com/content/dam/tcl/product/mobile-phone/tcl-40-series-hero.png',
   },
 
   {
@@ -13441,6 +13632,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI Remove'
     ],
+    image: 'https://www.realme.com/sites/default/files/realme-gt-pro-product-image.png',
   },
 
   {
@@ -13516,6 +13708,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Document mode'
     ],
+    image: 'https://www.meizu.com/uploads/phone/meizu-21-pro-hero.png',
   },
 
   {
@@ -13594,6 +13787,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Pixel Shift'
     ],
+    image: 'https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1740478567559/1342e5c528e002e7c89e900be2ed2595.png',
   },
 
   {
@@ -13658,6 +13852,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Time-lapse'
     ],
+    image: 'https://images.samsung.com/is/image/samsung/assets/smartphones/galaxy-galaxym-8/images/galaxy-galaxym-8-share-image.jpg',
   },
 
   {
@@ -13724,6 +13919,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI beauty'
     ],
+    image: 'https://www.lenovo.com/medias/lenovo-legion-phone-dual.png',
   },
 
   {
@@ -13792,6 +13988,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Monochrome'
     ],
+    image: 'https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-iphoneplus-select-2024?wid=512',
   },
 
   {
@@ -13860,6 +14057,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Watermark'
     ],
+    image: 'https://oasis.opstatics.com/content/dam/oasis/page/2024/global/product/waffle/nav-g.png',
   },
 
   {
@@ -13925,6 +14123,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI Scene Optimization'
     ],
+    image: 'https://www.meizu.com/uploads/phone/meizu-21-pro-hero.png',
   },
 
   {
@@ -14002,6 +14201,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Night Mode'
     ],
+    image: 'https://storage.googleapis.com/gweb-uniblog-publish-prod/images/P9P9PThumbnail_16x9_Opt2_2.width-1300.jpg',
   },
 
   {
@@ -14076,6 +14276,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'XMAGE'
     ],
+    image: 'https://www.honor.com/content/dam/honor/v2/product/phone/magic-v2/magic-v2-hero.png',
   },
 
   {
@@ -14141,6 +14342,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Food mode'
     ],
+    image: 'https://www.tcl.com/content/dam/tcl/product/mobile-phone/tcl-40-series-hero.png',
   },
 
   {
@@ -14206,6 +14408,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Portrait Mode'
     ],
+    image: 'https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-iphonese-select-2024?wid=512',
   },
 
   {
@@ -14283,6 +14486,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI Photo Edit'
     ],
+    image: 'https://storage.googleapis.com/gweb-uniblog-publish-prod/images/P9P9PThumbnail_16x9_Opt2_2.width-1300.jpg',
   },
 
   {
@@ -14358,6 +14562,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Hasselblad Natural Color'
     ],
+    image: 'https://i03.appmifile.com/584_item_in/04/07/2024/69af272b112bd2935f0f00559d76c966.png',
   },
 
   {
@@ -14436,6 +14641,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Long exposure'
     ],
+    image: 'https://consumer.huawei.com/content/dam/huawei-cbg-site/common/mkt/pdp/phones/p60-pro/images/hero/huawei-p60-pro-kv-xs.webp',
   },
 
   {
@@ -14505,6 +14711,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Super Resolution'
     ],
+    image: 'https://www.sony.com/image/sonyview1?fmt=png&wid=1200',
   },
 
   {
@@ -14572,6 +14779,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI portrait'
     ],
+    image: 'https://www.lenovo.com/medias/lenovo-legion-phone-dual.png',
   },
 
   {
@@ -14633,6 +14841,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI Scene Optimization'
     ],
+    image: 'https://www.tcl.com/content/dam/tcl/product/mobile-phone/tcl-40-series-hero.png',
   },
 
   {
@@ -14693,6 +14902,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Hasselblad Natural Color'
     ],
+    image: 'https://www.nokia.com/phones/sites/default/files/styles/hero/public/nokia-x30-5g-hero.png',
   },
 
   {
@@ -14769,6 +14979,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Document mode'
     ],
+    image: 'https://www.motorola.com/sites/default/files/images/motorola-edge-40-pro-hero.png',
   },
 
   {
@@ -14835,6 +15046,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI portrait'
     ],
+    image: 'https://www.realme.com/sites/default/files/realme-gt-pro-product-image.png',
   },
 
   {
@@ -14899,6 +15111,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Macro mode'
     ],
+    image: 'https://dlcdnwebimgs.asus.com/files/media/5170538/rog-phone-8-pro-hero.png',
   },
 
   {
@@ -14977,6 +15190,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Macro mode'
     ],
+    image: 'https://i03.appmifile.com/584_item_in/04/07/2024/69af272b112bd2935f0f00559d76c966.png',
   },
 
   {
@@ -15044,6 +15258,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI Scene Optimization'
     ],
+    image: 'https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-iphonese-select-2024?wid=512',
   },
 
   {
@@ -15110,6 +15325,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Smart HDR'
     ],
+    image: 'https://consumer.huawei.com/content/dam/huawei-cbg-site/common/mkt/pdp/phones/p60-pro/images/hero/huawei-p60-pro-kv-xs.webp',
   },
 
   {
@@ -15173,6 +15389,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI Enhance'
     ],
+    image: 'https://www.meizu.com/uploads/phone/meizu-21-pro-hero.png',
   },
 
   {
@@ -15239,6 +15456,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Leica Vibrant'
     ],
+    image: 'https://www.nokia.com/phones/sites/default/files/styles/hero/public/nokia-x30-5g-hero.png',
   },
 
   {
@@ -15301,6 +15519,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Pro mode RAW'
     ],
+    image: 'https://dlcdnwebimgs.asus.com/files/media/5170538/rog-phone-8-pro-hero.png',
   },
 
   {
@@ -15364,6 +15583,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Object Eraser'
     ],
+    image: 'https://www.sony.com/image/sonyview1?fmt=png&wid=1200',
   },
 
   {
@@ -15434,6 +15654,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Leica filters'
     ],
+    image: 'https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1740478567559/1342e5c528e002e7c89e900be2ed2595.png',
   },
 
   {
@@ -15498,6 +15719,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Pixel Shift'
     ],
+    image: 'https://www.motorola.com/sites/default/files/images/motorola-edge-40-pro-hero.png',
   },
 
   {
@@ -15562,6 +15784,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Best Take'
     ],
+    image: 'https://images.samsung.com/is/image/samsung/assets/smartphones/galaxy-galaxys-7/images/galaxy-galaxys-7-share-image.jpg',
   },
 
   {
@@ -15639,6 +15862,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Astrophotography'
     ],
+    image: 'https://www.lenovo.com/medias/lenovo-legion-phone-dual.png',
   },
 
   {
@@ -15701,6 +15925,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Long exposure'
     ],
+    image: 'https://www.honor.com/content/dam/honor/v2/product/phone/magic-v2/magic-v2-hero.png',
   },
 
   {
@@ -15767,6 +15992,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Monochrome'
     ],
+    image: 'https://images.samsung.com/is/image/samsung/assets/smartphones/galaxy-galaxyf-12/images/galaxy-galaxyf-12-share-image.jpg',
   },
 
   {
@@ -15832,6 +16058,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Watermark'
     ],
+    image: 'https://www.lg.com/us/images/mobile-phos/md07519966/gallery/medium01.jpg',
   },
 
   {
@@ -15896,6 +16123,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Watermark'
     ],
+    image: 'https://oasis.opstatics.com/content/dam/oasis/page/2024/global/product/waffle/nav-g.png',
   },
 
   {
@@ -15959,6 +16187,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Portrait Mode'
     ],
+    image: 'https://www.meizu.com/uploads/phone/meizu-21-pro-hero.png',
   },
 
   {
@@ -16038,6 +16267,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Document mode'
     ],
+    image: 'https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1740478567559/1342e5c528e002e7c89e900be2ed2595.png',
   },
 
   {
@@ -16106,6 +16336,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Night Mode'
     ],
+    image: 'https://consumer.huawei.com/content/dam/huawei-cbg-site/common/mkt/pdp/phones/p60-pro/images/hero/huawei-p60-pro-kv-xs.webp',
   },
 
   {
@@ -16182,6 +16413,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Super Resolution'
     ],
+    image: 'https://www.sony.com/image/sonyview1?fmt=png&wid=1200',
   },
 
   {
@@ -16245,6 +16477,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Document mode'
     ],
+    image: 'https://www.honor.com/content/dam/honor/v2/product/phone/magic-v2/magic-v2-hero.png',
   },
 
   {
@@ -16308,6 +16541,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Magic Editor'
     ],
+    image: 'https://www.zte.com.cn/content/dam/zte/product/mobile/nubia-z60-ultra-hero.png',
   },
 
   {
@@ -16371,6 +16605,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI Photo Edit'
     ],
+    image: 'https://www.zte.com.cn/content/dam/zte/product/mobile/nubia-z60-ultra-hero.png',
   },
 
   {
@@ -16434,6 +16669,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI Enhance'
     ],
+    image: 'https://www.motorola.com/sites/default/files/images/motorola-edge-40-pro-hero.png',
   },
 
   {
@@ -16498,6 +16734,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Photo Unblur'
     ],
+    image: 'https://www.lenovo.com/medias/lenovo-legion-phone-dual.png',
   },
 
   {
@@ -16574,6 +16811,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Dual Capture'
     ],
+    image: 'https://storage.googleapis.com/gweb-uniblog-publish-prod/images/P9P9PThumbnail_16x9_Opt2_2.width-1300.jpg',
   },
 
   {
@@ -16643,6 +16881,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI Photo Edit'
     ],
+    image: 'https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1740478567559/1342e5c528e002e7c89e900be2ed2595.png',
   },
 
   {
@@ -16706,6 +16945,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'XD Fusion'
     ],
+    image: 'https://www.sony.com/image/sonyview1?fmt=png&wid=1200',
   },
 
   {
@@ -16768,6 +17008,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Zeiss Cinematic'
     ],
+    image: 'https://consumer.huawei.com/content/dam/huawei-cbg-site/common/mkt/pdp/phones/p60-pro/images/hero/huawei-p60-pro-kv-xs.webp',
   },
 
   {
@@ -16837,6 +17078,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Leica Authentic'
     ],
+    image: 'https://www.sony.com/image/sonyview1?fmt=png&wid=1200',
   },
 
   {
@@ -16902,6 +17144,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Leica Vibrant'
     ],
+    image: 'https://www.zte.com.cn/content/dam/zte/product/mobile/nubia-z60-ultra-hero.png',
   },
 
   {
@@ -16967,6 +17210,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI Enhance'
     ],
+    image: 'https://images.samsung.com/is/image/samsung/assets/smartphones/galaxy-galaxyf-6/images/galaxy-galaxyf-6-share-image.jpg',
   },
 
   {
@@ -17030,6 +17274,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Professional Mode'
     ],
+    image: 'https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1740478567559/1342e5c528e002e7c89e900be2ed2595.png',
   },
 
   {
@@ -17109,6 +17354,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'XD Fusion'
     ],
+    image: 'https://www.motorola.com/sites/default/files/images/motorola-edge-40-pro-hero.png',
   },
 
   {
@@ -17183,6 +17429,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Zeiss optics'
     ],
+    image: 'https://www.sony.com/image/sonyview1?fmt=png&wid=1200',
   },
 
   {
@@ -17258,6 +17505,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI Enhance'
     ],
+    image: 'https://oasis.opstatics.com/content/dam/oasis/page/2024/global/product/waffle/nav-g.png',
   },
 
   {
@@ -17338,6 +17586,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Macro mode'
     ],
+    image: 'https://cdn.shopify.com/s/files/1/0585/1172/0640/products/BA_ALAK_200.1001.png',
   },
 
   {
@@ -17412,6 +17661,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Macro mode'
     ],
+    image: 'https://www.realme.com/sites/default/files/realme-gt-pro-product-image.png',
   },
 
   {
@@ -17470,6 +17720,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Pixel Shift'
     ],
+    image: 'https://www.lg.com/us/images/mobile-phos/md07519966/gallery/medium01.jpg',
   },
 
   {
@@ -17535,6 +17786,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Live Photo'
     ],
+    image: 'https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-iphonepromax-select-2024?wid=512',
   },
 
   {
@@ -17600,6 +17852,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'ProRAW'
     ],
+    image: 'https://www.nokia.com/phones/sites/default/files/styles/hero/public/nokia-x30-5g-hero.png',
   },
 
   {
@@ -17667,6 +17920,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Object Eraser'
     ],
+    image: 'https://dlcdnwebimgs.asus.com/files/media/5170538/rog-phone-8-pro-hero.png',
   },
 
   {
@@ -17748,6 +18002,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Astrophotography'
     ],
+    image: 'https://images.samsung.com/is/image/samsung/assets/smartphones/galaxy-galaxyzfold-6/images/galaxy-galaxyzfold-6-share-image.jpg',
   },
 
   {
@@ -17810,6 +18065,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Leica Authentic'
     ],
+    image: 'https://i03.appmifile.com/584_item_in/04/07/2024/69af272b112bd2935f0f00559d76c966.png',
   },
 
   {
@@ -17873,6 +18129,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Live Photo'
     ],
+    image: 'https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1740478567559/1342e5c528e002e7c89e900be2ed2595.png',
   },
 
   {
@@ -17937,6 +18194,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Smart HDR'
     ],
+    image: 'https://www.realme.com/sites/default/files/realme-gt-pro-product-image.png',
   },
 
   {
@@ -18002,6 +18260,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'XD Fusion'
     ],
+    image: 'https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/find-x7-ultra-navigation/Find-X7-Ultra-blue.png',
   },
 
   {
@@ -18078,6 +18337,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI Photo Edit'
     ],
+    image: 'https://cdn.shopify.com/s/files/1/0585/1172/0640/products/BA_ALAK_200.1001.png',
   },
 
   {
@@ -18142,6 +18402,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI Photo Edit'
     ],
+    image: 'https://oasis.opstatics.com/content/dam/oasis/page/2024/global/product/waffle/nav-g.png',
   },
 
   {
@@ -18208,6 +18469,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Dual Capture'
     ],
+    image: 'https://www.nokia.com/phones/sites/default/files/styles/hero/public/nokia-x30-5g-hero.png',
   },
 
   {
@@ -18285,6 +18547,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI beauty'
     ],
+    image: 'https://storage.googleapis.com/gweb-uniblog-publish-prod/images/P9P9PThumbnail_16x9_Opt2_2.width-1300.jpg',
   },
 
   {
@@ -18360,6 +18623,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI Photo Edit'
     ],
+    image: 'https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1740478567559/1342e5c528e002e7c89e900be2ed2595.png',
   },
 
   {
@@ -18425,6 +18689,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI Scene Optimization'
     ],
+    image: 'https://images.samsung.com/is/image/samsung/assets/smartphones/galaxy-galaxyf-8/images/galaxy-galaxyf-8-share-image.jpg',
   },
 
   {
@@ -18500,6 +18765,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Live Photo'
     ],
+    image: 'https://www.nokia.com/phones/sites/default/files/styles/hero/public/nokia-x30-5g-hero.png',
   },
 
   {
@@ -18566,6 +18832,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'HDR+'
     ],
+    image: 'https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-iphonepromax-select-2024?wid=512',
   },
 
   {
@@ -18631,6 +18898,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Zeiss optics'
     ],
+    image: 'https://www.lenovo.com/medias/lenovo-legion-phone-dual.png',
   },
 
   {
@@ -18697,6 +18965,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI Enhance'
     ],
+    image: 'https://www.sony.com/image/sonyview1?fmt=png&wid=1200',
   },
 
   {
@@ -18760,6 +19029,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Macro mode'
     ],
+    image: 'https://www.nokia.com/phones/sites/default/files/styles/hero/public/nokia-x30-5g-hero.png',
   },
 
   {
@@ -18821,6 +19091,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'XMAGE'
     ],
+    image: 'https://www.realme.com/sites/default/files/realme-gt-pro-product-image.png',
   },
 
   {
@@ -18894,6 +19165,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Smart HDR'
     ],
+    image: 'https://i03.appmifile.com/584_item_in/04/07/2024/69af272b112bd2935f0f00559d76c966.png',
   },
 
   {
@@ -18956,6 +19228,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'HDR+'
     ],
+    image: 'https://www.sony.com/image/sonyview1?fmt=png&wid=1200',
   },
 
   {
@@ -19021,6 +19294,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Pixel Shift'
     ],
+    image: 'https://www.honor.com/content/dam/honor/v2/product/phone/magic-v2/magic-v2-hero.png',
   },
 
   {
@@ -19087,6 +19361,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Long exposure'
     ],
+    image: 'https://www.zte.com.cn/content/dam/zte/product/mobile/nubia-z60-ultra-hero.png',
   },
 
   {
@@ -19165,6 +19440,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Leica filters'
     ],
+    image: 'https://www.tcl.com/content/dam/tcl/product/mobile-phone/tcl-40-series-hero.png',
   },
 
   {
@@ -19243,6 +19519,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Best Take'
     ],
+    image: 'https://www.sony.com/image/sonyview1?fmt=png&wid=1200',
   },
 
   {
@@ -19305,6 +19582,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Time-lapse'
     ],
+    image: 'https://oasis.opstatics.com/content/dam/oasis/page/2024/global/product/waffle/nav-g.png',
   },
 
   {
@@ -19384,6 +19662,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Pixel Shift'
     ],
+    image: 'https://consumer.huawei.com/content/dam/huawei-cbg-site/common/mkt/pdp/phones/p60-pro/images/hero/huawei-p60-pro-kv-xs.webp',
   },
 
   {
@@ -19448,6 +19727,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Pro mode RAW'
     ],
+    image: 'https://www.motorola.com/sites/default/files/images/motorola-edge-40-pro-hero.png',
   },
 
   {
@@ -19510,6 +19790,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI Remove'
     ],
+    image: 'https://cdn.shopify.com/s/files/1/0585/1172/0640/products/BA_ALAK_200.1001.png',
   },
 
   {
@@ -19573,6 +19854,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI portrait'
     ],
+    image: 'https://cdn.shopify.com/s/files/1/0585/1172/0640/products/BA_ALAK_200.1001.png',
   },
 
   {
@@ -19637,6 +19919,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI Enhance'
     ],
+    image: 'https://oasis.opstatics.com/content/dam/oasis/page/2024/global/product/waffle/nav-g.png',
   },
 
   {
@@ -19709,6 +19992,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Watermark'
     ],
+    image: 'https://www.sony.com/image/sonyview1?fmt=png&wid=1200',
   },
 
   {
@@ -19769,6 +20053,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Document mode'
     ],
+    image: 'https://www.lenovo.com/medias/lenovo-legion-phone-dual.png',
   },
 
   {
@@ -19846,6 +20131,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Pro mode RAW'
     ],
+    image: 'https://cdn.shopify.com/s/files/1/0585/1172/0640/products/BA_ALAK_200.1001.png',
   },
 
   {
@@ -19926,6 +20212,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI beauty'
     ],
+    image: 'https://i03.appmifile.com/584_item_in/04/07/2024/69af272b112bd2935f0f00559d76c966.png',
   },
 
   {
@@ -20001,6 +20288,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Hasselblad Natural Color'
     ],
+    image: 'https://www.lenovo.com/medias/lenovo-legion-phone-dual.png',
   },
 
   {
@@ -20066,6 +20354,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Dual Capture'
     ],
+    image: 'https://www.motorola.com/sites/default/files/images/motorola-edge-40-pro-hero.png',
   },
 
   {
@@ -20145,6 +20434,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Leica filters'
     ],
+    image: 'https://consumer.huawei.com/content/dam/huawei-cbg-site/common/mkt/pdp/phones/p60-pro/images/hero/huawei-p60-pro-kv-xs.webp',
   },
 
   {
@@ -20206,6 +20496,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Hasselblad Natural Color'
     ],
+    image: 'https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/find-x7-ultra-navigation/Find-X7-Ultra-blue.png',
   },
 
   {
@@ -20280,6 +20571,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Magic Eraser'
     ],
+    image: 'https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-iphonese-1-select-2024?wid=512',
   },
 
   {
@@ -20346,6 +20638,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI beauty'
     ],
+    image: 'https://oasis.opstatics.com/content/dam/oasis/page/2024/global/product/waffle/nav-g.png',
   },
 
   {
@@ -20409,6 +20702,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Smart HDR'
     ],
+    image: 'https://www.meizu.com/uploads/phone/meizu-21-pro-hero.png',
   },
 
   {
@@ -20474,6 +20768,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Magic Editor'
     ],
+    image: 'https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-iphoneplus-select-2024?wid=512',
   },
 
   {
@@ -20539,6 +20834,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Magic Editor'
     ],
+    image: 'https://cdn.shopify.com/s/files/1/0585/1172/0640/products/BA_ALAK_200.1001.png',
   },
 
   {
@@ -20602,6 +20898,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Document mode'
     ],
+    image: 'https://storage.googleapis.com/gweb-uniblog-publish-prod/images/P9P9PThumbnail_16x9_Opt2_2.width-1300.jpg',
   },
 
   {
@@ -20667,6 +20964,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI Remove'
     ],
+    image: 'https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1740478567559/1342e5c528e002e7c89e900be2ed2595.png',
   },
 
   {
@@ -20731,6 +21029,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI Scene Optimization'
     ],
+    image: 'https://www.motorola.com/sites/default/files/images/motorola-edge-40-pro-hero.png',
   },
 
   {
@@ -20808,6 +21107,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'HDR+'
     ],
+    image: 'https://storage.googleapis.com/gweb-uniblog-publish-prod/images/P9P9PThumbnail_16x9_Opt2_2.width-1300.jpg',
   },
 
   {
@@ -20868,6 +21168,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Photo Unblur'
     ],
+    image: 'https://consumer.huawei.com/content/dam/huawei-cbg-site/common/mkt/pdp/phones/p60-pro/images/hero/huawei-p60-pro-kv-xs.webp',
   },
 
   {
@@ -20930,6 +21231,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI portrait'
     ],
+    image: 'https://www.motorola.com/sites/default/files/images/motorola-edge-40-pro-hero.png',
   },
 
   {
@@ -20992,6 +21294,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Leica Authentic'
     ],
+    image: 'https://www.lenovo.com/medias/lenovo-legion-phone-dual.png',
   },
 
   {
@@ -21069,6 +21372,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Portrait Mode'
     ],
+    image: 'https://dlcdnwebimgs.asus.com/files/media/5170538/rog-phone-8-pro-hero.png',
   },
 
   {
@@ -21133,6 +21437,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Leica Authentic'
     ],
+    image: 'https://www.honor.com/content/dam/honor/v2/product/phone/magic-v2/magic-v2-hero.png',
   },
 
   {
@@ -21197,6 +21502,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Dual Capture'
     ],
+    image: 'https://consumer.huawei.com/content/dam/huawei-cbg-site/common/mkt/pdp/phones/p60-pro/images/hero/huawei-p60-pro-kv-xs.webp',
   },
 
   {
@@ -21263,6 +21569,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Leica Authentic'
     ],
+    image: 'https://www.honor.com/content/dam/honor/v2/product/phone/magic-v2/magic-v2-hero.png',
   },
 
   {
@@ -21326,6 +21633,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI Scene Optimization'
     ],
+    image: 'https://www.nokia.com/phones/sites/default/files/styles/hero/public/nokia-x30-5g-hero.png',
   },
 
   {
@@ -21403,6 +21711,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI Remove'
     ],
+    image: 'https://cdn.shopify.com/s/files/1/0585/1172/0640/products/BA_ALAK_200.1001.png',
   },
 
   {
@@ -21463,6 +21772,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Super Resolution'
     ],
+    image: 'https://www.nokia.com/phones/sites/default/files/styles/hero/public/nokia-x30-5g-hero.png',
   },
 
   {
@@ -21528,6 +21838,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'XMAGE'
     ],
+    image: 'https://consumer.huawei.com/content/dam/huawei-cbg-site/common/mkt/pdp/phones/p60-pro/images/hero/huawei-p60-pro-kv-xs.webp',
   },
 
   {
@@ -21605,6 +21916,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Astrophotography'
     ],
+    image: 'https://consumer.huawei.com/content/dam/huawei-cbg-site/common/mkt/pdp/phones/p60-pro/images/hero/huawei-p60-pro-kv-xs.webp',
   },
 
   {
@@ -21673,6 +21985,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Magic Editor'
     ],
+    image: 'https://www.meizu.com/uploads/phone/meizu-21-pro-hero.png',
   },
 
   {
@@ -21750,6 +22063,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI Remove'
     ],
+    image: 'https://www.nokia.com/phones/sites/default/files/styles/hero/public/nokia-x30-5g-hero.png',
   },
 
   {
@@ -21828,6 +22142,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Panorama'
     ],
+    image: 'https://www.tcl.com/content/dam/tcl/product/mobile-phone/tcl-40-series-hero.png',
   },
 
   {
@@ -21907,6 +22222,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Live Photo'
     ],
+    image: 'https://www.lg.com/us/images/mobile-phos/md07519966/gallery/medium01.jpg',
   },
 
   {
@@ -21971,6 +22287,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI Scene Optimization'
     ],
+    image: 'https://cdn.shopify.com/s/files/1/0585/1172/0640/products/BA_ALAK_200.1001.png',
   },
 
   {
@@ -22035,6 +22352,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Ultra HDR'
     ],
+    image: 'https://images.samsung.com/is/image/samsung/assets/smartphones/galaxy-galaxys-10-1/images/galaxy-galaxys-10-1-share-image.jpg',
   },
 
   {
@@ -22109,6 +22427,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'HDR+'
     ],
+    image: 'https://www.realme.com/sites/default/files/realme-gt-pro-product-image.png',
   },
 
   {
@@ -22186,6 +22505,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Object Eraser'
     ],
+    image: 'https://www.lenovo.com/medias/lenovo-legion-phone-dual.png',
   },
 
   {
@@ -22249,6 +22569,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Magic Editor'
     ],
+    image: 'https://www.motorola.com/sites/default/files/images/motorola-edge-40-pro-hero.png',
   },
 
   {
@@ -22325,6 +22646,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI beauty'
     ],
+    image: 'https://www.sony.com/image/sonyview1?fmt=png&wid=1200',
   },
 
   {
@@ -22387,6 +22709,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI portrait'
     ],
+    image: 'https://www.nokia.com/phones/sites/default/files/styles/hero/public/nokia-x30-5g-hero.png',
   },
 
   {
@@ -22462,6 +22785,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI Enhance'
     ],
+    image: 'https://www.sony.com/image/sonyview1?fmt=png&wid=1200',
   },
 
   {
@@ -22539,6 +22863,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI Remove'
     ],
+    image: 'https://www.realme.com/sites/default/files/realme-gt-pro-product-image.png',
   },
 
   {
@@ -22617,6 +22942,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Pro mode RAW'
     ],
+    image: 'https://www.lenovo.com/medias/lenovo-legion-phone-dual.png',
   },
 
   {
@@ -22694,6 +23020,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI beauty'
     ],
+    image: 'https://www.motorola.com/sites/default/files/images/motorola-edge-40-pro-hero.png',
   },
 
   {
@@ -22756,6 +23083,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Hasselblad Natural Color'
     ],
+    image: 'https://oasis.opstatics.com/content/dam/oasis/page/2024/global/product/waffle/nav-g.png',
   },
 
   {
@@ -22823,6 +23151,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Live Photo'
     ],
+    image: 'https://www.meizu.com/uploads/phone/meizu-21-pro-hero.png',
   },
 
   {
@@ -22903,6 +23232,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Zeiss optics'
     ],
+    image: 'https://dlcdnwebimgs.asus.com/files/media/5170538/rog-phone-8-pro-hero.png',
   },
 
   {
@@ -22965,6 +23295,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Pixel Shift'
     ],
+    image: 'https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-iphonepromax-select-2024?wid=512',
   },
 
   {
@@ -23041,6 +23372,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI portrait'
     ],
+    image: 'https://www.tcl.com/content/dam/tcl/product/mobile-phone/tcl-40-series-hero.png',
   },
 
   {
@@ -23105,6 +23437,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI Enhance'
     ],
+    image: 'https://www.lenovo.com/medias/lenovo-legion-phone-dual.png',
   },
 
   {
@@ -23181,6 +23514,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Pixel Shift'
     ],
+    image: 'https://images.samsung.com/is/image/samsung/assets/smartphones/galaxy-galaxya-9-1/images/galaxy-galaxya-9-1-share-image.jpg',
   },
 
   {
@@ -23246,6 +23580,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'XMAGE'
     ],
+    image: 'https://www.sony.com/image/sonyview1?fmt=png&wid=1200',
   },
 
   {
@@ -23311,6 +23646,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI Scene Optimization'
     ],
+    image: 'https://consumer.huawei.com/content/dam/huawei-cbg-site/common/mkt/pdp/phones/p60-pro/images/hero/huawei-p60-pro-kv-xs.webp',
   },
 
   {
@@ -23371,6 +23707,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Leica Vibrant'
     ],
+    image: 'https://storage.googleapis.com/gweb-uniblog-publish-prod/images/P9P9PThumbnail_16x9_Opt2_2.width-1300.jpg',
   },
 
   {
@@ -23445,6 +23782,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Zeiss optics'
     ],
+    image: 'https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1740478567559/1342e5c528e002e7c89e900be2ed2595.png',
   },
 
   {
@@ -23506,6 +23844,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Hasselblad Natural Color'
     ],
+    image: 'https://www.motorola.com/sites/default/files/images/motorola-edge-40-pro-hero.png',
   },
 
   {
@@ -23584,6 +23923,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI Enhance'
     ],
+    image: 'https://www.sony.com/image/sonyview1?fmt=png&wid=1200',
   },
 
   {
@@ -23648,6 +23988,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Leica Authentic'
     ],
+    image: 'https://www.lenovo.com/medias/lenovo-legion-phone-dual.png',
   },
 
   {
@@ -23720,6 +24061,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Night Mode'
     ],
+    image: 'https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/find-x7-ultra-navigation/Find-X7-Ultra-blue.png',
   },
 
   {
@@ -23792,6 +24134,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Time-lapse'
     ],
+    image: 'https://images.samsung.com/is/image/samsung/assets/smartphones/galaxy-galaxys-11-1/images/galaxy-galaxys-11-1-share-image.jpg',
   },
 
   {
@@ -23871,6 +24214,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Best Take'
     ],
+    image: 'https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-iphone-select-2024?wid=512',
   },
 
   {
@@ -23933,6 +24277,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Super Resolution'
     ],
+    image: 'https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1740478567559/1342e5c528e002e7c89e900be2ed2595.png',
   },
 
   {
@@ -24013,6 +24358,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Object Eraser'
     ],
+    image: 'https://storage.googleapis.com/gweb-uniblog-publish-prod/images/P9P9PThumbnail_16x9_Opt2_2.width-1300.jpg',
   },
 
   {
@@ -24086,6 +24432,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Best Take'
     ],
+    image: 'https://cdn.shopify.com/s/files/1/0585/1172/0640/products/BA_ALAK_200.1001.png',
   },
 
   {
@@ -24148,6 +24495,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Leica Authentic'
     ],
+    image: 'https://www.realme.com/sites/default/files/realme-gt-pro-product-image.png',
   },
 
   {
@@ -24226,6 +24574,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Time-lapse'
     ],
+    image: 'https://dlcdnwebimgs.asus.com/files/media/5170538/rog-phone-8-pro-hero.png',
   },
 
   {
@@ -24290,6 +24639,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Pro mode RAW'
     ],
+    image: 'https://www.motorola.com/sites/default/files/images/motorola-edge-40-pro-hero.png',
   },
 
   {
@@ -24366,6 +24716,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Ultra HDR'
     ],
+    image: 'https://i03.appmifile.com/584_item_in/04/07/2024/69af272b112bd2935f0f00559d76c966.png',
   },
 
   {
@@ -24428,6 +24779,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'XD Fusion'
     ],
+    image: 'https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1740478567559/1342e5c528e002e7c89e900be2ed2595.png',
   },
 
   {
@@ -24493,6 +24845,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Time-lapse'
     ],
+    image: 'https://www.honor.com/content/dam/honor/v2/product/phone/magic-v2/magic-v2-hero.png',
   },
 
   {
@@ -24569,6 +24922,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Live Photo'
     ],
+    image: 'https://www.motorola.com/sites/default/files/images/motorola-edge-40-pro-hero.png',
   },
 
   {
@@ -24632,6 +24986,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Watermark'
     ],
+    image: 'https://www.realme.com/sites/default/files/realme-gt-pro-product-image.png',
   },
 
   {
@@ -24694,6 +25049,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Time-lapse'
     ],
+    image: 'https://i03.appmifile.com/584_item_in/04/07/2024/69af272b112bd2935f0f00559d76c966.png',
   },
 
   {
@@ -24770,6 +25126,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Ultra HDR'
     ],
+    image: 'https://www.sony.com/image/sonyview1?fmt=png&wid=1200',
   },
 
   {
@@ -24847,6 +25204,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Astrophotography'
     ],
+    image: 'https://cdn.shopify.com/s/files/1/0585/1172/0640/products/BA_ALAK_200.1001.png',
   },
 
   {
@@ -24906,6 +25264,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'XD Fusion'
     ],
+    image: 'https://images.samsung.com/is/image/samsung/assets/smartphones/galaxy-galaxyzfold-10/images/galaxy-galaxyzfold-10-share-image.jpg',
   },
 
   {
@@ -24979,6 +25338,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Macro mode'
     ],
+    image: 'https://www.lg.com/us/images/mobile-phos/md07519966/gallery/medium01.jpg',
   },
 
   {
@@ -25043,6 +25403,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Monochrome'
     ],
+    image: 'https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1740478567559/1342e5c528e002e7c89e900be2ed2595.png',
   },
 
   {
@@ -25108,6 +25469,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Time-lapse'
     ],
+    image: 'https://www.motorola.com/sites/default/files/images/motorola-edge-40-pro-hero.png',
   },
 
   {
@@ -25173,6 +25535,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'HDR+'
     ],
+    image: 'https://www.honor.com/content/dam/honor/v2/product/phone/magic-v2/magic-v2-hero.png',
   },
 
   {
@@ -25238,6 +25601,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Leica Authentic'
     ],
+    image: 'https://dlcdnwebimgs.asus.com/files/media/5170538/rog-phone-8-pro-hero.png',
   },
 
   {
@@ -25301,6 +25665,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'XMAGE'
     ],
+    image: 'https://www.meizu.com/uploads/phone/meizu-21-pro-hero.png',
   },
 
   {
@@ -25377,6 +25742,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Zeiss optics'
     ],
+    image: 'https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1740478567559/1342e5c528e002e7c89e900be2ed2595.png',
   },
 
   {
@@ -25442,6 +25808,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Dual Capture'
     ],
+    image: 'https://consumer.huawei.com/content/dam/huawei-cbg-site/common/mkt/pdp/phones/p60-pro/images/hero/huawei-p60-pro-kv-xs.webp',
   },
 
   {
@@ -25505,6 +25872,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI Remove'
     ],
+    image: 'https://storage.googleapis.com/gweb-uniblog-publish-prod/images/P9P9PThumbnail_16x9_Opt2_2.width-1300.jpg',
   },
 
   {
@@ -25586,6 +25954,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Super Resolution'
     ],
+    image: 'https://storage.googleapis.com/gweb-uniblog-publish-prod/images/P9P9PThumbnail_16x9_Opt2_2.width-1300.jpg',
   },
 
   {
@@ -25651,6 +26020,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Portrait Mode'
     ],
+    image: 'https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-iphoneplus-select-2024?wid=512',
   },
 
   {
@@ -25730,6 +26100,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI beauty'
     ],
+    image: 'https://www.realme.com/sites/default/files/realme-gt-pro-product-image.png',
   },
 
   {
@@ -25792,6 +26163,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Hasselblad Natural Color'
     ],
+    image: 'https://images.samsung.com/is/image/samsung/assets/smartphones/galaxy-galaxyf-8-1/images/galaxy-galaxyf-8-1-share-image.jpg',
   },
 
   {
@@ -25867,6 +26239,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Pixel Shift'
     ],
+    image: 'https://www.lg.com/us/images/mobile-phos/md07519966/gallery/medium01.jpg',
   },
 
   {
@@ -25946,6 +26319,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Long exposure'
     ],
+    image: 'https://oasis.opstatics.com/content/dam/oasis/page/2024/global/product/waffle/nav-g.png',
   },
 
   {
@@ -26012,6 +26386,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Macro mode'
     ],
+    image: 'https://www.motorola.com/sites/default/files/images/motorola-edge-40-pro-hero.png',
   },
 
   {
@@ -26075,6 +26450,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI portrait'
     ],
+    image: 'https://www.lg.com/us/images/mobile-phos/md07519966/gallery/medium01.jpg',
   },
 
   {
@@ -26153,6 +26529,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI portrait'
     ],
+    image: 'https://www.tcl.com/content/dam/tcl/product/mobile-phone/tcl-40-series-hero.png',
   },
 
   {
@@ -26217,6 +26594,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI Photo Edit'
     ],
+    image: 'https://oasis.opstatics.com/content/dam/oasis/page/2024/global/product/waffle/nav-g.png',
   },
 
   {
@@ -26283,6 +26661,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'ProRAW'
     ],
+    image: 'https://images.samsung.com/is/image/samsung/assets/smartphones/galaxy-galaxyzflip-7/images/galaxy-galaxyzflip-7-share-image.jpg',
   },
 
   {
@@ -26348,6 +26727,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'ProRAW'
     ],
+    image: 'https://storage.googleapis.com/gweb-uniblog-publish-prod/images/P9P9PThumbnail_16x9_Opt2_2.width-1300.jpg',
   },
 
   {
@@ -26426,6 +26806,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Leica filters'
     ],
+    image: 'https://oasis.opstatics.com/content/dam/oasis/page/2024/global/product/waffle/nav-g.png',
   },
 
   {
@@ -26487,6 +26868,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Zeiss Cinematic'
     ],
+    image: 'https://www.sony.com/image/sonyview1?fmt=png&wid=1200',
   },
 
   {
@@ -26560,6 +26942,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Photo Unblur'
     ],
+    image: 'https://www.tcl.com/content/dam/tcl/product/mobile-phone/tcl-40-series-hero.png',
   },
 
   {
@@ -26621,6 +27004,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI beauty'
     ],
+    image: 'https://i03.appmifile.com/584_item_in/04/07/2024/69af272b112bd2935f0f00559d76c966.png',
   },
 
   {
@@ -26698,6 +27082,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Magic Eraser'
     ],
+    image: 'https://www.lg.com/us/images/mobile-phos/md07519966/gallery/medium01.jpg',
   },
 
   {
@@ -26766,6 +27151,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Time-lapse'
     ],
+    image: 'https://i03.appmifile.com/584_item_in/04/07/2024/69af272b112bd2935f0f00559d76c966.png',
   },
 
   {
@@ -26828,6 +27214,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Pixel Shift'
     ],
+    image: 'https://cdn.shopify.com/s/files/1/0585/1172/0640/products/BA_ALAK_200.1001.png',
   },
 
   {
@@ -26891,6 +27278,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Pixel Shift'
     ],
+    image: 'https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1740478567559/1342e5c528e002e7c89e900be2ed2595.png',
   },
 
   {
@@ -26956,6 +27344,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'ProRAW'
     ],
+    image: 'https://storage.googleapis.com/gweb-uniblog-publish-prod/images/P9P9PThumbnail_16x9_Opt2_2.width-1300.jpg',
   },
 
   {
@@ -27020,6 +27409,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Magic Editor'
     ],
+    image: 'https://images.samsung.com/is/image/samsung/assets/smartphones/galaxy-galaxys-12-1/images/galaxy-galaxys-12-1-share-image.jpg',
   },
 
   {
@@ -27084,6 +27474,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Document mode'
     ],
+    image: 'https://www.tcl.com/content/dam/tcl/product/mobile-phone/tcl-40-series-hero.png',
   },
 
   {
@@ -27147,6 +27538,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Object Eraser'
     ],
+    image: 'https://www.tcl.com/content/dam/tcl/product/mobile-phone/tcl-40-series-hero.png',
   },
 
   {
@@ -27211,6 +27603,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Magic Editor'
     ],
+    image: 'https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-iphone-select-2024?wid=512',
   },
 
   {
@@ -27291,6 +27684,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Portrait Mode'
     ],
+    image: 'https://cdn.shopify.com/s/files/1/0585/1172/0640/products/BA_ALAK_200.1001.png',
   },
 
   {
@@ -27352,6 +27746,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Object Eraser'
     ],
+    image: 'https://www.meizu.com/uploads/phone/meizu-21-pro-hero.png',
   },
 
   {
@@ -27416,6 +27811,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI beauty'
     ],
+    image: 'https://www.realme.com/sites/default/files/realme-gt-pro-product-image.png',
   },
 
   {
@@ -27496,6 +27892,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Magic Eraser'
     ],
+    image: 'https://dlcdnwebimgs.asus.com/files/media/5170538/rog-phone-8-pro-hero.png',
   },
 
   {
@@ -27560,6 +27957,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Photo Unblur'
     ],
+    image: 'https://www.nokia.com/phones/sites/default/files/styles/hero/public/nokia-x30-5g-hero.png',
   },
 
   {
@@ -27639,6 +28037,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Super Resolution'
     ],
+    image: 'https://www.sony.com/image/sonyview1?fmt=png&wid=1200',
   },
 
   {
@@ -27707,6 +28106,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Magic Eraser'
     ],
+    image: 'https://cdn.shopify.com/s/files/1/0585/1172/0640/products/BA_ALAK_200.1001.png',
   },
 
   {
@@ -27769,6 +28169,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Time-lapse'
     ],
+    image: 'https://images.samsung.com/is/image/samsung/assets/smartphones/galaxy-galaxya-6/images/galaxy-galaxya-6-share-image.jpg',
   },
 
   {
@@ -27832,6 +28233,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Smart HDR'
     ],
+    image: 'https://www.nokia.com/phones/sites/default/files/styles/hero/public/nokia-x30-5g-hero.png',
   },
 
   {
@@ -27895,6 +28297,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Time-lapse'
     ],
+    image: 'https://www.meizu.com/uploads/phone/meizu-21-pro-hero.png',
   },
 
   {
@@ -27968,6 +28371,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Smart HDR'
     ],
+    image: 'https://www.sony.com/image/sonyview1?fmt=png&wid=1200',
   },
 
   {
@@ -28044,6 +28448,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Pixel Shift'
     ],
+    image: 'https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-iphone-select-2024?wid=512',
   },
 
   {
@@ -28108,6 +28513,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Food mode'
     ],
+    image: 'https://www.meizu.com/uploads/phone/meizu-21-pro-hero.png',
   },
 
   {
@@ -28176,6 +28582,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Hasselblad Natural Color'
     ],
+    image: 'https://www.lg.com/us/images/mobile-phos/md07519966/gallery/medium01.jpg',
   },
 
   {
@@ -28253,6 +28660,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Panorama'
     ],
+    image: 'https://i03.appmifile.com/584_item_in/04/07/2024/69af272b112bd2935f0f00559d76c966.png',
   },
 
   {
@@ -28317,6 +28725,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Portrait Mode'
     ],
+    image: 'https://storage.googleapis.com/gweb-uniblog-publish-prod/images/P9P9PThumbnail_16x9_Opt2_2.width-1300.jpg',
   },
 
   {
@@ -28385,6 +28794,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI Scene Optimization'
     ],
+    image: 'https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1740478567559/1342e5c528e002e7c89e900be2ed2595.png',
   },
 
   {
@@ -28462,6 +28872,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Photo Unblur'
     ],
+    image: 'https://www.realme.com/sites/default/files/realme-gt-pro-product-image.png',
   },
 
   {
@@ -28527,6 +28938,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Professional Mode'
     ],
+    image: 'https://www.lg.com/us/images/mobile-phos/md07519966/gallery/medium01.jpg',
   },
 
   {
@@ -28590,6 +29002,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI Enhance'
     ],
+    image: 'https://www.zte.com.cn/content/dam/zte/product/mobile/nubia-z60-ultra-hero.png',
   },
 
   {
@@ -28665,6 +29078,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Leica Authentic'
     ],
+    image: 'https://www.sony.com/image/sonyview1?fmt=png&wid=1200',
   },
 
   {
@@ -28740,6 +29154,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Live Photo'
     ],
+    image: 'https://oasis.opstatics.com/content/dam/oasis/page/2024/global/product/waffle/nav-g.png',
   },
 
   {
@@ -28800,6 +29215,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Monochrome'
     ],
+    image: 'https://oasis.opstatics.com/content/dam/oasis/page/2024/global/product/waffle/nav-g.png',
   },
 
   {
@@ -28865,6 +29281,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Object Eraser'
     ],
+    image: 'https://oasis.opstatics.com/content/dam/oasis/page/2024/global/product/waffle/nav-g.png',
   },
 
   {
@@ -28934,6 +29351,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Leica Vibrant'
     ],
+    image: 'https://www.meizu.com/uploads/phone/meizu-21-pro-hero.png',
   },
 
   {
@@ -28997,6 +29415,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Object Eraser'
     ],
+    image: 'https://www.nokia.com/phones/sites/default/files/styles/hero/public/nokia-x30-5g-hero.png',
   },
 
   {
@@ -29064,6 +29483,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Time-lapse'
     ],
+    image: 'https://www.honor.com/content/dam/honor/v2/product/phone/magic-v2/magic-v2-hero.png',
   },
 
   {
@@ -29130,6 +29550,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Magic Editor'
     ],
+    image: 'https://dlcdnwebimgs.asus.com/files/media/5170538/rog-phone-8-pro-hero.png',
   },
 
   {
@@ -29196,6 +29617,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Photo Unblur'
     ],
+    image: 'https://cdn.shopify.com/s/files/1/0585/1172/0640/products/BA_ALAK_200.1001.png',
   },
 
   {
@@ -29260,6 +29682,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Magic Eraser'
     ],
+    image: 'https://www.honor.com/content/dam/honor/v2/product/phone/magic-v2/magic-v2-hero.png',
   },
 
   {
@@ -29337,6 +29760,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI Enhance'
     ],
+    image: 'https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1740478567559/1342e5c528e002e7c89e900be2ed2595.png',
   },
 
   {
@@ -29416,6 +29840,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'ProRAW'
     ],
+    image: 'https://cdn.shopify.com/s/files/1/0585/1172/0640/products/BA_ALAK_200.1001.png',
   },
 
   {
@@ -29494,6 +29919,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Smart HDR'
     ],
+    image: 'https://www.lg.com/us/images/mobile-phos/md07519966/gallery/medium01.jpg',
   },
 
   {
@@ -29573,6 +29999,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI Enhance'
     ],
+    image: 'https://www.lg.com/us/images/mobile-phos/md07519966/gallery/medium01.jpg',
   },
 
   {
@@ -29638,6 +30065,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Panorama'
     ],
+    image: 'https://cdn.shopify.com/s/files/1/0585/1172/0640/products/BA_ALAK_200.1001.png',
   },
 
   {
@@ -29705,6 +30133,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Magic Eraser'
     ],
+    image: 'https://www.lenovo.com/medias/lenovo-legion-phone-dual.png',
   },
 
   {
@@ -29772,6 +30201,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Professional Mode'
     ],
+    image: 'https://www.motorola.com/sites/default/files/images/motorola-edge-40-pro-hero.png',
   },
 
   {
@@ -29837,6 +30267,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Food mode'
     ],
+    image: 'https://oasis.opstatics.com/content/dam/oasis/page/2024/global/product/waffle/nav-g.png',
   },
 
   {
@@ -29912,6 +30343,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Watermark'
     ],
+    image: 'https://storage.googleapis.com/gweb-uniblog-publish-prod/images/P9P9PThumbnail_16x9_Opt2_2.width-1300.jpg',
   },
 
   {
@@ -29979,6 +30411,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'XMAGE'
     ],
+    image: 'https://www.meizu.com/uploads/phone/meizu-21-pro-hero.png',
   },
 
   {
@@ -30046,6 +30479,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Magic Eraser'
     ],
+    image: 'https://consumer.huawei.com/content/dam/huawei-cbg-site/common/mkt/pdp/phones/p60-pro/images/hero/huawei-p60-pro-kv-xs.webp',
   },
 
   {
@@ -30112,6 +30546,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Ultra HDR'
     ],
+    image: 'https://www.realme.com/sites/default/files/realme-gt-pro-product-image.png',
   },
 
   {
@@ -30189,6 +30624,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Leica Authentic'
     ],
+    image: 'https://www.realme.com/sites/default/files/realme-gt-pro-product-image.png',
   },
 
   {
@@ -30264,6 +30700,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'HDR+'
     ],
+    image: 'https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-iphone-select-2024?wid=512',
   },
 
   {
@@ -30323,6 +30760,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI beauty'
     ],
+    image: 'https://www.meizu.com/uploads/phone/meizu-21-pro-hero.png',
   },
 
   {
@@ -30397,6 +30835,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Leica filters'
     ],
+    image: 'https://dlcdnwebimgs.asus.com/files/media/5170538/rog-phone-8-pro-hero.png',
   },
 
   {
@@ -30460,6 +30899,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI Enhance'
     ],
+    image: 'https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-iphoneplus-1-select-2024?wid=512',
   },
 
   {
@@ -30536,6 +30976,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Watermark'
     ],
+    image: 'https://www.honor.com/content/dam/honor/v2/product/phone/magic-v2/magic-v2-hero.png',
   },
 
   {
@@ -30611,6 +31052,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Portrait Mode'
     ],
+    image: 'https://dlcdnwebimgs.asus.com/files/media/5170538/rog-phone-8-pro-hero.png',
   },
 
   {
@@ -30686,6 +31128,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Long exposure'
     ],
+    image: 'https://www.sony.com/image/sonyview1?fmt=png&wid=1200',
   },
 
   {
@@ -30750,6 +31193,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Zeiss optics'
     ],
+    image: 'https://www.sony.com/image/sonyview1?fmt=png&wid=1200',
   },
 
   {
@@ -30816,6 +31260,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Macro mode'
     ],
+    image: 'https://consumer.huawei.com/content/dam/huawei-cbg-site/common/mkt/pdp/phones/p60-pro/images/hero/huawei-p60-pro-kv-xs.webp',
   },
 
   {
@@ -30881,6 +31326,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Pixel Shift'
     ],
+    image: 'https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/find-x7-ultra-navigation/Find-X7-Ultra-blue.png',
   },
 
   {
@@ -30945,6 +31391,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Smart HDR'
     ],
+    image: 'https://cdn.shopify.com/s/files/1/0585/1172/0640/products/BA_ALAK_200.1001.png',
   },
 
   {
@@ -31013,6 +31460,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Object Eraser'
     ],
+    image: 'https://consumer.huawei.com/content/dam/huawei-cbg-site/common/mkt/pdp/phones/p60-pro/images/hero/huawei-p60-pro-kv-xs.webp',
   },
 
   {
@@ -31091,6 +31539,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI Remove'
     ],
+    image: 'https://www.zte.com.cn/content/dam/zte/product/mobile/nubia-z60-ultra-hero.png',
   },
 
   {
@@ -31171,6 +31620,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Ultra HDR'
     ],
+    image: 'https://www.nokia.com/phones/sites/default/files/styles/hero/public/nokia-x30-5g-hero.png',
   },
 
   {
@@ -31247,6 +31697,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI beauty'
     ],
+    image: 'https://storage.googleapis.com/gweb-uniblog-publish-prod/images/P9P9PThumbnail_16x9_Opt2_2.width-1300.jpg',
   },
 
   {
@@ -31308,6 +31759,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'XD Fusion'
     ],
+    image: 'https://images.samsung.com/is/image/samsung/assets/smartphones/galaxy-galaxyzfold-7/images/galaxy-galaxyzfold-7-share-image.jpg',
   },
 
   {
@@ -31376,6 +31828,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Photo Unblur'
     ],
+    image: 'https://www.sony.com/image/sonyview1?fmt=png&wid=1200',
   },
 
   {
@@ -31452,6 +31905,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Hasselblad Natural Color'
     ],
+    image: 'https://www.nokia.com/phones/sites/default/files/styles/hero/public/nokia-x30-5g-hero.png',
   },
 
   {
@@ -31513,6 +31967,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Astrophotography'
     ],
+    image: 'https://oasis.opstatics.com/content/dam/oasis/page/2024/global/product/waffle/nav-g.png',
   },
 
   {
@@ -31586,6 +32041,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI Enhance'
     ],
+    image: 'https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1740478567559/1342e5c528e002e7c89e900be2ed2595.png',
   },
 
   {
@@ -31653,6 +32109,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Dual Capture'
     ],
+    image: 'https://www.honor.com/content/dam/honor/v2/product/phone/magic-v2/magic-v2-hero.png',
   },
 
   {
@@ -31714,6 +32171,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Portrait Mode'
     ],
+    image: 'https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-iphonepro-1-select-2024?wid=512',
   },
 
   {
@@ -31790,6 +32248,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Astrophotography'
     ],
+    image: 'https://www.honor.com/content/dam/honor/v2/product/phone/magic-v2/magic-v2-hero.png',
   },
 
   {
@@ -31871,6 +32330,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Food mode'
     ],
+    image: 'https://cdn.shopify.com/s/files/1/0585/1172/0640/products/BA_ALAK_200.1001.png',
   },
 
   {
@@ -31934,6 +32394,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'HDR+'
     ],
+    image: 'https://www.zte.com.cn/content/dam/zte/product/mobile/nubia-z60-ultra-hero.png',
   },
 
   {
@@ -31998,6 +32459,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Best Take'
     ],
+    image: 'https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/find-x7-ultra-navigation/Find-X7-Ultra-blue.png',
   },
 
   {
@@ -32073,6 +32535,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Macro mode'
     ],
+    image: 'https://i03.appmifile.com/584_item_in/04/07/2024/69af272b112bd2935f0f00559d76c966.png',
   },
 
   {
@@ -32149,6 +32612,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Pixel Shift'
     ],
+    image: 'https://www.meizu.com/uploads/phone/meizu-21-pro-hero.png',
   },
 
   {
@@ -32211,6 +32675,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Zeiss Cinematic'
     ],
+    image: 'https://www.honor.com/content/dam/honor/v2/product/phone/magic-v2/magic-v2-hero.png',
   },
 
   {
@@ -32287,6 +32752,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Leica Vibrant'
     ],
+    image: 'https://www.honor.com/content/dam/honor/v2/product/phone/magic-v2/magic-v2-hero.png',
   },
 
   {
@@ -32362,6 +32828,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Magic Editor'
     ],
+    image: 'https://www.sony.com/image/sonyview1?fmt=png&wid=1200',
   },
 
   {
@@ -32444,6 +32911,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Time-lapse'
     ],
+    image: 'https://www.motorola.com/sites/default/files/images/motorola-edge-40-pro-hero.png',
   },
 
   {
@@ -32505,6 +32973,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Document mode'
     ],
+    image: 'https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1740478567559/1342e5c528e002e7c89e900be2ed2595.png',
   },
 
   {
@@ -32578,6 +33047,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Astrophotography'
     ],
+    image: 'https://dlcdnwebimgs.asus.com/files/media/5170538/rog-phone-8-pro-hero.png',
   },
 
   {
@@ -32643,6 +33113,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Watermark'
     ],
+    image: 'https://www.lenovo.com/medias/lenovo-legion-phone-dual.png',
   },
 
   {
@@ -32710,6 +33181,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Best Take'
     ],
+    image: 'https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1740478567559/1342e5c528e002e7c89e900be2ed2595.png',
   },
 
   {
@@ -32774,6 +33246,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Magic Eraser'
     ],
+    image: 'https://oasis.opstatics.com/content/dam/oasis/page/2024/global/product/waffle/nav-g.png',
   },
 
   {
@@ -32855,6 +33328,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Watermark'
     ],
+    image: 'https://www.lg.com/us/images/mobile-phos/md07519966/gallery/medium01.jpg',
   },
 
   {
@@ -32931,6 +33405,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Pro mode RAW'
     ],
+    image: 'https://www.honor.com/content/dam/honor/v2/product/phone/magic-v2/magic-v2-hero.png',
   },
 
   {
@@ -32991,6 +33466,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Food mode'
     ],
+    image: 'https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-iphonepromax-1-select-2024?wid=512',
   },
 
   {
@@ -33056,6 +33532,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Monochrome'
     ],
+    image: 'https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-iphonese-1-select-2024?wid=512',
   },
 
   {
@@ -33124,6 +33601,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI Enhance'
     ],
+    image: 'https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-iphoneplus-select-2024?wid=512',
   },
 
   {
@@ -33190,6 +33668,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Pro mode RAW'
     ],
+    image: 'https://www.sony.com/image/sonyview1?fmt=png&wid=1200',
   },
 
   {
@@ -33253,6 +33732,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Time-lapse'
     ],
+    image: 'https://consumer.huawei.com/content/dam/huawei-cbg-site/common/mkt/pdp/phones/p60-pro/images/hero/huawei-p60-pro-kv-xs.webp',
   },
 
   {
@@ -33314,6 +33794,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Zeiss optics'
     ],
+    image: 'https://www.honor.com/content/dam/honor/v2/product/phone/magic-v2/magic-v2-hero.png',
   },
 
   {
@@ -33389,6 +33870,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Portrait Mode'
     ],
+    image: 'https://oasis.opstatics.com/content/dam/oasis/page/2024/global/product/waffle/nav-g.png',
   },
 
   {
@@ -33455,6 +33937,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'XD Fusion'
     ],
+    image: 'https://www.honor.com/content/dam/honor/v2/product/phone/magic-v2/magic-v2-hero.png',
   },
 
   {
@@ -33516,6 +33999,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI Scene Optimization'
     ],
+    image: 'https://www.realme.com/sites/default/files/realme-gt-pro-product-image.png',
   },
 
   {
@@ -33580,6 +34064,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI Photo Edit'
     ],
+    image: 'https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1740478567559/1342e5c528e002e7c89e900be2ed2595.png',
   },
 
   {
@@ -33644,6 +34129,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Macro mode'
     ],
+    image: 'https://www.meizu.com/uploads/phone/meizu-21-pro-hero.png',
   },
 
   {
@@ -33720,6 +34206,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Watermark'
     ],
+    image: 'https://www.lenovo.com/medias/lenovo-legion-phone-dual.png',
   },
 
   {
@@ -33794,6 +34281,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Macro mode'
     ],
+    image: 'https://www.nokia.com/phones/sites/default/files/styles/hero/public/nokia-x30-5g-hero.png',
   },
 
   {
@@ -33859,6 +34347,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Dual Capture'
     ],
+    image: 'https://i03.appmifile.com/584_item_in/04/07/2024/69af272b112bd2935f0f00559d76c966.png',
   },
 
   {
@@ -33925,6 +34414,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Best Take'
     ],
+    image: 'https://www.honor.com/content/dam/honor/v2/product/phone/magic-v2/magic-v2-hero.png',
   },
 
   {
@@ -34003,6 +34493,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Panorama'
     ],
+    image: 'https://www.realme.com/sites/default/files/realme-gt-pro-product-image.png',
   },
 
   {
@@ -34074,6 +34565,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'HDR+'
     ],
+    image: 'https://dlcdnwebimgs.asus.com/files/media/5170538/rog-phone-8-pro-hero.png',
   },
 
   {
@@ -34139,6 +34631,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Pro mode RAW'
     ],
+    image: 'https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-iphone-select-2024?wid=512',
   },
 
   {
@@ -34215,6 +34708,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI portrait'
     ],
+    image: 'https://www.realme.com/sites/default/files/realme-gt-pro-product-image.png',
   },
 
   {
@@ -34275,6 +34769,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Document mode'
     ],
+    image: 'https://www.lenovo.com/medias/lenovo-legion-phone-dual.png',
   },
 
   {
@@ -34336,6 +34831,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI Photo Edit'
     ],
+    image: 'https://i03.appmifile.com/584_item_in/04/07/2024/69af272b112bd2935f0f00559d76c966.png',
   },
 
   {
@@ -34397,6 +34893,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'AI Scene Optimization'
     ],
+    image: 'https://www.tcl.com/content/dam/tcl/product/mobile-phone/tcl-40-series-hero.png',
   },
 
   {
@@ -34462,6 +34959,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Zeiss optics'
     ],
+    image: 'https://i03.appmifile.com/584_item_in/04/07/2024/69af272b112bd2935f0f00559d76c966.png',
   },
 
   {
@@ -34538,6 +35036,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Leica Vibrant'
     ],
+    image: 'https://cdn.shopify.com/s/files/1/0585/1172/0640/products/BA_ALAK_200.1001.png',
   },
 
   {
@@ -34614,6 +35113,7 @@ export const phonesData: PhoneCamera[] = [
     imageFeatures: [
     'Monochrome'
     ],
+    image: 'https://www.lg.com/us/images/mobile-phos/md07519966/gallery/medium01.jpg',
   },
 ];
 
